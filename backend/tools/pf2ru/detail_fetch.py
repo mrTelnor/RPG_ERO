@@ -33,7 +33,7 @@ def fetch_all(data_dir: Path, raw_dir: Path, delay_s: float = 1.5) -> dict:
 
     raw_dir.mkdir(parents=True, exist_ok=True)
     targets = detail_targets(data_dir)
-    fetched, skipped = 0, 0
+    fetched, skipped, errors = 0, 0, 0
     with sync_playwright() as pw:
         browser = pw.chromium.launch(headless=True)
         page = browser.new_page()
@@ -42,13 +42,18 @@ def fetch_all(data_dir: Path, raw_dir: Path, delay_s: float = 1.5) -> dict:
             if out.exists():
                 skipped += 1
                 continue
-            page.goto(url, wait_until="networkidle", timeout=60_000)
-            page.wait_for_timeout(int(delay_s * 1000))
-            out.write_text(page.content(), encoding="utf-8")
-            fetched += 1
-            print(f"  fetched {filename} ({fetched}/{len(targets)})")
+            try:
+                page.goto(url, wait_until="networkidle", timeout=60_000)
+                page.wait_for_timeout(int(delay_s * 1000))
+                out.write_text(page.content(), encoding="utf-8")
+                fetched += 1
+                print(f"  fetched {filename} ({fetched}/{len(targets)})")
+            except Exception as exc:  # noqa: BLE001
+                errors += 1
+                print(f"  ERROR {filename}: {exc}")
+                page.wait_for_timeout(int(delay_s * 1000))
         browser.close()
-    return {"fetched": fetched, "skipped": skipped, "total": len(targets)}
+    return {"fetched": fetched, "skipped": skipped, "errors": errors, "total": len(targets)}
 
 
 def main() -> None:
