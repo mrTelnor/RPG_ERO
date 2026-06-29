@@ -2,7 +2,7 @@ from pathlib import Path
 
 import pytest
 
-from tools.pf2ru.table import extract_items
+from tools.pf2ru.table import extract_items, extract_items_by_itemtype
 
 FIXTURES = Path(__file__).parent / "fixtures" / "pf2ru"
 
@@ -26,3 +26,20 @@ def test_extract_items_returns_dicts_with_name():
 def test_extract_items_raises_when_absent():
     with pytest.raises(ValueError):
         extract_items("<html><body>no table here</body></html>")
+
+
+def test_extract_by_itemtype_feats_counts():
+    dwarf = _read("ancestry_dwarf.html")
+    fighter = _read("class_fighter.html")
+    assert len(extract_items_by_itemtype(dwarf, "feats")) == 21
+    assert len(extract_items_by_itemtype(fighter, "feats")) == 96
+
+
+def test_extract_by_itemtype_empty_spells_table():
+    fighter = _read("class_fighter.html")
+    assert extract_items_by_itemtype(fighter, "spells") == []
+
+
+def test_extract_by_itemtype_absent_raises():
+    with pytest.raises(ValueError):
+        extract_items_by_itemtype("<html></html>", "feats")
