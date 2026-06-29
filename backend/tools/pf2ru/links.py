@@ -3,7 +3,7 @@
 import re
 
 _WIKILINK = re.compile(r"\[\[(\w+)/(\d+)\|([^\]]+)\]\]")
-_TRAIT_HREF = re.compile(r'href="/traits/([^"]+)"')
+_TRAIT_HREF = re.compile(r'href="/traits/([^"?#]+)(?:[?#][^"]*)?\"')
 
 
 def parse_wikilinks(text: str | None) -> list[tuple[str, int, str]]:

@@ -31,6 +31,11 @@ def test_extract_trait_slugs_dedup_order():
     assert extract_trait_slugs(html_fragment) == ["dwarf", "humanoid"]
 
 
+def test_extract_trait_slugs_strips_query_and_fragment():
+    html_fragment = '<a href="/traits/dwarf?foo=bar">x</a><a href="/traits/elf#frag">y</a>'
+    assert extract_trait_slugs(html_fragment) == ["dwarf", "elf"]
+
+
 def test_extract_trait_slugs_empty():
     assert extract_trait_slugs("") == []
     assert extract_trait_slugs(None) == []
