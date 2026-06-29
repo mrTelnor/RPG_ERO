@@ -1,5 +1,7 @@
 from pathlib import Path
 
+import pytest
+
 from tools.pf2ru.table import extract_items
 
 FIXTURES = Path(__file__).parent / "fixtures" / "pf2ru"
@@ -22,7 +24,5 @@ def test_extract_items_returns_dicts_with_name():
 
 
 def test_extract_items_raises_when_absent():
-    import pytest
-
     with pytest.raises(ValueError):
         extract_items("<html><body>no table here</body></html>")

@@ -8,7 +8,7 @@ import html
 import json
 import re
 
-_PF2_TABLE_ITEMS = re.compile(r'<pf2-table\b[^>]*\sitems="(.*?)"', re.DOTALL)
+_PF2_TABLE_ITEMS = re.compile(r'<pf2-table\b[^>]*\s+items="(.*?)"', re.DOTALL)
 
 
 def extract_items(html_text: str) -> list[dict]:
