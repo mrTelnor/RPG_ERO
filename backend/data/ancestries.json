@@ -23,7 +23,91 @@
     "source_ru": "Пушки и шестерни",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 48
+    "pf2ru_id": 48,
+    "heritages": [
+      {
+        "slug": "warrior-automaton",
+        "name_en": "Warrior Automaton",
+        "name_ru": "Автоматон-воитель"
+      },
+      {
+        "slug": "mage-automaton",
+        "name_en": "Mage Automaton",
+        "name_ru": "Автоматон-маг"
+      },
+      {
+        "slug": "hunter-automaton",
+        "name_en": "Hunter Automaton",
+        "name_ru": "Автоматон-охотник"
+      },
+      {
+        "slug": "sharpshooter-automaton",
+        "name_en": "Sharpshooter Automaton",
+        "name_ru": "Автоматон-стрелок"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "automaton-lore",
+        "name_en": "Automaton Lore",
+        "name_ru": "Знания автоматонов",
+        "traits": [
+          "automaton"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3093
+      },
+      {
+        "slug": "arcane-communication",
+        "name_en": "Arcane Communication",
+        "name_ru": "Мистическая коммуникация",
+        "traits": [
+          "automaton"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3091
+      },
+      {
+        "slug": "arcane-eye",
+        "name_en": "Arcane Eye",
+        "name_ru": "Мистический глаз",
+        "traits": [
+          "automaton"
+        ],
+        "prerequisites": "сумеречное зрение",
+        "pf2ru_id": 3092
+      },
+      {
+        "slug": "automaton-armament",
+        "name_en": "Automaton Armament",
+        "name_ru": "Оружие автоматонов",
+        "traits": [
+          "automaton"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3090
+      },
+      {
+        "slug": "reinforced-chassis",
+        "name_en": "Reinforced Chassis",
+        "name_ru": "Укреплённый корпус",
+        "traits": [
+          "automaton"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3095
+      },
+      {
+        "slug": "energy-beam",
+        "name_en": "Energy Beam",
+        "name_ru": "Энергетический луч",
+        "traits": [
+          "automaton"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3094
+      }
+    ]
   },
   {
     "slug": "athamaru",
@@ -52,7 +136,114 @@
     "source_ru": "Рёв дикой природы",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 71
+    "pf2ru_id": 71,
+    "heritages": [
+      {
+        "slug": "coral-athamaru",
+        "name_en": "Coral Athamaru",
+        "name_ru": "Коралловый атамару"
+      },
+      {
+        "slug": "hopeful-athamaru",
+        "name_en": "Hopeful Athamaru",
+        "name_ru": "Многообещающий атамару"
+      },
+      {
+        "slug": "kaleidoscopic-athamaru",
+        "name_en": "Kaleidoscopic Athamaru",
+        "name_ru": "Перламутровый атамару"
+      },
+      {
+        "slug": "quilled-athamaru",
+        "name_en": "Quilled Athamaru",
+        "name_ru": "Шипастый атамару"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "ocean-wariness",
+        "name_en": "Ocean Wariness",
+        "name_ru": "Бдительность обитателя океана",
+        "traits": [
+          "athamaru"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5279
+      },
+      {
+        "slug": "emit-defensive-odor",
+        "name_en": "Emit Defensive Odor",
+        "name_ru": "Защитный секрет",
+        "traits": [
+          "athamaru",
+          "inhaled",
+          "poison"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5278
+      },
+      {
+        "slug": "athamaru-lore",
+        "name_en": "Athamaru Lore",
+        "name_ru": "Знания атамару",
+        "traits": [
+          "athamaru"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5273
+      },
+      {
+        "slug": "coral-symbiotes",
+        "name_en": "Coral Symbiotes",
+        "name_ru": "Коралловые симбионты",
+        "traits": [
+          "athamaru"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5276
+      },
+      {
+        "slug": "community-minded",
+        "name_en": "Community-minded",
+        "name_ru": "Общинный дух",
+        "traits": [
+          "athamaru"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5275
+      },
+      {
+        "slug": "athamaru-weapon-familiarity",
+        "name_en": "Athamaru Weapon Familiarity",
+        "name_ru": "Оружие атамару",
+        "traits": [
+          "athamaru"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5274
+      },
+      {
+        "slug": "elver-pet",
+        "name_en": "Elver Pet",
+        "name_ru": "Угрёныш-питомец",
+        "traits": [
+          "athamaru"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5277
+      },
+      {
+        "slug": "pheromonal-message",
+        "name_en": "Pheromonal Message",
+        "name_ru": "Феромоновое сообщение",
+        "traits": [
+          "athamaru",
+          "olfactory"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5280
+      }
+    ]
   },
   {
     "slug": "wayang",
@@ -81,7 +272,100 @@
     "source_ru": "Тянь-Ша. Руководство по персонажам",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 91
+    "pf2ru_id": 91,
+    "heritages": [
+      {
+        "slug": "shadow-of-the-smith",
+        "name_en": "Shadow Of The Smith",
+        "name_ru": "Тень кузнеца"
+      },
+      {
+        "slug": "shadow-of-the-sailor",
+        "name_en": "Shadow Of The Sailor",
+        "name_ru": "Тень моряка"
+      },
+      {
+        "slug": "shadow-of-the-hermit",
+        "name_en": "Shadow Of The Hermit",
+        "name_ru": "Тень отшельника"
+      },
+      {
+        "slug": "shadow-of-the-courtier",
+        "name_en": "Shadow Of The Courtier",
+        "name_ru": "Тень придворного"
+      },
+      {
+        "slug": "shadow-of-the-wanderer",
+        "name_en": "Shadow Of The Wanderer",
+        "name_ru": "Тень путника"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "wayang-lore",
+        "name_en": "Wayang Lore",
+        "name_ru": "Знание ваянгов",
+        "traits": [
+          "wayang"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6953
+      },
+      {
+        "slug": "refined-motion-in-darkness",
+        "name_en": "Refined Motion in Darkness",
+        "name_ru": "Изящное движение во тьме",
+        "traits": [
+          "wayang"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6952
+      },
+      {
+        "slug": "wayang-weapon-familiarity",
+        "name_en": "Wayang Weapon Familiarity",
+        "name_ru": "Оружие ваянгов",
+        "traits": [
+          "wayang"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6954
+      },
+      {
+        "slug": "dance-of-the-mousedeer",
+        "name_en": "Dance of the Mousedeer",
+        "name_ru": "Танец Оленёк",
+        "traits": [
+          "illusion",
+          "occult",
+          "shadow",
+          "visual",
+          "wayang"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6950
+      },
+      {
+        "slug": "inherit-the-dreaming-heirloom",
+        "name_en": "Inherit the Dreaming Heirloom",
+        "name_ru": "Унаследованная реликвия",
+        "traits": [
+          "wayang"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6951
+      },
+      {
+        "slug": "aegis-of-the-dissolution",
+        "name_en": "Aegis of the Dissolution",
+        "name_ru": "Эгида Развеяния",
+        "traits": [
+          "wayang"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6949
+      }
+    ]
   },
   {
     "slug": "gnome",
@@ -108,7 +392,145 @@
     "source_ru": "Основная книга игрока",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 61
+    "pf2ru_id": 61,
+    "heritages": [
+      {
+        "slug": "wellspring-gnome",
+        "name_en": "Wellspring Gnome",
+        "name_ru": "Гном истока"
+      },
+      {
+        "slug": "sensate-gnome",
+        "name_en": "Sensate Gnome",
+        "name_ru": "Гном-сенсат"
+      },
+      {
+        "slug": "chameleon-gnome",
+        "name_en": "Chameleon Gnome",
+        "name_ru": "Гном-хамелеон"
+      },
+      {
+        "slug": "kijimuna-gnome",
+        "name_en": "Kijimuna Gnome",
+        "name_ru": "Кидзимуна гном"
+      },
+      {
+        "slug": "umbral-gnome",
+        "name_en": "Umbral Gnome",
+        "name_ru": "Теневой гном"
+      },
+      {
+        "slug": "fey-touched-gnome",
+        "name_en": "Fey Touched Gnome",
+        "name_ru": "Фееподобный гном"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "gnome-obsession",
+        "name_en": "Gnome Obsession",
+        "name_ru": "Гномья одержимость",
+        "traits": [
+          "gnome"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4426
+      },
+      {
+        "slug": "animal-elocutionist",
+        "name_en": "Animal Elocutionist",
+        "name_ru": "Звериный язык",
+        "traits": [
+          "gnome"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4423
+      },
+      {
+        "slug": "first-world-magic",
+        "name_en": "First World Magic",
+        "name_ru": "Магия первого мира",
+        "traits": [
+          "gnome"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4425
+      },
+      {
+        "slug": "gnome-weapon-familiarity",
+        "name_en": "Gnome Weapon Familiarity",
+        "name_ru": "Оружие гномов",
+        "traits": [
+          "gnome"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4427
+      },
+      {
+        "slug": "animal-accomplice",
+        "name_en": "Animal Accomplice",
+        "name_ru": "Приживала",
+        "traits": [
+          "gnome"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4422
+      },
+      {
+        "slug": "fisheye",
+        "name_en": "Fisheye",
+        "name_ru": "Рыбий глаз",
+        "traits": [
+          "gnome"
+        ],
+        "prerequisites": "родословная <a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/372\" href=\"/heritages/kijimuna gnome\">Кидзимуна гном</a>",
+        "pf2ru_id": 6843
+      },
+      {
+        "slug": "fey-fellowship",
+        "name_en": "Fey Fellowship",
+        "name_ru": "Свой среди фей",
+        "traits": [
+          "gnome"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4424
+      },
+      {
+        "slug": "razzle-dazzle",
+        "name_en": "Razzle-Dazzle",
+        "name_ru": "Слепящий блеск",
+        "traits": [
+          "gnome"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4429
+      },
+      {
+        "slug": "illusion-sense",
+        "name_en": "Illusion Sense",
+        "name_ru": "Чутьё на иллюзии",
+        "traits": [
+          "gnome"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4428
+      },
+      {
+        "slug": "empathetic-plea",
+        "name_en": "Empathetic Plea",
+        "name_ru": "Трогательный Вид",
+        "traits": [
+          "auditory",
+          "emotion",
+          "gnome",
+          "mental",
+          "visual"
+        ],
+        "prerequisites": "Изученная  <i>Дипломатия</i>",
+        "pf2ru_id": 1416
+      }
+    ]
   },
   {
     "slug": "goblin",
@@ -135,7 +557,185 @@
     "source_ru": "Основная книга игрока",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 62
+    "pf2ru_id": 62,
+    "heritages": [
+      {
+        "slug": "irongut-goblin",
+        "name_en": "Irongut Goblin",
+        "name_ru": "Железнобрюхий гоблин"
+      },
+      {
+        "slug": "unbreakable-goblin",
+        "name_en": "Unbreakable Goblin",
+        "name_ru": "Небьющийся гоблин"
+      },
+      {
+        "slug": "razortooth-goblin",
+        "name_en": "Razortooth Goblin",
+        "name_ru": "Острозубый гоблин"
+      },
+      {
+        "slug": "charhide-goblin",
+        "name_en": "Charhide Goblin",
+        "name_ru": "Палёный гоблин"
+      },
+      {
+        "slug": "snow-goblin",
+        "name_en": "Snow Goblin",
+        "name_ru": "Снежный гоблин"
+      },
+      {
+        "slug": "dokkaebi-goblin",
+        "name_en": "Dokkaebi Goblin",
+        "name_ru": "Токкэби гоблин"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "junk-tinker",
+        "name_en": "Junk Tinker",
+        "name_ru": "Барахольщик",
+        "traits": [
+          "goblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4444
+      },
+      {
+        "slug": "goblin-scuttle",
+        "name_en": "Goblin Scuttle",
+        "name_ru": "Гоблинская беготня",
+        "traits": [
+          "goblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4441
+      },
+      {
+        "slug": "goblin-song",
+        "name_en": "Goblin Song",
+        "name_ru": "Гоблинская песня",
+        "traits": [
+          "goblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4442
+      },
+      {
+        "slug": "city-scavenger",
+        "name_en": "City Scavenger",
+        "name_ru": "Городской мусорщик",
+        "traits": [
+          "goblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4439
+      },
+      {
+        "slug": "burn-it!",
+        "name_en": "Burn It!",
+        "name_ru": "Зажигай!",
+        "traits": [
+          "goblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4438
+      },
+      {
+        "slug": "tangle-of-limbs",
+        "name_en": "Tangle of Limbs",
+        "name_ru": "Захват конечностей",
+        "traits": [
+          "uncommon",
+          "goblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6826
+      },
+      {
+        "slug": "goblin-lore",
+        "name_en": "Goblin Lore",
+        "name_ru": "Знания гоблинов",
+        "traits": [
+          "goblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4440
+      },
+      {
+        "slug": "rough-rider",
+        "name_en": "Rough Rider",
+        "name_ru": "Лихой наездник",
+        "traits": [
+          "goblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4445
+      },
+      {
+        "slug": "dokkaebi-fire",
+        "name_en": "Dokkaebi Fire",
+        "name_ru": "Огонь токкэби",
+        "traits": [
+          "goblin"
+        ],
+        "prerequisites": "родословная <a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/370\" href=\"/heritages/dokkaebi goblin\">Токкэби гоблин</a>",
+        "pf2ru_id": 6530
+      },
+      {
+        "slug": "goblin-weapon-familiarity",
+        "name_en": "Goblin Weapon Familiarity",
+        "name_ru": "Оружие гоблинов",
+        "traits": [
+          "goblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4443
+      },
+      {
+        "slug": "very-sneaky",
+        "name_en": "Very Sneaky",
+        "name_ru": "Очень скрытный",
+        "traits": [
+          "goblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4446
+      },
+      {
+        "slug": "phantom-visage",
+        "name_en": "Phantom Visage",
+        "name_ru": "Фантомный лик",
+        "traits": [
+          "goblin",
+          "illusion",
+          "occult",
+          "visual"
+        ],
+        "prerequisites": "родословная <a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/370\" href=\"/heritages/dokkaebi goblin\">Токкэби гоблин</a>",
+        "pf2ru_id": 6825
+      },
+      {
+        "slug": "extra-squishy",
+        "name_en": "Extra Squishy",
+        "name_ru": "Весьма Упругий",
+        "traits": [
+          "goblin"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/254\" href=\"/heritages/unbreakable goblin\">Небьющийся гоблин</a>",
+        "pf2ru_id": 1423
+      },
+      {
+        "slug": "twitchy",
+        "name_en": "Twitchy",
+        "name_ru": "Дёрганный",
+        "traits": [
+          "goblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 1424
+      }
+    ]
   },
   {
     "slug": "dwarf",
@@ -162,7 +762,116 @@
     "source_ru": "Основная книга игрока",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 59
+    "pf2ru_id": 59,
+    "heritages": [
+      {
+        "slug": "ancient-blooded-dwarf",
+        "name_en": "Ancient Blooded Dwarf",
+        "name_ru": "Дварф древних кровей"
+      },
+      {
+        "slug": "forge-dwarf",
+        "name_en": "Forge Dwarf",
+        "name_ru": "Дварф кузни"
+      },
+      {
+        "slug": "death-warden-dwarf",
+        "name_en": "Death Warden Dwarf",
+        "name_ru": "Дварф - страж мёртвых"
+      },
+      {
+        "slug": "strong-blooded-dwarf",
+        "name_en": "Strong Blooded Dwarf",
+        "name_ru": "Полнокровный дварф"
+      },
+      {
+        "slug": "rock-dwarf",
+        "name_en": "Rock Dwarf",
+        "name_ru": "Скальный дварф"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "mountain-strategy",
+        "name_en": "Mountain Strategy",
+        "name_ru": "Горная стратегия",
+        "traits": [
+          "dwarf"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4390
+      },
+      {
+        "slug": "dwarven-doughtiness",
+        "name_en": "Dwarven Doughtiness",
+        "name_ru": "Дварфийское спокойствие",
+        "traits": [
+          "dwarf"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4387
+      },
+      {
+        "slug": "stonemason's-eye",
+        "name_en": "Stonemason's Eye",
+        "name_ru": "Знание камня",
+        "traits": [
+          "dwarf"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4392
+      },
+      {
+        "slug": "dwarven-lore",
+        "name_en": "Dwarven Lore",
+        "name_ru": "Знания дварфов",
+        "traits": [
+          "dwarf"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4388
+      },
+      {
+        "slug": "unburdened-iron",
+        "name_en": "Unburdened Iron",
+        "name_ru": "Невесомое железо",
+        "traits": [
+          "dwarf"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4393
+      },
+      {
+        "slug": "dwarven-weapon-familiarity",
+        "name_en": "Dwarven Weapon Familiarity",
+        "name_ru": "Оружие дварфов",
+        "traits": [
+          "dwarf"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4389
+      },
+      {
+        "slug": "rock-runner",
+        "name_en": "Rock Runner",
+        "name_ru": "Скальный бегун",
+        "traits": [
+          "dwarf"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4391
+      },
+      {
+        "slug": "eye-for-treasure",
+        "name_en": "Eye for Treasure",
+        "name_ru": "Глаз Оценщика",
+        "traits": [
+          "dwarf"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 1398
+      }
+    ]
   },
   {
     "slug": "centaur",
@@ -191,7 +900,91 @@
     "source_ru": "Рёв дикой природы",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 73
+    "pf2ru_id": 73,
+    "heritages": [
+      {
+        "slug": "fleetwind-centaur",
+        "name_en": "Fleetwind Centaur",
+        "name_ru": "Ветроногий кентавр"
+      },
+      {
+        "slug": "ponygait-centaur",
+        "name_en": "Ponygait Centaur",
+        "name_ru": "Кентавр-пони"
+      },
+      {
+        "slug": "ironhoof-centaur",
+        "name_en": "Ironhoof Centaur",
+        "name_ru": "Кентавр с железными копытами"
+      },
+      {
+        "slug": "mottle-coat-centaur",
+        "name_en": "Mottle Coat Centaur",
+        "name_ru": "Пёстрый кентавр"
+      },
+      {
+        "slug": "budding-speaker-centaur",
+        "name_en": "Budding Speaker Centaur",
+        "name_ru": "Прирождённый кентавр-говорящий"
+      },
+      {
+        "slug": "stoutheart-centaur",
+        "name_en": "Stoutheart Centaur",
+        "name_ru": "Стойкий кентавр"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "centaur-lore",
+        "name_en": "Centaur Lore",
+        "name_ru": "Знания кентавров",
+        "traits": [
+          "centaur"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5322
+      },
+      {
+        "slug": "centaur-weapon-familiarity",
+        "name_en": "Centaur Weapon Familiarity",
+        "name_ru": "Оружие кентавров",
+        "traits": [
+          "centaur"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5323
+      },
+      {
+        "slug": "steelhoof",
+        "name_en": "Steelhoof",
+        "name_ru": "Стальное копыто",
+        "traits": [
+          "centaur"
+        ],
+        "prerequisites": "Родословная <a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/294\" href=\"/heritages/ironhoof centaur\">кентавр с железными копытами</a>",
+        "pf2ru_id": 5326
+      },
+      {
+        "slug": "skilled-herbalist",
+        "name_en": "Skilled Herbalist",
+        "name_ru": "Умелый травник",
+        "traits": [
+          "centaur"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5325
+      },
+      {
+        "slug": "practiced-brawn",
+        "name_en": "Practiced Brawn",
+        "name_ru": "Физически подготовленный",
+        "traits": [
+          "centaur"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5324
+      }
+    ]
   },
   {
     "slug": "kobold",
@@ -219,7 +1012,130 @@
     "source_ru": "Основная книга игрока 2",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 80
+    "pf2ru_id": 80,
+    "heritages": [
+      {
+        "slug": "dragonscaled-kobold",
+        "name_en": "Dragonscaled Kobold",
+        "name_ru": "Драконошкурый кобольд"
+      },
+      {
+        "slug": "venomtail-kobold",
+        "name_en": "Venomtail Kobold",
+        "name_ru": "Жалохвостый кобольд"
+      },
+      {
+        "slug": "strongjaw-kobold",
+        "name_en": "Strongjaw Kobold",
+        "name_ru": "Кусачий кобольд"
+      },
+      {
+        "slug": "heavenscribe-kobold",
+        "name_en": "Heavenscribe Kobold",
+        "name_ru": "Небеснописчий кобольд"
+      },
+      {
+        "slug": "cavernstalker-kobold",
+        "name_en": "Cavernstalker Kobold",
+        "name_ru": "Пещерный кобольд"
+      },
+      {
+        "slug": "tunnelflood-kobold",
+        "name_en": "Tunnelflood Kobold",
+        "name_ru": "Подводный кобольд"
+      },
+      {
+        "slug": "elementheart-kobold",
+        "name_en": "Elementheart Kobold",
+        "name_ru": "Стихийный кобольд"
+      },
+      {
+        "slug": "mightyfall-kobold",
+        "name_en": "Mightyfall Kobold",
+        "name_ru": "Тяжеловесный кобольд"
+      },
+      {
+        "slug": "spellhorn-kobold",
+        "name_en": "Spellhorn Kobold",
+        "name_ru": "Чаророгий кобольд"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "dragon's-presence",
+        "name_en": "Dragon's Presence",
+        "name_ru": "Драконья стать",
+        "traits": [
+          "kobold"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/334\" href=\"/heritages/dragonscaled kobold\">Драконошкурый кобольд</a>",
+        "pf2ru_id": 5613
+      },
+      {
+        "slug": "cringe",
+        "name_en": "Cringe",
+        "name_ru": "Жалкий вид",
+        "traits": [
+          "emotion",
+          "kobold",
+          "mental",
+          "visual"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5612
+      },
+      {
+        "slug": "kobold-lore",
+        "name_en": "Kobold Lore",
+        "name_ru": "Знания кобольдов",
+        "traits": [
+          "kobold"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5614
+      },
+      {
+        "slug": "snare-setter",
+        "name_en": "Snare Setter",
+        "name_ru": "Любитель западней",
+        "traits": [
+          "kobold"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5617
+      },
+      {
+        "slug": "kobold-weapon-familiarity",
+        "name_en": "Kobold Weapon Familiarity",
+        "name_ru": "Оружие кобольдов",
+        "traits": [
+          "kobold"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5615
+      },
+      {
+        "slug": "scamper",
+        "name_en": "Scamper",
+        "name_ru": "Перебежка",
+        "traits": [
+          "kobold"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5616
+      },
+      {
+        "slug": "koi-secrets",
+        "name_en": "Koi Secrets",
+        "name_ru": "Тайны карпа",
+        "traits": [
+          "uncommon",
+          "kobold"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6848
+      }
+    ]
   },
   {
     "slug": "catfolk",
@@ -247,7 +1163,119 @@
     "source_ru": "Основная книга игрока 2",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 77
+    "pf2ru_id": 77,
+    "heritages": [
+      {
+        "slug": "jungle-catfolk",
+        "name_en": "Jungle Catfolk",
+        "name_ru": "Джунглевый котолюд"
+      },
+      {
+        "slug": "nine-lives-catfolk",
+        "name_en": "Nine Lives Catfolk",
+        "name_ru": "Живучий котолюд"
+      },
+      {
+        "slug": "winter-catfolk",
+        "name_en": "Winter Catfolk",
+        "name_ru": "Зимний котолюд"
+      },
+      {
+        "slug": "clawed-catfolk",
+        "name_en": "Clawed Catfolk",
+        "name_ru": "Когтистый котолюд"
+      },
+      {
+        "slug": "sharp-eared-catfolk",
+        "name_en": "Sharp Eared Catfolk",
+        "name_ru": "Остроухий котолюд"
+      },
+      {
+        "slug": "liminal-catfolk",
+        "name_en": "Liminal Catfolk",
+        "name_ru": "Пограничный котолюд"
+      },
+      {
+        "slug": "hunting-catfolk",
+        "name_en": "Hunting Catfolk",
+        "name_ru": "Рыщущий котолюд"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "catfolk-lore",
+        "name_en": "Catfolk Lore",
+        "name_ru": "Знания котолюдов",
+        "traits": [
+          "catfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5546
+      },
+      {
+        "slug": "cat-nap",
+        "name_en": "Cat Nap",
+        "name_ru": "Кошачий сон",
+        "traits": [
+          "catfolk",
+          "concentrate",
+          "exploration"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5543
+      },
+      {
+        "slug": "cat's-luck",
+        "name_en": "Cat's Luck",
+        "name_ru": "Кошачья удача",
+        "traits": [
+          "catfolk",
+          "fortune"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5544
+      },
+      {
+        "slug": "catfolk-weapon-familiarity",
+        "name_en": "Catfolk Weapon Familiarity",
+        "name_ru": "Оружие котолюдов",
+        "traits": [
+          "catfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5547
+      },
+      {
+        "slug": "well-met-traveler",
+        "name_en": "Well-Met Traveler",
+        "name_ru": "Приятный попутчик",
+        "traits": [
+          "catfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5549
+      },
+      {
+        "slug": "saber-teeth",
+        "name_en": "Saber Teeth",
+        "name_ru": "Саблезубость",
+        "traits": [
+          "catfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5548
+      },
+      {
+        "slug": "catfolk-dance",
+        "name_en": "Catfolk Dance",
+        "name_ru": "Танец котолюдов",
+        "traits": [
+          "catfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5545
+      }
+    ]
   },
   {
     "slug": "ratfolk",
@@ -275,7 +1303,126 @@
     "source_ru": "Основная книга игрока 2",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 82
+    "pf2ru_id": 82,
+    "heritages": [
+      {
+        "slug": "deep-rat",
+        "name_en": "Deep Rat",
+        "name_ru": "Глубинный крысолюд"
+      },
+      {
+        "slug": "longsnout-rat",
+        "name_en": "Longsnout Rat",
+        "name_ru": "Длинномордый крысолюд"
+      },
+      {
+        "slug": "sewer-rat",
+        "name_en": "Sewer Rat",
+        "name_ru": "Канализационный крысолюд"
+      },
+      {
+        "slug": "desert-rat",
+        "name_en": "Desert Rat",
+        "name_ru": "Пустынный крысолюд"
+      },
+      {
+        "slug": "snow-rat",
+        "name_en": "Snow Rat",
+        "name_ru": "Снежный крысолюд"
+      },
+      {
+        "slug": "shadow-rat",
+        "name_en": "Shadow Rat",
+        "name_ru": "Теневой крысолюд"
+      },
+      {
+        "slug": "tunnel-rat",
+        "name_en": "Tunnel Rat",
+        "name_ru": "Туннельный крысолюд"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "cheek-pouches",
+        "name_en": "Cheek Pouches",
+        "name_ru": "Защёчные мешки",
+        "traits": [
+          "ratfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5651
+      },
+      {
+        "slug": "ratfolk-lore",
+        "name_en": "Ratfolk Lore",
+        "name_ru": "Знания крысолюдов",
+        "traits": [
+          "ratfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5654
+      },
+      {
+        "slug": "warren-navigator",
+        "name_en": "Warren Navigator",
+        "name_ru": "Знаток нор",
+        "traits": [
+          "ratfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5658
+      },
+      {
+        "slug": "rat-familiar",
+        "name_en": "Rat Familiar",
+        "name_ru": "Крыса-фамильяр",
+        "traits": [
+          "ratfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5653
+      },
+      {
+        "slug": "vicious-incisors",
+        "name_en": "Vicious Incisors",
+        "name_ru": "Огромные резцы",
+        "traits": [
+          "ratfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5657
+      },
+      {
+        "slug": "tinkering-fingers",
+        "name_en": "Tinkering Fingers",
+        "name_ru": "Умелые пальцы",
+        "traits": [
+          "ratfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5656
+      },
+      {
+        "slug": "pack-rat",
+        "name_en": "Pack Rat",
+        "name_ru": "Упаковщик",
+        "traits": [
+          "ratfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5652
+      },
+      {
+        "slug": "ratspeak",
+        "name_en": "Ratspeak",
+        "name_ru": "Язык грызунов",
+        "traits": [
+          "ratfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5655
+      }
+    ]
   },
   {
     "slug": "leshy",
@@ -302,7 +1449,146 @@
     "source_ru": "Основная книга игрока",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 65
+    "pf2ru_id": 65,
+    "heritages": [
+      {
+        "slug": "seaweed-leshy",
+        "name_en": "Seaweed Leshy",
+        "name_ru": "Водорослевый леший"
+      },
+      {
+        "slug": "fungus-leshy",
+        "name_en": "Fungus Leshy",
+        "name_ru": "Грибной леший"
+      },
+      {
+        "slug": "cactus-leshy",
+        "name_en": "Cactus Leshy",
+        "name_ru": "Кактусовый леший"
+      },
+      {
+        "slug": "root-leshy",
+        "name_en": "Root Leshy",
+        "name_ru": "Корневой леший"
+      },
+      {
+        "slug": "vine-leshy",
+        "name_en": "Vine Leshy",
+        "name_ru": "Лианный леший"
+      },
+      {
+        "slug": "leaf-leshy",
+        "name_en": "Leaf Leshy",
+        "name_ru": "Лиственный леший"
+      },
+      {
+        "slug": "lotus-leshy",
+        "name_en": "Lotus Leshy",
+        "name_ru": "Лотосовый леший"
+      },
+      {
+        "slug": "peachchild-leshy",
+        "name_en": "Peachchild Leshy",
+        "name_ru": "Персиковый леший"
+      },
+      {
+        "slug": "gourd-leshy",
+        "name_en": "Gourd Leshy",
+        "name_ru": "Тыквенный леший"
+      },
+      {
+        "slug": "fruit-leshy",
+        "name_en": "Fruit Leshy",
+        "name_ru": "Фруктовый леший"
+      },
+      {
+        "slug": "chrysanthemum-leshy",
+        "name_en": "Chrysanthemum Leshy",
+        "name_ru": "Хризантемовый леший"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "undaunted",
+        "name_en": "Undaunted",
+        "name_ru": "Бесстрашие лешего",
+        "traits": [
+          "leshy"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4499
+      },
+      {
+        "slug": "grasping-reach",
+        "name_en": "Grasping Reach",
+        "name_ru": "Дальнее удержание",
+        "traits": [
+          "leshy"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4493
+      },
+      {
+        "slug": "childlike-plant",
+        "name_en": "Childlike Plant",
+        "name_ru": "Детский облик",
+        "traits": [
+          "leshy"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/375\" href=\"/heritages/chrysanthemum leshy\">Хризантемовый леший</a> или <a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/376\" href=\"/heritages/peachchild leshy\">Персиковый леший</a>",
+        "pf2ru_id": 6853
+      },
+      {
+        "slug": "leshy-lore",
+        "name_en": "Leshy Lore",
+        "name_ru": "Знания леших",
+        "traits": [
+          "leshy"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4495
+      },
+      {
+        "slug": "harmlessly-cute",
+        "name_en": "Harmlessly Cute",
+        "name_ru": "Милая невинность",
+        "traits": [
+          "leshy"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4494
+      },
+      {
+        "slug": "seedpod",
+        "name_en": "Seedpod",
+        "name_ru": "Плоды",
+        "traits": [
+          "leshy"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4497
+      },
+      {
+        "slug": "leshy-superstition",
+        "name_en": "Leshy Superstition",
+        "name_ru": "Суеверия леших",
+        "traits": [
+          "leshy"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4496
+      },
+      {
+        "slug": "shadow-of-the-wilds",
+        "name_en": "Shadow of the Wilds",
+        "name_ru": "Тень дикой природы",
+        "traits": [
+          "leshy"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4498
+      }
+    ]
   },
   {
     "slug": "lizardfolk",
@@ -330,7 +1616,137 @@
     "source_ru": "Основная книга игрока 2",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 81
+    "pf2ru_id": 81,
+    "heritages": [
+      {
+        "slug": "bakuwa-lizardfolk",
+        "name_en": "Bakuwa Lizardfolk",
+        "name_ru": "Бакува людоящер"
+      },
+      {
+        "slug": "wetlander-lizardfolk",
+        "name_en": "Wetlander Lizardfolk",
+        "name_ru": "Водный людоящер"
+      },
+      {
+        "slug": "woodstalker-lizardfolk",
+        "name_en": "Woodstalker Lizardfolk",
+        "name_ru": "Лесной людоящер"
+      },
+      {
+        "slug": "frilled-lizardfolk",
+        "name_en": "Frilled Lizardfolk",
+        "name_ru": "Людоящер с воротником"
+      },
+      {
+        "slug": "makari-lizardfolk",
+        "name_en": "Makari Lizardfolk",
+        "name_ru": "Макари людоящер"
+      },
+      {
+        "slug": "unseen-lizardfolk",
+        "name_en": "Unseen Lizardfolk",
+        "name_ru": "Незаметный людоящер"
+      },
+      {
+        "slug": "cloudleaper-lizardfolk",
+        "name_en": "Cloudleaper Lizardfolk",
+        "name_ru": "Парящий людоящер"
+      },
+      {
+        "slug": "sandstrider-lizardfolk",
+        "name_en": "Sandstrider Lizardfolk",
+        "name_ru": "Песчаный людоящер"
+      },
+      {
+        "slug": "cliffscale-lizardfolk",
+        "name_en": "Cliffscale Lizardfolk",
+        "name_ru": "Скалоступный людоящер"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "marsh-runner",
+        "name_en": "Marsh Runner",
+        "name_ru": "Болотоход",
+        "traits": [
+          "lizardfolk"
+        ],
+        "prerequisites": "У вас есть скорость плавания",
+        "pf2ru_id": 5635
+      },
+      {
+        "slug": "iruxi-armaments",
+        "name_en": "Iruxi Armaments",
+        "name_ru": "Вооружение ирукси",
+        "traits": [
+          "lizardfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5633
+      },
+      {
+        "slug": "reptile-speaker",
+        "name_en": "Reptile Speaker",
+        "name_ru": "Говорящий с рептилиями",
+        "traits": [
+          "lizardfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5637
+      },
+      {
+        "slug": "spirit-coffin",
+        "name_en": "Spirit Coffin",
+        "name_ru": "Гроб духов",
+        "traits": [
+          "uncommon",
+          "lizardfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6862
+      },
+      {
+        "slug": "parthenogenic-hatchling",
+        "name_en": "Parthenogenic Hatchling",
+        "name_ru": "Девственно зародившийся",
+        "traits": [
+          "lizardfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5636
+      },
+      {
+        "slug": "lizardfolk-lore",
+        "name_en": "Lizardfolk Lore",
+        "name_ru": "Знания людоящеров",
+        "traits": [
+          "lizardfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5634
+      },
+      {
+        "slug": "crocodile's-twin",
+        "name_en": "Crocodile's Twin",
+        "name_ru": "Крокодил-близнец",
+        "traits": [
+          "lizardfolk"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/377\" href=\"/heritages/bakuwa lizardfolk\">Бакува людоящер</a> или <a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/378\" href=\"/heritages/makari lizardfolk\">Макари людоящер</a>",
+        "pf2ru_id": 6861
+      },
+      {
+        "slug": "bone-magic",
+        "name_en": "Bone Magic",
+        "name_ru": "Магия костей",
+        "traits": [
+          "lizardfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5632
+      }
+    ]
   },
   {
     "slug": "merfolk",
@@ -359,7 +1775,96 @@
     "source_ru": "Рёв дикой природы",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 74
+    "pf2ru_id": 74,
+    "heritages": [
+      {
+        "slug": "abyssal-merfolk",
+        "name_en": "Abyssal Merfolk",
+        "name_ru": "Мерфолк из бездны"
+      },
+      {
+        "slug": "carcharodon-merfolk",
+        "name_en": "Carcharodon Merfolk",
+        "name_ru": "Мерфолк-кархародон"
+      },
+      {
+        "slug": "pelagic-merfolk",
+        "name_en": "Pelagic Merfolk",
+        "name_ru": "Мерфолк открытой воды"
+      },
+      {
+        "slug": "sailfish-merfolk",
+        "name_en": "Sailfish Merfolk",
+        "name_ru": "Мерфолк-парусник"
+      },
+      {
+        "slug": "reef-merfolk",
+        "name_en": "Reef Merfolk",
+        "name_ru": "Рифовый мерфолк"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "wave-speaker",
+        "name_en": "Wave Speaker",
+        "name_ru": "Говорящий с волнами",
+        "traits": [
+          "merfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5348
+      },
+      {
+        "slug": "merfolk-lore",
+        "name_en": "Merfolk Lore",
+        "name_ru": "Знания мерфолков",
+        "traits": [
+          "merfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5343
+      },
+      {
+        "slug": "swimmer's-guidance",
+        "name_en": "Swimmer's Guidance",
+        "name_ru": "Наставления пловца",
+        "traits": [
+          "merfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5347
+      },
+      {
+        "slug": "merfolk-weapon-familiarity",
+        "name_en": "Merfolk Weapon Familiarity",
+        "name_ru": "Оружие мерфолков",
+        "traits": [
+          "merfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5344
+      },
+      {
+        "slug": "seasong",
+        "name_en": "Seasong",
+        "name_ru": "Песнь морей",
+        "traits": [
+          "merfolk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5346
+      },
+      {
+        "slug": "ocean's-bite",
+        "name_en": "Ocean's Bite",
+        "name_ru": "Укус океана",
+        "traits": [
+          "merfolk"
+        ],
+        "prerequisites": "Родословная <a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/298\" href=\"/heritages/abyssal merfolk\">мерфолк из бездны</a> или <a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/299\" href=\"/heritages/carcharodon merfolk\">мерфолк-кархародон</a>",
+        "pf2ru_id": 5345
+      }
+    ]
   },
   {
     "slug": "minotaur",
@@ -388,7 +1893,121 @@
     "source_ru": "Рёв дикой природы",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 75
+    "pf2ru_id": 75,
+    "heritages": [
+      {
+        "slug": "roaming-minotaur",
+        "name_en": "Roaming Minotaur",
+        "name_ru": "Бродячий минотавр"
+      },
+      {
+        "slug": "littlehorn-minotaur",
+        "name_en": "Littlehorn Minotaur",
+        "name_ru": "Короткорогий минотавр"
+      },
+      {
+        "slug": "glacier-cavern-minotaur",
+        "name_en": "Glacier Cavern Minotaur",
+        "name_ru": "Ледниковый минотавр"
+      },
+      {
+        "slug": "slabsoul-minotaur",
+        "name_en": "Slabsoul Minotaur",
+        "name_ru": "Минотавр каменных плит"
+      },
+      {
+        "slug": "stalker-minotaur",
+        "name_en": "Stalker Minotaur",
+        "name_ru": "Подкрадывающийся минотавр"
+      },
+      {
+        "slug": "ghost-bull-minotaur",
+        "name_en": "Ghost Bull Minotaur",
+        "name_ru": "Призрачный минотавр"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "eye-for-masonry",
+        "name_en": "Eye for Masonry",
+        "name_ru": "Глаз каменщика",
+        "traits": [
+          "minotaur"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5363
+      },
+      {
+        "slug": "friendly-nudge",
+        "name_en": "Friendly Nudge",
+        "name_ru": "Дружеский толчок",
+        "traits": [
+          "minotaur"
+        ],
+        "prerequisites": "Изученная  <i>Атлетика</i>",
+        "pf2ru_id": 5364
+      },
+      {
+        "slug": "minotaur-lore",
+        "name_en": "Minotaur Lore",
+        "name_ru": "Знания минотавров",
+        "traits": [
+          "minotaur"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5366
+      },
+      {
+        "slug": "artisanal-crafter",
+        "name_en": "Artisanal Crafter",
+        "name_ru": "Кустарь",
+        "traits": [
+          "minotaur"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5361
+      },
+      {
+        "slug": "pantheon-magic",
+        "name_en": "Pantheon Magic",
+        "name_ru": "Магия пантеона",
+        "traits": [
+          "minotaur"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5368
+      },
+      {
+        "slug": "minotaur-weapon-familiarity",
+        "name_en": "Minotaur Weapon Familiarity",
+        "name_ru": "Оружие минотавров",
+        "traits": [
+          "minotaur"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5367
+      },
+      {
+        "slug": "keen-nose",
+        "name_en": "Keen Nose",
+        "name_ru": "Чувствительный нос",
+        "traits": [
+          "minotaur"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5365
+      },
+      {
+        "slug": "cattle-speech",
+        "name_en": "Cattle Speech",
+        "name_ru": "Язык рогатых",
+        "traits": [
+          "minotaur"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5362
+      }
+    ]
   },
   {
     "slug": "orc",
@@ -412,7 +2031,127 @@
     "source_ru": "Основная книга игрока",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 66
+    "pf2ru_id": 66,
+    "heritages": [
+      {
+        "slug": "battle-ready-orc",
+        "name_en": "Battle Ready Orc",
+        "name_ru": "Воинственный орк"
+      },
+      {
+        "slug": "deep-orc",
+        "name_en": "Deep Orc",
+        "name_ru": "Глубинный орк"
+      },
+      {
+        "slug": "winter-orc",
+        "name_en": "Winter Orc",
+        "name_ru": "Зимний орк"
+      },
+      {
+        "slug": "rainfall-orc",
+        "name_en": "Rainfall Orc",
+        "name_ru": "Ливневый орк"
+      },
+      {
+        "slug": "grave-orc",
+        "name_en": "Grave Orc",
+        "name_ru": "Могильный орк"
+      },
+      {
+        "slug": "badlands-orc",
+        "name_en": "Badlands Orc",
+        "name_ru": "Орк пустошей"
+      },
+      {
+        "slug": "hold-scarred-orc",
+        "name_en": "Hold Scarred Orc",
+        "name_ru": "Шрамированный орк"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "tusks",
+        "name_en": "Tusks",
+        "name_ru": "Бивни",
+        "traits": [
+          "orc"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4519
+      },
+      {
+        "slug": "iron-fists",
+        "name_en": "Iron Fists",
+        "name_ru": "Железные кулаки",
+        "traits": [
+          "orc"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4513
+      },
+      {
+        "slug": "orc-lore",
+        "name_en": "Orc Lore",
+        "name_ru": "Знания орков",
+        "traits": [
+          "orc"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4515
+      },
+      {
+        "slug": "orc-superstition",
+        "name_en": "Orc Superstition",
+        "name_ru": "Орочьи суеверия",
+        "traits": [
+          "concentrate",
+          "orc"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4516
+      },
+      {
+        "slug": "orc-ferocity",
+        "name_en": "Orc Ferocity",
+        "name_ru": "Орочья свирепость",
+        "traits": [
+          "orc"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4514
+      },
+      {
+        "slug": "orc-weapon-familiarity",
+        "name_en": "Orc Weapon Familiarity",
+        "name_ru": "Оружие орков",
+        "traits": [
+          "orc"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4518
+      },
+      {
+        "slug": "hold-mark",
+        "name_en": "Hold Mark",
+        "name_ru": "Символ поселения",
+        "traits": [
+          "orc"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4517
+      },
+      {
+        "slug": "beast-trainer",
+        "name_en": "Beast Trainer",
+        "name_ru": "Укротитель зверей",
+        "traits": [
+          "orc"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4512
+      }
+    ]
   },
   {
     "slug": "halfling",
@@ -439,7 +2178,142 @@
     "source_ru": "Основная книга игрока",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 63
+    "pf2ru_id": 63,
+    "heritages": [
+      {
+        "slug": "gutsy-halfling",
+        "name_en": "Gutsy Halfling",
+        "name_ru": "Отважный полурослик"
+      },
+      {
+        "slug": "nomadic-halfling",
+        "name_en": "Nomadic Halfling",
+        "name_ru": "Странствующий полурослик"
+      },
+      {
+        "slug": "twilight-halfling",
+        "name_en": "Twilight Halfling",
+        "name_ru": "Сумеречный полурослик"
+      },
+      {
+        "slug": "jinxed-halfling",
+        "name_en": "Jinxed Halfling",
+        "name_ru": "Треклятый полурослик"
+      },
+      {
+        "slug": "hillock-halfling",
+        "name_en": "Hillock Halfling",
+        "name_ru": "Холмовой полурослик"
+      },
+      {
+        "slug": "wildwood-halfling",
+        "name_en": "Wildwood Halfling",
+        "name_ru": "Чащобный полурослик"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "prairie-rider",
+        "name_en": "Prairie Rider",
+        "name_ru": "Всадник прерий",
+        "traits": [
+          "halfling"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4460
+      },
+      {
+        "slug": "titan-slinger",
+        "name_en": "Titan Slinger",
+        "name_ru": "Гроза титанов",
+        "traits": [
+          "halfling"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4462
+      },
+      {
+        "slug": "halfling-lore",
+        "name_en": "Halfling Lore",
+        "name_ru": "Знания полуросликов",
+        "traits": [
+          "halfling"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4457
+      },
+      {
+        "slug": "sure-feet",
+        "name_en": "Sure Feet",
+        "name_ru": "Крепконогий",
+        "traits": [
+          "halfling"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4461
+      },
+      {
+        "slug": "watchful-halfling",
+        "name_en": "Watchful Halfling",
+        "name_ru": "Наблюдательный полурослик",
+        "traits": [
+          "halfling"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4464
+      },
+      {
+        "slug": "folksy-patter",
+        "name_en": "Folksy Patter",
+        "name_ru": "Народная скороговорка",
+        "traits": [
+          "halfling"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4456
+      },
+      {
+        "slug": "halfling-weapon-familiarity",
+        "name_en": "Halfling Weapon Familiarity",
+        "name_ru": "Оружие полуросликов",
+        "traits": [
+          "halfling"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4459
+      },
+      {
+        "slug": "unfettered-halfling",
+        "name_en": "Unfettered Halfling",
+        "name_ru": "Освобожденный полурослик",
+        "traits": [
+          "halfling"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4463
+      },
+      {
+        "slug": "distracting-shadows",
+        "name_en": "Distracting Shadows",
+        "name_ru": "Отвлекающие тени",
+        "traits": [
+          "halfling"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4455
+      },
+      {
+        "slug": "halfling-luck",
+        "name_en": "Halfling Luck",
+        "name_ru": "Удача полурослика",
+        "traits": [
+          "fortune",
+          "halfling"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4458
+      }
+    ]
   },
   {
     "slug": "awakened-animal",
@@ -470,7 +2344,131 @@
     "source_ru": "Рёв дикой природы",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 72
+    "pf2ru_id": 72,
+    "heritages": [
+      {
+        "slug": "running-animal",
+        "name_en": "Running Animal",
+        "name_ru": "Бегающее животное"
+      },
+      {
+        "slug": "swimming-animal",
+        "name_en": "Swimming Animal",
+        "name_ru": "Водоплавающее животное"
+      },
+      {
+        "slug": "climbing-animal",
+        "name_en": "Climbing Animal",
+        "name_ru": "Лазающее животное"
+      },
+      {
+        "slug": "flying-animal",
+        "name_en": "Flying Animal",
+        "name_ru": "Летающее животное"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "take-flight",
+        "name_en": "Take Flight",
+        "name_ru": "Взлёт",
+        "traits": [
+          "awakened animal"
+        ],
+        "prerequisites": "Родословная <a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/289\" href=\"/heritages/flying animal\">летающее животное</a>",
+        "pf2ru_id": 5304
+      },
+      {
+        "slug": "awakened-animal-lore",
+        "name_en": "Awakened Animal Lore",
+        "name_ru": "Знания пробужденных животных",
+        "traits": [
+          "awakened animal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5297
+      },
+      {
+        "slug": "tooth-and-claw",
+        "name_en": "Tooth and Claw",
+        "name_ru": "Клыки и когти",
+        "traits": [
+          "awakened animal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5305
+      },
+      {
+        "slug": "you're-so-cute!",
+        "name_en": "You're So Cute!",
+        "name_ru": "Милота",
+        "traits": [
+          "awakened animal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5306
+      },
+      {
+        "slug": "learn-by-watching",
+        "name_en": "Learn by Watching",
+        "name_ru": "Обучившийся наблюдением",
+        "traits": [
+          "awakened animal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5301
+      },
+      {
+        "slug": "fascinated-by-society",
+        "name_en": "Fascinated by Society",
+        "name_ru": "Очарован обществом",
+        "traits": [
+          "awakened animal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5299
+      },
+      {
+        "slug": "sea-legs",
+        "name_en": "Sea Legs",
+        "name_ru": "Плавательные конечности",
+        "traits": [
+          "awakened animal"
+        ],
+        "prerequisites": "У вас нет скорости плавания.",
+        "pf2ru_id": 5303
+      },
+      {
+        "slug": "natural-senses",
+        "name_en": "Natural Senses",
+        "name_ru": "Природные чувства",
+        "traits": [
+          "awakened animal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5302
+      },
+      {
+        "slug": "awakened-magic",
+        "name_en": "Awakened Magic",
+        "name_ru": "Пробужденная магия",
+        "traits": [
+          "awakened animal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5298
+      },
+      {
+        "slug": "land-legs",
+        "name_en": "Land Legs",
+        "name_ru": "Сухопутные конечности",
+        "traits": [
+          "awakened animal"
+        ],
+        "prerequisites": "Родословная <a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/291\" href=\"/heritages/swimming animal\">Водоплавающее животное</a>; <span class=\"rhombus-wrap\"><span class=\"rhombus\" itemID=533 itemType=traits onclick=\"getItem(this)\"></span>\n                            <a class=\"item-link quicklink link--popup item-link--trait\" data-key=\"trait/533\" href=\"/traits/aquatic\">подводный</a></span>",
+        "pf2ru_id": 5300
+      }
+    ]
   },
   {
     "slug": "samsaran",
@@ -498,7 +2496,98 @@
     "source_ru": "Тянь-Ша. Руководство по персонажам",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 88
+    "pf2ru_id": 88,
+    "heritages": [
+      {
+        "slug": "oracular-samsaran",
+        "name_en": "Oracular Samsaran",
+        "name_ru": "Вещий самсаран"
+      },
+      {
+        "slug": "mountaineer-samsaran",
+        "name_en": "Mountaineer Samsaran",
+        "name_ru": "Горный самсаран"
+      },
+      {
+        "slug": "wilderness-samsaran",
+        "name_en": "Wilderness Samsaran",
+        "name_ru": "Дикий самсаран"
+      },
+      {
+        "slug": "healer-samsaran",
+        "name_en": "Healer Samsaran",
+        "name_ru": "Исцеляющий самсаран"
+      },
+      {
+        "slug": "sanctuary-samsaran",
+        "name_en": "Sanctuary Samsaran",
+        "name_ru": "Храмовый самсаран"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "innate-understanding",
+        "name_en": "Innate Understanding",
+        "name_ru": "Врождённое понимание",
+        "traits": [
+          "samsaran"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6896
+      },
+      {
+        "slug": "all-this-will-happen-again",
+        "name_en": "All This Will Happen Again",
+        "name_ru": "Всё это случится снова",
+        "traits": [
+          "fortune",
+          "mental",
+          "samsaran"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6894
+      },
+      {
+        "slug": "samsaran-lore",
+        "name_en": "Samsaran Lore",
+        "name_ru": "Знания самсаранов",
+        "traits": [
+          "samsaran"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6898
+      },
+      {
+        "slug": "remnants-of-the-past",
+        "name_en": "Remnants of the Past",
+        "name_ru": "Отзвуки прошлого",
+        "traits": [
+          "samsaran"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6897
+      },
+      {
+        "slug": "samsaran-weapon-memory",
+        "name_en": "Samsaran Weapon Memory",
+        "name_ru": "Память об оружии самсаранов",
+        "traits": [
+          "samsaran"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6899
+      },
+      {
+        "slug": "elucidating-vision",
+        "name_en": "Elucidating Vision",
+        "name_ru": "Проясняющее видение",
+        "traits": [
+          "samsaran"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6895
+      }
+    ]
   },
   {
     "slug": "sarangay",
@@ -526,7 +2615,87 @@
     "source_ru": "Тянь-Ша. Руководство по персонажам",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 89
+    "pf2ru_id": 89,
+    "heritages": [
+      {
+        "slug": "new-moon-sarangay",
+        "name_en": "New Moon Sarangay",
+        "name_ru": "Сарангай новолуния"
+      },
+      {
+        "slug": "full-moon-sarangay",
+        "name_en": "Full Moon Sarangay",
+        "name_ru": "Сарангай полнолуния"
+      },
+      {
+        "slug": "half-moon-sarangay",
+        "name_en": "Half Moon Sarangay",
+        "name_ru": "Сарангай полулуния"
+      },
+      {
+        "slug": "waxing-moon-sarangay",
+        "name_en": "Waxing Moon Sarangay",
+        "name_ru": "Сарангай растущей луны"
+      },
+      {
+        "slug": "waning-moon-sarangay",
+        "name_en": "Waning Moon Sarangay",
+        "name_ru": "Сарангай убывающей луны"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "sarangay-lore",
+        "name_en": "Sarangay Lore",
+        "name_ru": "Знание сарангаев",
+        "traits": [
+          "sarangay"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6915
+      },
+      {
+        "slug": "crown-of-bone",
+        "name_en": "Crown of Bone",
+        "name_ru": "Корона из костей",
+        "traits": [
+          "sarangay"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6913
+      },
+      {
+        "slug": "folk-healer",
+        "name_en": "Folk Healer",
+        "name_ru": "Народный целитель",
+        "traits": [
+          "sarangay"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6914
+      },
+      {
+        "slug": "awakened-jewel",
+        "name_en": "Awakened Jewel",
+        "name_ru": "Пробуждённый самоцвет",
+        "traits": [
+          "occult",
+          "sarangay"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6912
+      },
+      {
+        "slug": "traveler's-counsel",
+        "name_en": "Traveler's Counsel",
+        "name_ru": "Совет странника",
+        "traits": [
+          "sarangay"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/392\" href=\"/heritages/half moon sarangay\">Сарангай полулуния</a>",
+        "pf2ru_id": 6916
+      }
+    ]
   },
   {
     "slug": "surki",
@@ -551,7 +2720,81 @@
     "source_ru": "Рёв дикой природы",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 76
+    "pf2ru_id": 76,
+    "heritages": [
+      {
+        "slug": "lantern-surki",
+        "name_en": "Lantern Surki",
+        "name_ru": "Светящийся сурки"
+      },
+      {
+        "slug": "breaker-surki",
+        "name_en": "Breaker Surki",
+        "name_ru": "Сурки-крушитель"
+      },
+      {
+        "slug": "elytron-surki",
+        "name_en": "Elytron Surki",
+        "name_ru": "Сурки с надкрыльями"
+      },
+      {
+        "slug": "hardshell-surki",
+        "name_en": "Hardshell Surki",
+        "name_ru": "Твёрдопанцирный сурки"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "surki-lore",
+        "name_en": "Surki Lore",
+        "name_ru": "Знания сурки",
+        "traits": [
+          "surki"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5386
+      },
+      {
+        "slug": "sequestered-spell",
+        "name_en": "Sequestered Spell",
+        "name_ru": "Ограниченное заклинательство",
+        "traits": [
+          "surki"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5384
+      },
+      {
+        "slug": "surki-weapon-familiarity",
+        "name_en": "Surki Weapon Familiarity",
+        "name_ru": "Оружие сурки",
+        "traits": [
+          "surki"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5387
+      },
+      {
+        "slug": "vestigial-magicsense",
+        "name_en": "Vestigial Magicsense",
+        "name_ru": "Рудиментарное магическое чутьё",
+        "traits": [
+          "surki"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5388
+      },
+      {
+        "slug": "small-speak",
+        "name_en": "Small Speak",
+        "name_ru": "Язык букашек",
+        "traits": [
+          "surki"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5385
+      }
+    ]
   },
   {
     "slug": "tanuki",
@@ -579,7 +2822,86 @@
     "source_ru": "Тянь-Ша. Руководство по персонажам",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 90
+    "pf2ru_id": 90,
+    "heritages": [
+      {
+        "slug": "ascetic-tanuki",
+        "name_en": "Ascetic Tanuki",
+        "name_ru": "Аскетичный тануки"
+      },
+      {
+        "slug": "virtuous-tanuki",
+        "name_en": "Virtuous Tanuki",
+        "name_ru": "Добродетельный тануки"
+      },
+      {
+        "slug": "courageous-tanuki",
+        "name_en": "Courageous Tanuki",
+        "name_ru": "Отважный тануки"
+      },
+      {
+        "slug": "steadfast-tanuki",
+        "name_en": "Steadfast Tanuki",
+        "name_ru": "Стойкий тануки"
+      },
+      {
+        "slug": "even-tempered-tanuki",
+        "name_en": "Even Tempered Tanuki",
+        "name_ru": "Уравновешенный тануки"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "iron-belly",
+        "name_en": "Iron Belly",
+        "name_ru": "Железный живот",
+        "traits": [
+          "tanuki"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6931
+      },
+      {
+        "slug": "tanuki-lore",
+        "name_en": "Tanuki Lore",
+        "name_ru": "Знания тануки",
+        "traits": [
+          "tanuki"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6933
+      },
+      {
+        "slug": "scorched-on-the-crackling-mountain",
+        "name_en": "Scorched on the Crackling Mountain",
+        "name_ru": "Опалённый на трескающейся горе",
+        "traits": [
+          "tanuki"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6932
+      },
+      {
+        "slug": "everyday-form",
+        "name_en": "Everyday Form",
+        "name_ru": "Повседневная форма",
+        "traits": [
+          "tanuki"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6930
+      },
+      {
+        "slug": "teakettle-form",
+        "name_en": "Teakettle Form",
+        "name_ru": "Форма чайника",
+        "traits": [
+          "tanuki"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6934
+      }
+    ]
   },
   {
     "slug": "tripkee",
@@ -607,7 +2929,111 @@
     "source_ru": "Основная книга игрока 2",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 84
+    "pf2ru_id": 84,
+    "heritages": [
+      {
+        "slug": "stickytoe-tripkee",
+        "name_en": "Stickytoe Tripkee",
+        "name_ru": "Липколапый трипки"
+      },
+      {
+        "slug": "windweb-tripkee",
+        "name_en": "Windweb Tripkee",
+        "name_ru": "Невесомый трипки"
+      },
+      {
+        "slug": "riverside-tripkee",
+        "name_en": "Riverside Tripkee",
+        "name_ru": "Речной трипки"
+      },
+      {
+        "slug": "thickskin-tripkee",
+        "name_en": "Thickskin Tripkee",
+        "name_ru": "Толстокожий трипки"
+      },
+      {
+        "slug": "snaptongue-tripkee",
+        "name_en": "Snaptongue Tripkee",
+        "name_ru": "Трипки-языкохват"
+      },
+      {
+        "slug": "poisonhide-tripkee",
+        "name_en": "Poisonhide Tripkee",
+        "name_ru": "Ядовитошкурый трипки"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "hunter's-defense",
+        "name_en": "Hunter's Defense",
+        "name_ru": "Защита охотника",
+        "traits": [
+          "tripkee"
+        ],
+        "prerequisites": "Изученная  <i>Природа</i>",
+        "pf2ru_id": 5694
+      },
+      {
+        "slug": "tripkee-lore",
+        "name_en": "Tripkee Lore",
+        "name_ru": "Знания трипки",
+        "traits": [
+          "tripkee"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5698
+      },
+      {
+        "slug": "croak-talker",
+        "name_en": "Croak Talker",
+        "name_ru": "Квакающий болтун",
+        "traits": [
+          "tripkee"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5693
+      },
+      {
+        "slug": "nocturnal-tripkee",
+        "name_en": "Nocturnal Tripkee",
+        "name_ru": "Ночной трипки",
+        "traits": [
+          "tripkee"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5696
+      },
+      {
+        "slug": "tripkee-weapon-familiarity",
+        "name_en": "Tripkee Weapon Familiarity",
+        "name_ru": "Оружие трипки",
+        "traits": [
+          "tripkee"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5699
+      },
+      {
+        "slug": "jungle-strider",
+        "name_en": "Jungle Strider",
+        "name_ru": "Странник джунглей",
+        "traits": [
+          "tripkee"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5695
+      },
+      {
+        "slug": "terrifying-croak",
+        "name_en": "Terrifying Croak",
+        "name_ru": "Ужасающее кваканье",
+        "traits": [
+          "tripkee"
+        ],
+        "prerequisites": "Изученное  <i>Запугивание</i>",
+        "pf2ru_id": 5697
+      }
+    ]
   },
   {
     "slug": "tengu",
@@ -632,7 +3058,126 @@
     "source_ru": "Основная книга игрока 2",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 83
+    "pf2ru_id": 83,
+    "heritages": [
+      {
+        "slug": "stormtossed-tengu",
+        "name_en": "Stormtossed Tengu",
+        "name_ru": "Буревестный тэнгу"
+      },
+      {
+        "slug": "dogtooth-tengu",
+        "name_en": "Dogtooth Tengu",
+        "name_ru": "Зубастый тэнгу"
+      },
+      {
+        "slug": "taloned-tengu",
+        "name_en": "Taloned Tengu",
+        "name_ru": "Когтистый тэнгу"
+      },
+      {
+        "slug": "mountainkeeper-tengu",
+        "name_en": "Mountainkeeper Tengu",
+        "name_ru": "Нагорный тэнгу"
+      },
+      {
+        "slug": "wavediver-tengu",
+        "name_en": "Wavediver Tengu",
+        "name_ru": "Ныряющий тэнгу"
+      },
+      {
+        "slug": "skyborn-tengu",
+        "name_en": "Skyborn Tengu",
+        "name_ru": "Поднебесный тэнгу"
+      },
+      {
+        "slug": "jinxed-tengu",
+        "name_en": "Jinxed Tengu",
+        "name_ru": "Треклятый тэнгу"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "scavenger's-search",
+        "name_en": "Scavenger's Search",
+        "name_ru": "Вдумчивый поиск",
+        "traits": [
+          "tengu"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5675
+      },
+      {
+        "slug": "storm's-lash",
+        "name_en": "Storm's Lash",
+        "name_ru": "Грозовой хлыст",
+        "traits": [
+          "tengu"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5677
+      },
+      {
+        "slug": "tengu-lore",
+        "name_en": "Tengu Lore",
+        "name_ru": "Знания тэнгу",
+        "traits": [
+          "tengu"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5678
+      },
+      {
+        "slug": "squawk!",
+        "name_en": "Squawk!",
+        "name_ru": "Кар!",
+        "traits": [
+          "tengu"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5676
+      },
+      {
+        "slug": "mariner's-fire",
+        "name_en": "Mariner's Fire",
+        "name_ru": "Морские огни",
+        "traits": [
+          "tengu"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5673
+      },
+      {
+        "slug": "uncanny-agility",
+        "name_en": "Uncanny Agility",
+        "name_ru": "Невероятная ловкость",
+        "traits": [
+          "tengu"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5680
+      },
+      {
+        "slug": "tengu-weapon-familiarity",
+        "name_en": "Tengu Weapon Familiarity",
+        "name_ru": "Оружие тэнгу",
+        "traits": [
+          "tengu"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5679
+      },
+      {
+        "slug": "one-toed-hop",
+        "name_en": "One-Toed Hop",
+        "name_ru": "Подскок на одной ноге",
+        "traits": [
+          "tengu"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5674
+      }
+    ]
   },
   {
     "slug": "hobgoblin",
@@ -660,7 +3205,131 @@
     "source_ru": "Основная книга игрока 2",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 78
+    "pf2ru_id": 78,
+    "heritages": [
+      {
+        "slug": "shortshanks-hobgoblin",
+        "name_en": "Shortshanks Hobgoblin",
+        "name_ru": "Коротконогий хобгоблин"
+      },
+      {
+        "slug": "warmarch-hobgoblin",
+        "name_en": "Warmarch Hobgoblin",
+        "name_ru": "Марширующий хобгоблин"
+      },
+      {
+        "slug": "warrenbred-hobgoblin",
+        "name_en": "Warrenbred Hobgoblin",
+        "name_ru": "Подземный хобгоблин"
+      },
+      {
+        "slug": "runtboss-hobgoblin",
+        "name_en": "Runtboss Hobgoblin",
+        "name_ru": "Хобгоблин босс-коротыш"
+      },
+      {
+        "slug": "smokeworker-hobgoblin",
+        "name_en": "Smokeworker Hobgoblin",
+        "name_ru": "Хобгоблин-дымовик"
+      },
+      {
+        "slug": "elfbane-hobgoblin",
+        "name_en": "Elfbane Hobgoblin",
+        "name_ru": "Хобгоблин убийца эльфов"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "alchemical-scholar",
+        "name_en": "Alchemical Scholar",
+        "name_ru": "Алхимик-учёный",
+        "traits": [
+          "hobgoblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5568
+      },
+      {
+        "slug": "remorseless-lash",
+        "name_en": "Remorseless Lash",
+        "name_ru": "Безжалостная плеть",
+        "traits": [
+          "hobgoblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5573
+      },
+      {
+        "slug": "hobgoblin-lore",
+        "name_en": "Hobgoblin Lore",
+        "name_ru": "Знания хобгоблинов",
+        "traits": [
+          "hobgoblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5570
+      },
+      {
+        "slug": "stone-face",
+        "name_en": "Stone Face",
+        "name_ru": "Каменное лицо",
+        "traits": [
+          "hobgoblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5575
+      },
+      {
+        "slug": "cantorian-reinforcement",
+        "name_en": "Cantorian Reinforcement",
+        "name_ru": "Канторийская устойчивость",
+        "traits": [
+          "hobgoblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5569
+      },
+      {
+        "slug": "leech-clip",
+        "name_en": "Leech-Clip",
+        "name_ru": "Ловец пиявок",
+        "traits": [
+          "hobgoblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5572
+      },
+      {
+        "slug": "hobgoblin-weapon-familiarity",
+        "name_en": "Hobgoblin Weapon Familiarity",
+        "name_ru": "Оружие хобгоблинов",
+        "traits": [
+          "hobgoblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5571
+      },
+      {
+        "slug": "sneaky",
+        "name_en": "Sneaky",
+        "name_ru": "Подлый",
+        "traits": [
+          "hobgoblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5574
+      },
+      {
+        "slug": "vigorous-health",
+        "name_en": "Vigorous Health",
+        "name_ru": "Стойкое здоровье",
+        "traits": [
+          "hobgoblin"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5576
+      }
+    ]
   },
   {
     "slug": "kholo",
@@ -688,7 +3357,116 @@
     "source_ru": "Основная книга игрока 2",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 79
+    "pf2ru_id": 79,
+    "heritages": [
+      {
+        "slug": "witch-kholo",
+        "name_en": "Witch Kholo",
+        "name_ru": "Ведьмовской холо"
+      },
+      {
+        "slug": "winter-kholo",
+        "name_en": "Winter Kholo",
+        "name_ru": "Зимний холо"
+      },
+      {
+        "slug": "ant-kholo",
+        "name_en": "Ant Kholo",
+        "name_ru": "Муравьиный холо"
+      },
+      {
+        "slug": "great-kholo",
+        "name_en": "Great Kholo",
+        "name_ru": "Огромный холо"
+      },
+      {
+        "slug": "cave-kholo",
+        "name_en": "Cave Kholo",
+        "name_ru": "Пещерный холо"
+      },
+      {
+        "slug": "sweetbreath-kholo",
+        "name_en": "Sweetbreath Kholo",
+        "name_ru": "Сладкодышащий холо"
+      },
+      {
+        "slug": "dog-kholo",
+        "name_en": "Dog Kholo",
+        "name_ru": "Собакоподобный холо"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "hyena-familiar",
+        "name_en": "Hyena Familiar",
+        "name_ru": "Гиена-фамильяр",
+        "traits": [
+          "kholo"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5591
+      },
+      {
+        "slug": "kholo-lore",
+        "name_en": "Kholo Lore",
+        "name_ru": "Знания холо",
+        "traits": [
+          "kholo"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5592
+      },
+      {
+        "slug": "ask-the-bones",
+        "name_en": "Ask the Bones",
+        "name_ru": "Обратиться к костям",
+        "traits": [
+          "kholo"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5589
+      },
+      {
+        "slug": "kholo-weapon-familiarity",
+        "name_en": "Kholo Weapon Familiarity",
+        "name_ru": "Оружие холо",
+        "traits": [
+          "kholo"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5593
+      },
+      {
+        "slug": "pack-hunter",
+        "name_en": "Pack Hunter",
+        "name_ru": "Охота в стае",
+        "traits": [
+          "kholo"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5594
+      },
+      {
+        "slug": "crunch",
+        "name_en": "Crunch",
+        "name_ru": "Сильный укус",
+        "traits": [
+          "kholo"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5590
+      },
+      {
+        "slug": "sensitive-nose",
+        "name_en": "Sensitive Nose",
+        "name_ru": "Чувствительный нос",
+        "traits": [
+          "kholo"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5595
+      }
+    ]
   },
   {
     "slug": "human",
@@ -712,7 +3490,91 @@
     "source_ru": "Основная книга игрока",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 64
+    "pf2ru_id": 64,
+    "heritages": [
+      {
+        "slug": "versatile-human",
+        "name_en": "Versatile Human",
+        "name_ru": "Разносторонний"
+      },
+      {
+        "slug": "skilled-human",
+        "name_en": "Skilled Human",
+        "name_ru": "Умелый"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "haughty-obstinacy",
+        "name_en": "Haughty Obstinacy",
+        "name_ru": "Горделивое упрямство",
+        "traits": [
+          "human"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4477
+      },
+      {
+        "slug": "adapted-cantrip",
+        "name_en": "Adapted Cantrip",
+        "name_ru": "Заимствованный фокус",
+        "traits": [
+          "human"
+        ],
+        "prerequisites": "классовая особенность заклинания",
+        "pf2ru_id": 4474
+      },
+      {
+        "slug": "unconventional-weaponry",
+        "name_en": "Unconventional Weaponry",
+        "name_ru": "Нестандартное оружие",
+        "traits": [
+          "human"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4480
+      },
+      {
+        "slug": "general-training",
+        "name_en": "General Training",
+        "name_ru": "Общая подготовка",
+        "traits": [
+          "human"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4476
+      },
+      {
+        "slug": "cooperative-nature",
+        "name_en": "Cooperative Nature",
+        "name_ru": "Покладистый",
+        "traits": [
+          "human"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4475
+      },
+      {
+        "slug": "natural-ambition",
+        "name_en": "Natural Ambition",
+        "name_ru": "Природные амбиции",
+        "traits": [
+          "human"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4478
+      },
+      {
+        "slug": "natural-skill",
+        "name_en": "Natural Skill",
+        "name_ru": "Природные навыки",
+        "traits": [
+          "human"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4479
+      }
+    ]
   },
   {
     "slug": "elf",
@@ -739,7 +3601,141 @@
     "source_ru": "Основная книга игрока",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 60
+    "pf2ru_id": 60,
+    "heritages": [
+      {
+        "slug": "ancient-elf",
+        "name_en": "Ancient Elf",
+        "name_ru": "Древний эльф"
+      },
+      {
+        "slug": "woodland-elf",
+        "name_en": "Woodland Elf",
+        "name_ru": "Лесной эльф"
+      },
+      {
+        "slug": "cavern-elf",
+        "name_en": "Cavern Elf",
+        "name_ru": "Пещерный эльф"
+      },
+      {
+        "slug": "arctic-elf",
+        "name_en": "Arctic Elf",
+        "name_ru": "Полярный эльф"
+      },
+      {
+        "slug": "whisper-elf",
+        "name_en": "Whisper Elf",
+        "name_ru": "Шепчущий эльф"
+      },
+      {
+        "slug": "seer-elf",
+        "name_en": "Seer Elf",
+        "name_ru": "Эльф-провидец"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "nimble-elf",
+        "name_en": "Nimble Elf",
+        "name_ru": "Быстроногий эльф",
+        "traits": [
+          "elf"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4409
+      },
+      {
+        "slug": "ancestral-longevity",
+        "name_en": "Ancestral Longevity",
+        "name_ru": "Долгожитель",
+        "traits": [
+          "elf"
+        ],
+        "prerequisites": "возраст не менее 100 лет",
+        "pf2ru_id": 4405
+      },
+      {
+        "slug": "elven-lore",
+        "name_en": "Elven Lore",
+        "name_ru": "Знания эльфов",
+        "traits": [
+          "elf"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4406
+      },
+      {
+        "slug": "unwavering-mien",
+        "name_en": "Unwavering Mien",
+        "name_ru": "Непоколебимый вид",
+        "traits": [
+          "elf"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4411
+      },
+      {
+        "slug": "elven-weapon-familiarity",
+        "name_en": "Elven Weapon Familiarity",
+        "name_ru": "Оружие эльфов",
+        "traits": [
+          "elf"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4407
+      },
+      {
+        "slug": "forlorn",
+        "name_en": "Forlorn",
+        "name_ru": "Покинутый",
+        "traits": [
+          "elf"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4408
+      },
+      {
+        "slug": "otherworldly-magic",
+        "name_en": "Otherworldly Magic",
+        "name_ru": "Потусторонняя магия",
+        "traits": [
+          "elf"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4410
+      },
+      {
+        "slug": "ancestral-linguistics",
+        "name_en": "Ancestral Linguistics",
+        "name_ru": "Древний Лингвист",
+        "traits": [
+          "elf"
+        ],
+        "prerequisites": "возраст не менее 100 лет",
+        "pf2ru_id": 1407
+      },
+      {
+        "slug": "know-your-own",
+        "name_en": "Know Your Own",
+        "name_ru": "Знание Сородичей",
+        "traits": [
+          "elf"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 1409
+      },
+      {
+        "slug": "elven-aloofness",
+        "name_en": "Elven Aloofness",
+        "name_ru": "Эльфийская Отрешённость",
+        "traits": [
+          "elf"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 1408
+      }
+    ]
   },
   {
     "slug": "yaksha",
@@ -767,7 +3763,113 @@
     "source_ru": "Тянь-Ша. Руководство по персонажам",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 92
+    "pf2ru_id": 92,
+    "heritages": [
+      {
+        "slug": "respite-of-cloudless-paths",
+        "name_en": "Respite Of Cloudless Paths",
+        "name_ru": "Забота о безоблачных путях"
+      },
+      {
+        "slug": "respite-of-loam-and-leaf",
+        "name_en": "Respite Of Loam And Leaf",
+        "name_ru": "Забота о глине и листе"
+      },
+      {
+        "slug": "respite-of-a-thousand-roofs",
+        "name_en": "Respite Of A Thousand Roofs",
+        "name_ru": "Забота о тысяче крыш"
+      },
+      {
+        "slug": "deny-the-firstborn-pursuit",
+        "name_en": "Deny The Firstborn Pursuit",
+        "name_ru": "Отрицание стремлений перворожденных"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "ash-piercing-gaze",
+        "name_en": "Ash-piercing Gaze",
+        "name_ru": "Взгляд сквозь пепел",
+        "traits": [
+          "yaksha"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6967
+      },
+      {
+        "slug": "avowed-insight",
+        "name_en": "Avowed Insight",
+        "name_ru": "Клятвенное прозрение",
+        "traits": [
+          "yaksha"
+        ],
+        "prerequisites": "Родословная якша с наказом, требующим противостоять определённому типу существ",
+        "pf2ru_id": 6968
+      },
+      {
+        "slug": "sage-of-scattered-leaves",
+        "name_en": "Sage of Scattered Leaves",
+        "name_ru": "Мудрец рассеянных листьев",
+        "traits": [
+          "yaksha"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6972
+      },
+      {
+        "slug": "unwavering-guide",
+        "name_en": "Unwavering Guide",
+        "name_ru": "Непоколебимый проводник",
+        "traits": [
+          "yaksha"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6974
+      },
+      {
+        "slug": "tangle-tongue's-wit",
+        "name_en": "Tangle-tongue's Wit",
+        "name_ru": "Остроумие путанного языка",
+        "traits": [
+          "yaksha"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6973
+      },
+      {
+        "slug": "bamboo-and-silt-repose",
+        "name_en": "Bamboo and Silt Repose",
+        "name_ru": "Покой бамбука и ила",
+        "traits": [
+          "yaksha"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6969
+      },
+      {
+        "slug": "howling-aspect",
+        "name_en": "Howling Aspect",
+        "name_ru": "Ревущий аспект",
+        "traits": [
+          "morph",
+          "primal",
+          "yaksha"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6970
+      },
+      {
+        "slug": "meticulous-restorer",
+        "name_en": "Meticulous Restorer",
+        "name_ru": "Скрупулёзный реставратор",
+        "traits": [
+          "yaksha"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6971
+      }
+    ]
   },
   {
     "slug": "yaoguai",
@@ -795,7 +3897,98 @@
     "source_ru": "Тянь-Ша. Руководство по персонажам",
     "is_legacy": false,
     "is_not_translated": false,
-    "pf2ru_id": 93
+    "pf2ru_id": 93,
+    "heritages": [
+      {
+        "slug": "born-of-animal",
+        "name_en": "Born Of Animal",
+        "name_ru": "Рождённый животным"
+      },
+      {
+        "slug": "born-of-celestial",
+        "name_en": "Born Of Celestial",
+        "name_ru": "Рождённый небожителем"
+      },
+      {
+        "slug": "born-of-item",
+        "name_en": "Born Of Item",
+        "name_ru": "Рождённый предметом"
+      },
+      {
+        "slug": "born-of-vegetation",
+        "name_en": "Born Of Vegetation",
+        "name_ru": "Рождённый растением"
+      },
+      {
+        "slug": "born-of-elements",
+        "name_en": "Born Of Elements",
+        "name_ru": "Рождённый стихией"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "natural-mutagen",
+        "name_en": "Natural Mutagen",
+        "name_ru": "Естественный мутаген",
+        "traits": [
+          "yaoguai"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6992
+      },
+      {
+        "slug": "yaoguai-historian",
+        "name_en": "Yaoguai Historian",
+        "name_ru": "Историк яогуай",
+        "traits": [
+          "yaoguai"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6995
+      },
+      {
+        "slug": "twilight-dweller",
+        "name_en": "Twilight Dweller",
+        "name_ru": "Обитатель сумерек",
+        "traits": [
+          "yaoguai"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6994
+      },
+      {
+        "slug": "polymorphic-escape",
+        "name_en": "Polymorphic Escape",
+        "name_ru": "Полиморфное освобождение",
+        "traits": [
+          "occult",
+          "polymorph",
+          "yaoguai"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6993
+      },
+      {
+        "slug": "morphic-strike",
+        "name_en": "Morphic Strike",
+        "name_ru": "Преображённый удар",
+        "traits": [
+          "yaoguai"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6991
+      },
+      {
+        "slug": "crawling-form",
+        "name_en": "Crawling Form",
+        "name_ru": "Форма мальца",
+        "traits": [
+          "yaoguai"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/412\" href=\"/heritages/born of animal\">Рождённый животным</a> или <a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/413\" href=\"/heritages/born of celestial\">Рождённый небожителем</a>",
+        "pf2ru_id": 6990
+      }
+    ]
   },
   {
     "slug": "kitsune",
@@ -820,7 +4013,111 @@
     "source_ru": "Ancestry Guide",
     "is_legacy": true,
     "is_not_translated": false,
-    "pf2ru_id": 38
+    "pf2ru_id": 38,
+    "heritages": [
+      {
+        "slug": "palace-echoes-kitsune",
+        "name_en": "Palace Echoes Kitsune",
+        "name_ru": "Кицуне дворцового эха"
+      },
+      {
+        "slug": "celestial-envoy-kitsune",
+        "name_en": "Celestial Envoy Kitsune",
+        "name_ru": "Кицуне небесного права"
+      },
+      {
+        "slug": "earthly-wilds-kitsune",
+        "name_en": "Earthly Wilds Kitsune",
+        "name_ru": "Кицунэ земных дебрей"
+      },
+      {
+        "slug": "frozen-wind-kitsune",
+        "name_en": "Frozen Wind Kitsune",
+        "name_ru": "Кицунэ ледяного ветра"
+      },
+      {
+        "slug": "empty-sky-kitsune",
+        "name_en": "Empty Sky Kitsune",
+        "name_ru": "Кицунэ пустого неба"
+      },
+      {
+        "slug": "dark-fields-kitsune",
+        "name_en": "Dark Fields Kitsune",
+        "name_ru": "Кицунэ тёмных полей"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "seven-changes-performance",
+        "name_en": "Seven Changes Performance",
+        "name_ru": "Представление семи превращений",
+        "traits": [
+          "kitsune"
+        ],
+        "prerequisites": "Изученное  <i>Исполнение</i>",
+        "pf2ru_id": 6879
+      },
+      {
+        "slug": "retractable-claws",
+        "name_en": "Retractable Claws",
+        "name_ru": "Втягиваемые когти",
+        "traits": [
+          "kitsune"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 2620
+      },
+      {
+        "slug": "kitsune-spell-familiarity",
+        "name_en": "Kitsune Spell Familiarity",
+        "name_ru": "Заклинания кицуне",
+        "traits": [
+          "kitsune"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 2619
+      },
+      {
+        "slug": "star-orb",
+        "name_en": "Star Orb",
+        "name_ru": "Звёздный шар",
+        "traits": [
+          "kitsune"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 2622
+      },
+      {
+        "slug": "kitsune-lore",
+        "name_en": "Kitsune Lore",
+        "name_ru": "Знания кицуне",
+        "traits": [
+          "kitsune"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 2618
+      },
+      {
+        "slug": "shapechanger's-intuition",
+        "name_en": "Shapechanger's Intuition",
+        "name_ru": "Интуиция перевёртыша",
+        "traits": [
+          "kitsune"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 2621
+      },
+      {
+        "slug": "foxfire",
+        "name_en": "Foxfire",
+        "name_ru": "Лисий огонь",
+        "traits": [
+          "kitsune"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 2617
+      }
+    ]
   },
   {
     "slug": "poppet",
@@ -848,7 +4145,121 @@
     "source_ru": "Grand Bazaar",
     "is_legacy": true,
     "is_not_translated": false,
-    "pf2ru_id": 49
+    "pf2ru_id": 49,
+    "heritages": [
+      {
+        "slug": "tsukumogami-poppet",
+        "name_en": "Tsukumogami Poppet",
+        "name_ru": "Цукумогами кукла"
+      },
+      {
+        "slug": "windup-poppet",
+        "name_en": "Windup Poppet",
+        "name_ru": "Заводная кукла"
+      },
+      {
+        "slug": "toy-poppet",
+        "name_en": "Toy Poppet",
+        "name_ru": "Игрушечная кукла"
+      },
+      {
+        "slug": "stuffed-poppet",
+        "name_en": "Stuffed Poppet",
+        "name_ru": "Набивная кукла"
+      },
+      {
+        "slug": "ghost-poppet",
+        "name_en": "Ghost Poppet",
+        "name_ru": "Призрачная кукла"
+      },
+      {
+        "slug": "wishborn-poppet",
+        "name_en": "Wishborn Poppet",
+        "name_ru": "Рождённая желанием кукла"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "minuscule-mentee",
+        "name_en": "Minuscule Mentee",
+        "name_ru": "Крошечный подопечный",
+        "traits": [
+          "poppet"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6874
+      },
+      {
+        "slug": "sudden-terror",
+        "name_en": "Sudden Terror",
+        "name_ru": "Неожиданный ужас",
+        "traits": [
+          "poppet"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/383\" href=\"/heritages/tsukumogami poppet\">Цукумогами кукла</a>",
+        "pf2ru_id": 6873
+      },
+      {
+        "slug": "made-for-combat",
+        "name_en": "Made for Combat",
+        "name_ru": "Созданный для битвы",
+        "traits": [
+          "poppet"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/383\" href=\"/heritages/tsukumogami poppet\">Цукумогами кукла</a>",
+        "pf2ru_id": 6872
+      },
+      {
+        "slug": "harmless-doll",
+        "name_en": "Harmless Doll",
+        "name_ru": "Безобидная кукла",
+        "traits": [
+          "poppet"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3340
+      },
+      {
+        "slug": "shiny-button-eyes",
+        "name_en": "Shiny Button Eyes",
+        "name_ru": "Блестящие глаза-пуговицы",
+        "traits": [
+          "poppet"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3343
+      },
+      {
+        "slug": "wash-out",
+        "name_en": "Wash Out",
+        "name_ru": "Вымывание",
+        "traits": [
+          "poppet"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3344
+      },
+      {
+        "slug": "helpful-poppet",
+        "name_en": "Helpful Poppet",
+        "name_ru": "Полезная кукла",
+        "traits": [
+          "poppet"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3341
+      },
+      {
+        "slug": "quadruped",
+        "name_en": "Quadruped",
+        "name_ru": "Четвероногий",
+        "traits": [
+          "poppet"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3342
+      }
+    ]
   },
   {
     "slug": "nagaji",
@@ -873,7 +4284,121 @@
     "source_ru": "Impossible Lands",
     "is_legacy": true,
     "is_not_translated": false,
-    "pf2ru_id": 54
+    "pf2ru_id": 54,
+    "heritages": [
+      {
+        "slug": "shimmertongue-nagaji",
+        "name_en": "Shimmertongue Nagaji",
+        "name_ru": "Искроязыкий нагаджи"
+      },
+      {
+        "slug": "hooded-nagaji",
+        "name_en": "Hooded Nagaji",
+        "name_ru": "Капюшонный нагаджи"
+      },
+      {
+        "slug": "sacred-nagaji",
+        "name_en": "Sacred Nagaji",
+        "name_ru": "Священный нагаджи"
+      },
+      {
+        "slug": "titan-nagaji",
+        "name_en": "Titan Nagaji",
+        "name_ru": "Титановый нагаджи"
+      },
+      {
+        "slug": "whipfang-nagaji",
+        "name_en": "Whipfang Nagaji",
+        "name_ru": "Хлыстоклыкий нагаджи"
+      },
+      {
+        "slug": "venomshield-nagaji",
+        "name_en": "Venomshield Nagaji",
+        "name_ru": "Ядоустойчивый нагаджи"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "it-takes-a-village",
+        "name_en": "It Takes a Village",
+        "name_ru": "Всем миром",
+        "traits": [
+          "nagaji"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6886
+      },
+      {
+        "slug": "throat-pocket",
+        "name_en": "Throat Pocket",
+        "name_ru": "Карман в глотке",
+        "traits": [
+          "nagaji"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6888
+      },
+      {
+        "slug": "nalinivati's-light",
+        "name_en": "Nalinivati's Light",
+        "name_ru": "Свет Налинивати",
+        "traits": [
+          "nagaji"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6887
+      },
+      {
+        "slug": "water-nagaji",
+        "name_en": "Water Nagaji",
+        "name_ru": "Водный нагаджи",
+        "traits": [
+          "nagaji"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3986
+      },
+      {
+        "slug": "nagaji-spell-familiarity",
+        "name_en": "Nagaji Spell Familiarity",
+        "name_ru": "Заклинания нагаджи",
+        "traits": [
+          "nagaji"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3984
+      },
+      {
+        "slug": "serpent's-tongue",
+        "name_en": "Serpent's Tongue",
+        "name_ru": "Змеиный язык",
+        "traits": [
+          "nagaji"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3985
+      },
+      {
+        "slug": "nagaji-lore",
+        "name_en": "Nagaji Lore",
+        "name_ru": "Знания нагаджи",
+        "traits": [
+          "nagaji"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3983
+      },
+      {
+        "slug": "cold-minded",
+        "name_en": "Cold Minded",
+        "name_ru": "Хладнокровие",
+        "traits": [
+          "nagaji"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3982
+      }
+    ]
   },
   {
     "slug": "sprite",
@@ -901,6 +4426,120 @@
     "source_ru": "Ancestry Guide",
     "is_legacy": true,
     "is_not_translated": false,
-    "pf2ru_id": 39
+    "pf2ru_id": 39,
+    "heritages": [
+      {
+        "slug": "gandharva",
+        "name_en": "Gandharva",
+        "name_ru": "Гандхарва"
+      },
+      {
+        "slug": "dijiang",
+        "name_en": "Dijiang",
+        "name_ru": "Ди-цзян"
+      },
+      {
+        "slug": "kanchil",
+        "name_en": "Kanchil",
+        "name_ru": "Канчиль"
+      },
+      {
+        "slug": "leungli",
+        "name_en": "Leungli",
+        "name_ru": "Леунгли"
+      },
+      {
+        "slug": "grig",
+        "name_en": "Grig",
+        "name_ru": "Григ"
+      },
+      {
+        "slug": "draxie",
+        "name_en": "Draxie",
+        "name_ru": "Дракси"
+      },
+      {
+        "slug": "melixie",
+        "name_en": "Melixie",
+        "name_ru": "Меликси"
+      },
+      {
+        "slug": "nyktera",
+        "name_en": "Nyktera",
+        "name_ru": "Никтера"
+      },
+      {
+        "slug": "pixie",
+        "name_en": "Pixie",
+        "name_ru": "Пикси"
+      },
+      {
+        "slug": "luminous-sprite",
+        "name_en": "Luminous Sprite",
+        "name_ru": "Светящийся спрайт"
+      }
+    ],
+    "ancestry_feats_l1": [
+      {
+        "slug": "charmed-sleep",
+        "name_en": "Charmed Sleep",
+        "name_ru": "Зачарованный сон",
+        "traits": [
+          "sprite"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6868
+      },
+      {
+        "slug": "corgi-mount",
+        "name_en": "Corgi Mount",
+        "name_ru": "Ездовой корги",
+        "traits": [
+          "sprite"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 2631
+      },
+      {
+        "slug": "sprite's-spark",
+        "name_en": "Sprite's Spark",
+        "name_ru": "Искра спрайта",
+        "traits": [
+          "sprite"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 2635
+      },
+      {
+        "slug": "speak-with-bats",
+        "name_en": "Speak with Bats",
+        "name_ru": "Разговор с летучими мышами",
+        "traits": [
+          "sprite"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--heritage\" style=\"font-style: unset\" data-key=\"heritage/144\" href=\"/heritages/nyktera\">Никтера</a>",
+        "pf2ru_id": 2634
+      },
+      {
+        "slug": "fey-cantrips",
+        "name_en": "Fey Cantrips",
+        "name_ru": "Фокусы фей",
+        "traits": [
+          "sprite"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 2633
+      },
+      {
+        "slug": "evanescent-wings",
+        "name_en": "Evanescent Wings",
+        "name_ru": "Эфемерные крылья",
+        "traits": [
+          "sprite"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 2632
+      }
+    ]
   }
 ]

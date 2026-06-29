@@ -9,7 +9,69 @@
     ],
     "source_ru": "Основная книга игрока 2",
     "is_not_translated": false,
-    "pf2ru_id": 56
+    "pf2ru_id": 56,
+    "class_feats_l1": [
+      {
+        "slug": "alchemical-assessment",
+        "name_en": "Alchemical Assessment",
+        "name_ru": "Алхимическая оценка",
+        "traits": [
+          "alchemist"
+        ],
+        "prerequisites": "Изученное  <i>Ремесло</i>",
+        "pf2ru_id": 5761
+      },
+      {
+        "slug": "alchemical-familiar",
+        "name_en": "Alchemical Familiar",
+        "name_ru": "Алхимический фамильяр",
+        "traits": [
+          "alchemist"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5760
+      },
+      {
+        "slug": "quick-bomber",
+        "name_en": "Quick Bomber",
+        "name_ru": "Быстрый бросок",
+        "traits": [
+          "alchemist"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5764
+      },
+      {
+        "slug": "far-lobber",
+        "name_en": "Far Lobber",
+        "name_ru": "Дальний бросок",
+        "traits": [
+          "alchemist"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5763
+      },
+      {
+        "slug": "blowgun-poisoner",
+        "name_en": "Blowgun Poisoner",
+        "name_ru": "Отравитель с духовым ружьём",
+        "traits": [
+          "alchemist"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5762
+      },
+      {
+        "slug": "soothing-vials",
+        "name_en": "Soothing Vials",
+        "name_ru": "Умиротворяющие флаконы",
+        "traits": [
+          "alchemist"
+        ],
+        "prerequisites": "Область исследования <a class=\"item-link quicklink item-link--alchemistresearchfield\" style=\"font-style: unset\" data-key=\"alchemistresearchfield/6\" href=\"/alchemistresearchfields/chirurgeon\">Лекарь</a>",
+        "pf2ru_id": 5765
+      }
+    ]
   },
   {
     "slug": "animist",
@@ -21,7 +83,64 @@
     ],
     "source_ru": "Война Бессмертных",
     "is_not_translated": false,
-    "pf2ru_id": 64
+    "pf2ru_id": 64,
+    "class_feats_l1": [
+      {
+        "slug": "spirit-familiar-(animist)",
+        "name_en": "Spirit Familiar (Animist)",
+        "name_ru": "Дух-фамильяр (анимист)",
+        "traits": [
+          "animist"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 7123
+      },
+      {
+        "slug": "circle-of-spirits",
+        "name_en": "Circle of Spirits",
+        "name_ru": "Круговорот духов",
+        "traits": [
+          "animist",
+          "apparition",
+          "concentrate"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 7121
+      },
+      {
+        "slug": "relinquish-control",
+        "name_en": "Relinquish Control",
+        "name_ru": "Передать управление",
+        "traits": [
+          "animist",
+          "apparition"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 7122
+      },
+      {
+        "slug": "channeler's-stance",
+        "name_en": "Channeler's Stance",
+        "name_ru": "Проводящая стойка",
+        "traits": [
+          "animist",
+          "stance"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 7434
+      },
+      {
+        "slug": "apparition-sense",
+        "name_en": "Apparition Sense",
+        "name_ru": "Чутьё сущности",
+        "traits": [
+          "animist",
+          "divine"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 7120
+      }
+    ]
   },
   {
     "slug": "bard",
@@ -33,7 +152,97 @@
     ],
     "source_ru": "Основная книга игрока",
     "is_not_translated": false,
-    "pf2ru_id": 32
+    "pf2ru_id": 32,
+    "class_feats_l1": [
+      {
+        "slug": "martial-performance",
+        "name_en": "Martial Performance",
+        "name_ru": "Боевое исполнение",
+        "traits": [
+          "bard"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--bardmuse\" style=\"font-style: unset\" data-key=\"bardmuse/8\" href=\"/bardmuses/warrior\">воитель</a>",
+        "pf2ru_id": 4576
+      },
+      {
+        "slug": "hymn-of-healing",
+        "name_en": "Hymn of Healing",
+        "name_ru": "Гимн исцеления",
+        "traits": [
+          "bard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4574
+      },
+      {
+        "slug": "reach-spell",
+        "name_en": "Reach Spell",
+        "name_ru": "Дальнее заклинание",
+        "traits": [
+          "bard",
+          "cleric",
+          "concentrate",
+          "druid",
+          "oracle",
+          "sorcerer",
+          "spellshape",
+          "witch",
+          "wizard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4577
+      },
+      {
+        "slug": "bardic-lore",
+        "name_en": "Bardic Lore",
+        "name_ru": "Знание барда",
+        "traits": [
+          "bard"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--bardmuse\" style=\"font-style: unset\" data-key=\"bardmuse/5\" href=\"/bardmuses/enigma\">энигма</a>",
+        "pf2ru_id": 4573
+      },
+      {
+        "slug": "zoophonic-communication",
+        "name_en": "Zoophonic Communication",
+        "name_ru": "Зоофоническая коммуникация",
+        "traits": [
+          "bard"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--bardmuse\" style=\"font-style: unset\" data-key=\"bardmuse/9\" href=\"/bardmuses/zoophonia\">зоофония</a>",
+        "pf2ru_id": 5415
+      },
+      {
+        "slug": "well-versed",
+        "name_en": "Well-Versed",
+        "name_ru": "Осведомлённость барда",
+        "traits": [
+          "bard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4579
+      },
+      {
+        "slug": "lingering-composition",
+        "name_en": "Lingering Composition",
+        "name_ru": "Продолжительная композиция",
+        "traits": [
+          "bard"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--bardmuse\" style=\"font-style: unset\" data-key=\"bardmuse/6\" href=\"/bardmuses/maestro\">маэстро</a>",
+        "pf2ru_id": 4575
+      },
+      {
+        "slug": "versatile-performance",
+        "name_en": "Versatile Performance",
+        "name_ru": "Разносторонний исполнитель",
+        "traits": [
+          "bard"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--bardmuse\" style=\"font-style: unset\" data-key=\"bardmuse/7\" href=\"/bardmuses/polymath\">эрудит</a>",
+        "pf2ru_id": 4578
+      }
+    ]
   },
   {
     "slug": "barbarian",
@@ -45,7 +254,85 @@
     ],
     "source_ru": "Основная книга игрока 2",
     "is_not_translated": false,
-    "pf2ru_id": 57
+    "pf2ru_id": 57,
+    "class_feats_l1": [
+      {
+        "slug": "sudden-charge",
+        "name_en": "Sudden Charge",
+        "name_ru": "Внезапный натиск",
+        "traits": [
+          "barbarian",
+          "fighter",
+          "flourish"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4774
+      },
+      {
+        "slug": "adrenaline-rush",
+        "name_en": "Adrenaline Rush",
+        "name_ru": "Выброс адреналина",
+        "traits": [
+          "barbarian",
+          "rage"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5807
+      },
+      {
+        "slug": "draconic-arrogance",
+        "name_en": "Draconic Arrogance",
+        "name_ru": "Высокомерие дракона",
+        "traits": [
+          "barbarian",
+          "rage"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--barbarianinstinct\" style=\"font-style: unset\" data-key=\"barbarianinstinct/9\" href=\"/barbarianinstincts/dragon\">Инстинкт дракона</a>",
+        "pf2ru_id": 5808
+      },
+      {
+        "slug": "moment-of-clarity",
+        "name_en": "Moment of Clarity",
+        "name_ru": "Мгновение ясности",
+        "traits": [
+          "barbarian",
+          "concentrate",
+          "rage"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5809
+      },
+      {
+        "slug": "acute-vision",
+        "name_en": "Acute Vision",
+        "name_ru": "Острое зрение",
+        "traits": [
+          "barbarian"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5806
+      },
+      {
+        "slug": "raging-intimidation",
+        "name_en": "Raging Intimidation",
+        "name_ru": "Яростное запугивание",
+        "traits": [
+          "barbarian"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5810
+      },
+      {
+        "slug": "raging-thrower",
+        "name_en": "Raging Thrower",
+        "name_ru": "Яростный метатель",
+        "traits": [
+          "barbarian"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5811
+      }
+    ]
   },
   {
     "slug": "witch",
@@ -57,7 +344,95 @@
     ],
     "source_ru": "Основная книга игрока",
     "is_not_translated": false,
-    "pf2ru_id": 38
+    "pf2ru_id": 38,
+    "class_feats_l1": [
+      {
+        "slug": "reach-spell",
+        "name_en": "Reach Spell",
+        "name_ru": "Дальнее заклинание",
+        "traits": [
+          "bard",
+          "cleric",
+          "concentrate",
+          "druid",
+          "oracle",
+          "sorcerer",
+          "spellshape",
+          "witch",
+          "wizard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4577
+      },
+      {
+        "slug": "counterspell",
+        "name_en": "Counterspell",
+        "name_ru": "Контрзаклинание",
+        "traits": [
+          "sorcerer",
+          "witch",
+          "wizard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4994
+      },
+      {
+        "slug": "cauldron",
+        "name_en": "Cauldron",
+        "name_ru": "Котёл",
+        "traits": [
+          "witch"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4993
+      },
+      {
+        "slug": "widen-spell",
+        "name_en": "Widen Spell",
+        "name_ru": "Обширное заклинание",
+        "traits": [
+          "druid",
+          "manipulate",
+          "oracle",
+          "sorcerer",
+          "spellshape",
+          "witch",
+          "wizard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4715
+      },
+      {
+        "slug": "witch's-armaments",
+        "name_en": "Witch's Armaments",
+        "name_ru": "Оружие ведьмы",
+        "traits": [
+          "witch"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4995
+      },
+      {
+        "slug": "cackle",
+        "name_en": "Cackle",
+        "name_ru": "Хохот",
+        "traits": [
+          "witch"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4992
+      },
+      {
+        "slug": "wortwitch",
+        "name_en": "Wortwitch",
+        "name_ru": "Ведьма-Травница",
+        "traits": [
+          "witch"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 1564
+      }
+    ]
   },
   {
     "slug": "fighter",
@@ -70,7 +445,94 @@
     ],
     "source_ru": "Основная книга игрока",
     "is_not_translated": false,
-    "pf2ru_id": 35
+    "pf2ru_id": 35,
+    "class_feats_l1": [
+      {
+        "slug": "sudden-charge",
+        "name_en": "Sudden Charge",
+        "name_ru": "Внезапный натиск",
+        "traits": [
+          "barbarian",
+          "fighter",
+          "flourish"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4774
+      },
+      {
+        "slug": "double-slice",
+        "name_en": "Double Slice",
+        "name_ru": "Двойной взмах",
+        "traits": [
+          "fighter"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4769
+      },
+      {
+        "slug": "exacting-strike",
+        "name_en": "Exacting Strike",
+        "name_ru": "Контролируемый удар",
+        "traits": [
+          "fighter",
+          "press"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4770
+      },
+      {
+        "slug": "combat-assessment",
+        "name_en": "Combat Assessment",
+        "name_ru": "Проверка боем",
+        "traits": [
+          "fighter"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4768
+      },
+      {
+        "slug": "reactive-shield",
+        "name_en": "Reactive Shield",
+        "name_ru": "Рефлекторная защита",
+        "traits": [
+          "fighter"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4772
+      },
+      {
+        "slug": "vicious-swing",
+        "name_en": "Vicious Swing",
+        "name_ru": "Сокрушительный удар",
+        "traits": [
+          "fighter",
+          "flourish"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4775
+      },
+      {
+        "slug": "point-blank-stance",
+        "name_en": "Point Blank Stance",
+        "name_ru": "Стрельба вблизи",
+        "traits": [
+          "fighter",
+          "stance"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4771
+      },
+      {
+        "slug": "snagging-strike",
+        "name_en": "Snagging Strike",
+        "name_ru": "Удар с зацепом",
+        "traits": [
+          "fighter"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4773
+      }
+    ]
   },
   {
     "slug": "wizard",
@@ -82,7 +544,76 @@
     ],
     "source_ru": "Основная книга игрока",
     "is_not_translated": false,
-    "pf2ru_id": 39
+    "pf2ru_id": 39,
+    "class_feats_l1": [
+      {
+        "slug": "reach-spell",
+        "name_en": "Reach Spell",
+        "name_ru": "Дальнее заклинание",
+        "traits": [
+          "bard",
+          "cleric",
+          "concentrate",
+          "druid",
+          "oracle",
+          "sorcerer",
+          "spellshape",
+          "witch",
+          "wizard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4577
+      },
+      {
+        "slug": "counterspell",
+        "name_en": "Counterspell",
+        "name_ru": "Контрзаклинание",
+        "traits": [
+          "sorcerer",
+          "witch",
+          "wizard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4994
+      },
+      {
+        "slug": "widen-spell",
+        "name_en": "Widen Spell",
+        "name_ru": "Обширное заклинание",
+        "traits": [
+          "druid",
+          "manipulate",
+          "oracle",
+          "sorcerer",
+          "spellshape",
+          "witch",
+          "wizard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4715
+      },
+      {
+        "slug": "spellbook-prodigy",
+        "name_en": "Spellbook Prodigy",
+        "name_ru": "Талантливый скорописец",
+        "traits": [
+          "wizard"
+        ],
+        "prerequisites": "Изученный  <i>Мистицизм</i>",
+        "pf2ru_id": 5025
+      },
+      {
+        "slug": "familiar",
+        "name_en": "Familiar",
+        "name_ru": "Фамильяр",
+        "traits": [
+          "sorcerer",
+          "wizard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5024
+      }
+    ]
   },
   {
     "slug": "druid",
@@ -94,7 +625,115 @@
     ],
     "source_ru": "Основная книга игрока",
     "is_not_translated": false,
-    "pf2ru_id": 34
+    "pf2ru_id": 34,
+    "class_feats_l1": [
+      {
+        "slug": "storm-born",
+        "name_en": "Storm Born",
+        "name_ru": "Бурерождённый",
+        "traits": [
+          "druid"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--druidicorder\" style=\"font-style: unset\" data-key=\"druidicorder/10\" href=\"/druidicorders/storm\">орден бури</a>",
+        "pf2ru_id": 4712
+      },
+      {
+        "slug": "animal-companion",
+        "name_en": "Animal Companion",
+        "name_ru": "Верный зверь",
+        "traits": [
+          "druid",
+          "ranger"
+        ],
+        "prerequisites": "[ <a class=\"item-link quicklink link--popup item-link--class_\" data-key=\"class_/34\" href=\"/classes/druid?tab=details\">Друид</a> ] <a class=\"item-link quicklink item-link--druidicorder\" style=\"font-style: unset\" data-key=\"druidicorder/8\" href=\"/druidicorders/animal\">орден зверя</a>",
+        "pf2ru_id": 4708
+      },
+      {
+        "slug": "reach-spell",
+        "name_en": "Reach Spell",
+        "name_ru": "Дальнее заклинание",
+        "traits": [
+          "bard",
+          "cleric",
+          "concentrate",
+          "druid",
+          "oracle",
+          "sorcerer",
+          "spellshape",
+          "witch",
+          "wizard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4577
+      },
+      {
+        "slug": "untamed-form",
+        "name_en": "Untamed Form",
+        "name_ru": "Дикий облик",
+        "traits": [
+          "druid"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--druidicorder\" style=\"font-style: unset\" data-key=\"druidicorder/11\" href=\"/druidicorders/wild\">дикий орден</a>",
+        "pf2ru_id": 4713
+      },
+      {
+        "slug": "widen-spell",
+        "name_en": "Widen Spell",
+        "name_ru": "Обширное заклинание",
+        "traits": [
+          "druid",
+          "manipulate",
+          "oracle",
+          "sorcerer",
+          "spellshape",
+          "witch",
+          "wizard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4715
+      },
+      {
+        "slug": "animal-empathy-(druid)",
+        "name_en": "Animal Empathy (Druid)",
+        "name_ru": "Понимание животных (друид)",
+        "traits": [
+          "druid"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4709
+      },
+      {
+        "slug": "plant-empathy",
+        "name_en": "Plant Empathy",
+        "name_ru": "Понимание растений",
+        "traits": [
+          "druid"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4711
+      },
+      {
+        "slug": "verdant-weapon",
+        "name_en": "Verdant Weapon",
+        "name_ru": "Растительное оружие",
+        "traits": [
+          "druid",
+          "exploration"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4714
+      },
+      {
+        "slug": "leshy-familiar",
+        "name_en": "Leshy Familiar",
+        "name_ru": "Фамильяр-леший",
+        "traits": [
+          "druid"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--druidicorder\" style=\"font-style: unset\" data-key=\"druidicorder/9\" href=\"/druidicorders/leaf\">орден листа</a>",
+        "pf2ru_id": 4710
+      }
+    ]
   },
   {
     "slug": "cleric",
@@ -106,7 +745,100 @@
     ],
     "source_ru": "Основная книга игрока",
     "is_not_translated": false,
-    "pf2ru_id": 33
+    "pf2ru_id": 33,
+    "class_feats_l1": [
+      {
+        "slug": "divine-castigation",
+        "name_en": "Divine Castigation",
+        "name_ru": "Божественное наказание",
+        "traits": [
+          "cleric"
+        ],
+        "prerequisites": "дескриптор «нечестивый» или «священный»",
+        "pf2ru_id": 4643
+      },
+      {
+        "slug": "reach-spell",
+        "name_en": "Reach Spell",
+        "name_ru": "Дальнее заклинание",
+        "traits": [
+          "bard",
+          "cleric",
+          "concentrate",
+          "druid",
+          "oracle",
+          "sorcerer",
+          "spellshape",
+          "witch",
+          "wizard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4577
+      },
+      {
+        "slug": "healing-hands",
+        "name_en": "Healing Hands",
+        "name_ru": "Лечащие руки",
+        "traits": [
+          "cleric"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink link--popup item-link--class_\" data-key=\"class_/33\" href=\"/classes/cleric?tab=details\">исцеляющий источник</a>",
+        "pf2ru_id": 4646
+      },
+      {
+        "slug": "domain-initiate",
+        "name_en": "Domain Initiate",
+        "name_ru": "Начальное заклинание домена",
+        "traits": [
+          "cleric"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4644
+      },
+      {
+        "slug": "harming-hands",
+        "name_en": "Harming Hands",
+        "name_ru": "Повреждающие руки",
+        "traits": [
+          "cleric"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink link--popup item-link--class_\" data-key=\"class_/33\" href=\"/classes/cleric?tab=details\">повреждающий источник</a>",
+        "pf2ru_id": 4645
+      },
+      {
+        "slug": "premonition-of-avoidance",
+        "name_en": "Premonition of Avoidance",
+        "name_ru": "Предотвращающее предостережение",
+        "traits": [
+          "cleric",
+          "divine",
+          "prediction"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4647
+      },
+      {
+        "slug": "splinter-faith",
+        "name_en": "Splinter Faith",
+        "name_ru": "Расколотая вера",
+        "traits": [
+          "champion",
+          "cleric"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 7596
+      },
+      {
+        "slug": "deadly-simplicity",
+        "name_en": "Deadly Simplicity",
+        "name_ru": "Смертоносная простота",
+        "traits": [
+          "cleric"
+        ],
+        "prerequisites": "божество с простым любимым оружием или безоружной атакой в качестве любимого оружия, изученное любимое оружие своего божества.",
+        "pf2ru_id": 4642
+      }
+    ]
   },
   {
     "slug": "inventor",
@@ -118,7 +850,88 @@
     ],
     "source_ru": "Пушки и шестерни",
     "is_not_translated": false,
-    "pf2ru_id": 19
+    "pf2ru_id": 19,
+    "class_feats_l1": [
+      {
+        "slug": "variable-core",
+        "name_en": "Variable Core",
+        "name_ru": "Вариативное ядро",
+        "traits": [
+          "inventor",
+          "modification"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3050
+      },
+      {
+        "slug": "explosive-leap",
+        "name_en": "Explosive Leap",
+        "name_ru": "Взрывной прыжок",
+        "traits": [
+          "fire",
+          "inventor",
+          "move",
+          "unstable"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3045
+      },
+      {
+        "slug": "tamper",
+        "name_en": "Tamper",
+        "name_ru": "Вмешательство",
+        "traits": [
+          "inventor",
+          "manipulate"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3049
+      },
+      {
+        "slug": "built-in-tools",
+        "name_en": "Built-In Tools",
+        "name_ru": "Встроенные инструменты",
+        "traits": [
+          "inventor",
+          "modification"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3044
+      },
+      {
+        "slug": "no!-no!-i-created-you!",
+        "name_en": "No! No! I Created You!",
+        "name_ru": "Нет! Нет! Я тебя создал!",
+        "traits": [
+          "auditory",
+          "concentrate",
+          "inventor"
+        ],
+        "prerequisites": "Конструкция-спутник",
+        "pf2ru_id": 3047
+      },
+      {
+        "slug": "prototype-companion",
+        "name_en": "Prototype Companion",
+        "name_ru": "Прототипный спутник",
+        "traits": [
+          "inventor"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3048
+      },
+      {
+        "slug": "haphazard-repair",
+        "name_en": "Haphazard Repair",
+        "name_ru": "Ремонт на скорую руку",
+        "traits": [
+          "inventor",
+          "unstable"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3046
+      }
+    ]
   },
   {
     "slug": "monk",
@@ -131,7 +944,140 @@
     ],
     "source_ru": "Основная книга игрока 2",
     "is_not_translated": false,
-    "pf2ru_id": 60
+    "pf2ru_id": 60,
+    "class_feats_l1": [
+      {
+        "slug": "qi-spells",
+        "name_en": "Qi Spells",
+        "name_ru": "Заклинания ци",
+        "traits": [
+          "monk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5981
+      },
+      {
+        "slug": "monastic-weaponry",
+        "name_en": "Monastic Weaponry",
+        "name_ru": "Монашеское оружие",
+        "traits": [
+          "monk"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5979
+      },
+      {
+        "slug": "stumbling-stance",
+        "name_en": "Stumbling Stance",
+        "name_ru": "Спотыкающаяся стойка",
+        "traits": [
+          "monk",
+          "stance"
+        ],
+        "prerequisites": "Изученный  <i>Обман</i>",
+        "pf2ru_id": 5982
+      },
+      {
+        "slug": "wolf-stance",
+        "name_en": "Wolf Stance",
+        "name_ru": "Стойка волка",
+        "traits": [
+          "monk",
+          "stance"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5984
+      },
+      {
+        "slug": "mountain-stance",
+        "name_en": "Mountain Stance",
+        "name_ru": "Стойка горы",
+        "traits": [
+          "monk",
+          "stance"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5980
+      },
+      {
+        "slug": "dragon-stance",
+        "name_en": "Dragon Stance",
+        "name_ru": "Стойка дракона",
+        "traits": [
+          "monk",
+          "stance"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5977
+      },
+      {
+        "slug": "crane-stance",
+        "name_en": "Crane Stance",
+        "name_ru": "Стойка журавля",
+        "traits": [
+          "monk",
+          "stance"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5976
+      },
+      {
+        "slug": "reflective-ripple-stance",
+        "name_en": "Reflective Ripple Stance",
+        "name_ru": "Стойка зеркальной ряби",
+        "traits": [
+          "monk",
+          "stance",
+          "water"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 7493
+      },
+      {
+        "slug": "monastic-archer-stance",
+        "name_en": "Monastic Archer Stance",
+        "name_ru": "Стойка монаха-лучника",
+        "traits": [
+          "monk",
+          "stance"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5978
+      },
+      {
+        "slug": "twisting-petal-stance",
+        "name_en": "Twisting Petal Stance",
+        "name_ru": "Стойка парящего лепестка",
+        "traits": [
+          "monk",
+          "stance"
+        ],
+        "prerequisites": "Изученный  <i>Обман</i>",
+        "pf2ru_id": 7107
+      },
+      {
+        "slug": "rushing-goat-stance",
+        "name_en": "Rushing Goat Stance",
+        "name_ru": "Стойка стремительного козла",
+        "traits": [
+          "monk",
+          "stance"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 7106
+      },
+      {
+        "slug": "tiger-stance",
+        "name_en": "Tiger Stance",
+        "name_ru": "Стойка тигра",
+        "traits": [
+          "monk",
+          "stance"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5983
+      }
+    ]
   },
   {
     "slug": "oracle",
@@ -143,7 +1089,108 @@
     ],
     "source_ru": "Основная книга игрока 2",
     "is_not_translated": false,
-    "pf2ru_id": 61
+    "pf2ru_id": 61,
+    "class_feats_l1": [
+      {
+        "slug": "reach-spell",
+        "name_en": "Reach Spell",
+        "name_ru": "Дальнее заклинание",
+        "traits": [
+          "bard",
+          "cleric",
+          "concentrate",
+          "druid",
+          "oracle",
+          "sorcerer",
+          "spellshape",
+          "witch",
+          "wizard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4577
+      },
+      {
+        "slug": "widen-spell",
+        "name_en": "Widen Spell",
+        "name_ru": "Обширное заклинание",
+        "traits": [
+          "druid",
+          "manipulate",
+          "oracle",
+          "sorcerer",
+          "spellshape",
+          "witch",
+          "wizard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4715
+      },
+      {
+        "slug": "oracular-warning",
+        "name_en": "Oracular Warning",
+        "name_ru": "Предостережение оракула",
+        "traits": [
+          "auditory",
+          "cursebound",
+          "divine",
+          "emotion",
+          "mental",
+          "oracle"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6056
+      },
+      {
+        "slug": "foretell-harm",
+        "name_en": "Foretell Harm",
+        "name_ru": "Предсказание вреда",
+        "traits": [
+          "cursebound",
+          "divine",
+          "oracle"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6053
+      },
+      {
+        "slug": "glean-lore",
+        "name_en": "Glean Lore",
+        "name_ru": "Проблеск познания",
+        "traits": [
+          "divine",
+          "oracle",
+          "secret"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6054
+      },
+      {
+        "slug": "nudge-the-scales",
+        "name_en": "Nudge the Scales",
+        "name_ru": "Сдвиг весов",
+        "traits": [
+          "cursebound",
+          "divine",
+          "healing",
+          "oracle",
+          "spirit"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6055
+      },
+      {
+        "slug": "whispers-of-weakness",
+        "name_en": "Whispers of Weakness",
+        "name_ru": "Шёпоты слабости",
+        "traits": [
+          "cursebound",
+          "divine",
+          "oracle"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6057
+      }
+    ]
   },
   {
     "slug": "rogue",
@@ -156,7 +1203,86 @@
     ],
     "source_ru": "Основная книга игрока",
     "is_not_translated": false,
-    "pf2ru_id": 37
+    "pf2ru_id": 37,
+    "class_feats_l1": [
+      {
+        "slug": "overextending-feint",
+        "name_en": "Overextending Feint",
+        "name_ru": "Вовлекающий финт",
+        "traits": [
+          "rogue"
+        ],
+        "prerequisites": "Изученный  <i>Обман</i>",
+        "pf2ru_id": 4917
+      },
+      {
+        "slug": "twin-feint",
+        "name_en": "Twin Feint",
+        "name_ru": "Двойной финт",
+        "traits": [
+          "rogue"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4921
+      },
+      {
+        "slug": "tumble-behind-(rogue)",
+        "name_en": "Tumble Behind (Rogue)",
+        "name_ru": "Перекат за спину (плут)",
+        "traits": [
+          "rogue"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4920
+      },
+      {
+        "slug": "plant-evidence",
+        "name_en": "Plant Evidence",
+        "name_ru": "Подкидывание улик",
+        "traits": [
+          "rogue"
+        ],
+        "prerequisites": "<span class=\"rhombus-wrap\"><span class=\"rhombus\" itemID=5187 itemType=feats onclick=\"getItem(this)\"></span>\n                            <a class=\"item-link quicklink link--popup item-link--feat\" data-key=\"feat/5187\" href=\"/feats/pickpocket\">Карманник</a></span>",
+        "pf2ru_id": 4918
+      },
+      {
+        "slug": "trap-finder",
+        "name_en": "Trap Finder",
+        "name_ru": "Поиск ловушек",
+        "traits": [
+          "investigator",
+          "rogue"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4919
+      },
+      {
+        "slug": "nimble-dodge",
+        "name_en": "Nimble Dodge",
+        "name_ru": "Проворное уклонение",
+        "traits": [
+          "rogue",
+          "swashbuckler"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4916
+      },
+      {
+        "slug": "you're-next",
+        "name_en": "You're Next",
+        "name_ru": "Ты следующий",
+        "traits": [
+          "emotion",
+          "fear",
+          "mental",
+          "rogue",
+          "swashbuckler",
+          "visual"
+        ],
+        "prerequisites": "Изученное  <i>Запугивание</i>",
+        "pf2ru_id": 4922
+      }
+    ]
   },
   {
     "slug": "champion",
@@ -169,7 +1295,133 @@
     ],
     "source_ru": "Основная книга игрока 2",
     "is_not_translated": false,
-    "pf2ru_id": 58
+    "pf2ru_id": 58,
+    "class_feats_l1": [
+      {
+        "slug": "brilliant-flash",
+        "name_en": "Brilliant Flash",
+        "name_ru": "Великолепная вспышка",
+        "traits": [
+          "champion"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--championcause\" style=\"font-style: unset\" data-key=\"championcause/9\" href=\"/championcauses/grandeur\">Величие</a>",
+        "pf2ru_id": 5881
+      },
+      {
+        "slug": "faithful-steed",
+        "name_en": "Faithful Steed",
+        "name_ru": "Верный скакун",
+        "traits": [
+          "champion"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5885
+      },
+      {
+        "slug": "unimpeded-step",
+        "name_en": "Unimpeded Step",
+        "name_ru": "Вольный шаг",
+        "traits": [
+          "champion"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--championcause\" style=\"font-style: unset\" data-key=\"championcause/12\" href=\"/championcauses/liberation\">Призвание Освобождения</a>",
+        "pf2ru_id": 5889
+      },
+      {
+        "slug": "weight-of-guilt",
+        "name_en": "Weight of Guilt",
+        "name_ru": "Груз вины",
+        "traits": [
+          "champion"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--championcause\" style=\"font-style: unset\" data-key=\"championcause/14\" href=\"/championcauses/redemption\">Призвание Искупления</a>",
+        "pf2ru_id": 5891
+      },
+      {
+        "slug": "deity's-domain",
+        "name_en": "Deity's Domain",
+        "name_ru": "Домен божества",
+        "traits": [
+          "champion"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5883
+      },
+      {
+        "slug": "iron-repercussions",
+        "name_en": "Iron Repercussions",
+        "name_ru": "Железные отголоски",
+        "traits": [
+          "champion"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--championcause\" style=\"font-style: unset\" data-key=\"championcause/13\" href=\"/championcauses/obedience\">Призвание Послушания</a>",
+        "pf2ru_id": 5886
+      },
+      {
+        "slug": "vicious-vengeance",
+        "name_en": "Vicious Vengeance",
+        "name_ru": "Жестокая месть",
+        "traits": [
+          "uncommon",
+          "champion"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--championcause\" style=\"font-style: unset\" data-key=\"championcause/10\" href=\"/championcauses/iniquity\">Призвание Беззакония</a>",
+        "pf2ru_id": 5890
+      },
+      {
+        "slug": "defensive-advance",
+        "name_en": "Defensive Advance",
+        "name_ru": "Наступление в обороне",
+        "traits": [
+          "champion",
+          "flourish"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5882
+      },
+      {
+        "slug": "desperate-prayer",
+        "name_en": "Desperate Prayer",
+        "name_ru": "Отчаянная молитва",
+        "traits": [
+          "champion"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5884
+      },
+      {
+        "slug": "ongoing-selfishness",
+        "name_en": "Ongoing Selfishness",
+        "name_ru": "Постоянный эгоизм",
+        "traits": [
+          "uncommon",
+          "champion"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--championcause\" style=\"font-style: unset\" data-key=\"championcause/8\" href=\"/championcauses/desecration\">Призвание Осквернения</a>",
+        "pf2ru_id": 5888
+      },
+      {
+        "slug": "nimble-reprisal",
+        "name_en": "Nimble Reprisal",
+        "name_ru": "Проворное возмездие",
+        "traits": [
+          "champion"
+        ],
+        "prerequisites": "<a class=\"item-link quicklink item-link--championcause\" style=\"font-style: unset\" data-key=\"championcause/11\" href=\"/championcauses/justice\">Призвание Справедливости</a>",
+        "pf2ru_id": 5887
+      },
+      {
+        "slug": "splinter-faith",
+        "name_en": "Splinter Faith",
+        "name_ru": "Расколотая вера",
+        "traits": [
+          "champion",
+          "cleric"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 7596
+      }
+    ]
   },
   {
     "slug": "investigator",
@@ -181,7 +1433,80 @@
     ],
     "source_ru": "Основная книга игрока 2",
     "is_not_translated": false,
-    "pf2ru_id": 59
+    "pf2ru_id": 59,
+    "class_feats_l1": [
+      {
+        "slug": "known-weaknesses",
+        "name_en": "Known Weaknesses",
+        "name_ru": "Известные слабости",
+        "traits": [
+          "investigator"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5936
+      },
+      {
+        "slug": "eliminate-red-herrings",
+        "name_en": "Eliminate Red Herrings",
+        "name_ru": "Исключить ложные сведения",
+        "traits": [
+          "investigator"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5934
+      },
+      {
+        "slug": "trap-finder",
+        "name_en": "Trap Finder",
+        "name_ru": "Поиск ловушек",
+        "traits": [
+          "investigator",
+          "rogue"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4919
+      },
+      {
+        "slug": "flexible-studies",
+        "name_en": "Flexible Studies",
+        "name_ru": "Разносторонние знания",
+        "traits": [
+          "investigator"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5935
+      },
+      {
+        "slug": "underworld-investigator",
+        "name_en": "Underworld Investigator",
+        "name_ru": "Следователь из преступного мира",
+        "traits": [
+          "investigator"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5939
+      },
+      {
+        "slug": "that's-odd",
+        "name_en": "That's Odd",
+        "name_ru": "Что-то не так",
+        "traits": [
+          "investigator"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5938
+      },
+      {
+        "slug": "takedown-expert",
+        "name_en": "Takedown Expert",
+        "name_ru": "Эксперт по задержанию",
+        "traits": [
+          "investigator"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5937
+      }
+    ]
   },
   {
     "slug": "ranger",
@@ -194,7 +1519,72 @@
     ],
     "source_ru": "Основная книга игрока",
     "is_not_translated": false,
-    "pf2ru_id": 36
+    "pf2ru_id": 36,
+    "class_feats_l1": [
+      {
+        "slug": "animal-companion",
+        "name_en": "Animal Companion",
+        "name_ru": "Верный зверь",
+        "traits": [
+          "druid",
+          "ranger"
+        ],
+        "prerequisites": "[ <a class=\"item-link quicklink link--popup item-link--class_\" data-key=\"class_/34\" href=\"/classes/druid?tab=details\">Друид</a> ] <a class=\"item-link quicklink item-link--druidicorder\" style=\"font-style: unset\" data-key=\"druidicorder/8\" href=\"/druidicorders/animal\">орден зверя</a>",
+        "pf2ru_id": 4708
+      },
+      {
+        "slug": "initiate-warden",
+        "name_en": "Initiate Warden",
+        "name_ru": "Начальное заклинание заступника",
+        "traits": [
+          "ranger"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4862
+      },
+      {
+        "slug": "monster-hunter",
+        "name_en": "Monster Hunter",
+        "name_ru": "Охотник на чудовищ",
+        "traits": [
+          "ranger"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4863
+      },
+      {
+        "slug": "hunted-shot",
+        "name_en": "Hunted Shot",
+        "name_ru": "Охотничий выстрел",
+        "traits": [
+          "flourish",
+          "ranger"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4861
+      },
+      {
+        "slug": "twin-takedown",
+        "name_en": "Twin Takedown",
+        "name_ru": "Парный удар",
+        "traits": [
+          "flourish",
+          "ranger"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4864
+      },
+      {
+        "slug": "crossbow-ace",
+        "name_en": "Crossbow Ace",
+        "name_ru": "Первоклассный арбалетчик",
+        "traits": [
+          "ranger"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4860
+      }
+    ]
   },
   {
     "slug": "swashbuckler",
@@ -206,7 +1596,119 @@
     ],
     "source_ru": "Основная книга игрока 2",
     "is_not_translated": false,
-    "pf2ru_id": 63
+    "pf2ru_id": 63,
+    "class_feats_l1": [
+      {
+        "slug": "plummeting-roll",
+        "name_en": "Plummeting Roll",
+        "name_ru": "Кувырок в падении",
+        "traits": [
+          "swashbuckler"
+        ],
+        "prerequisites": "Изученная  <i>Акробатика</i>",
+        "pf2ru_id": 6134
+      },
+      {
+        "slug": "flashy-dodge",
+        "name_en": "Flashy Dodge",
+        "name_ru": "Ловкое уклонение",
+        "traits": [
+          "swashbuckler"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6129
+      },
+      {
+        "slug": "disarming-flair",
+        "name_en": "Disarming Flair",
+        "name_ru": "Обезоруживающий талант",
+        "traits": [
+          "swashbuckler"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6126
+      },
+      {
+        "slug": "one-for-all",
+        "name_en": "One For All",
+        "name_ru": "Один за всех",
+        "traits": [
+          "auditory",
+          "concentrate",
+          "emotion",
+          "linguistic",
+          "mental",
+          "swashbuckler"
+        ],
+        "prerequisites": "Изученная  <i>Дипломатия</i>",
+        "pf2ru_id": 6133
+      },
+      {
+        "slug": "flying-blade",
+        "name_en": "Flying Blade",
+        "name_ru": "Парящий клинок",
+        "traits": [
+          "swashbuckler"
+        ],
+        "prerequisites": "точный удар",
+        "pf2ru_id": 6130
+      },
+      {
+        "slug": "goading-feint",
+        "name_en": "Goading Feint",
+        "name_ru": "Провоцирующий финт",
+        "traits": [
+          "swashbuckler"
+        ],
+        "prerequisites": "Изученный  <i>Обман</i>",
+        "pf2ru_id": 6132
+      },
+      {
+        "slug": "focused-fascination",
+        "name_en": "Focused Fascination",
+        "name_ru": "Сосредоточенное завораживание",
+        "traits": [
+          "swashbuckler"
+        ],
+        "prerequisites": "<span class=\"rhombus-wrap\"><span class=\"rhombus\" itemID=5147 itemType=feats onclick=\"getItem(this)\"></span>\n                            <a class=\"item-link quicklink link--popup item-link--feat\" data-key=\"feat/5147\" href=\"/feats/fascinating performance\">Завораживающее выступление</a></span>",
+        "pf2ru_id": 6131
+      },
+      {
+        "slug": "you're-next",
+        "name_en": "You're Next",
+        "name_ru": "Ты следующий",
+        "traits": [
+          "emotion",
+          "fear",
+          "mental",
+          "rogue",
+          "swashbuckler",
+          "visual"
+        ],
+        "prerequisites": "Изученное  <i>Запугивание</i>",
+        "pf2ru_id": 4922
+      },
+      {
+        "slug": "extravagant-parry",
+        "name_en": "Extravagant Parry",
+        "name_ru": "Экстравагантное парирование",
+        "traits": [
+          "swashbuckler"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6128
+      },
+      {
+        "slug": "elegant-buckler",
+        "name_en": "Elegant Buckler",
+        "name_ru": "Элегантный баклер",
+        "traits": [
+          "swashbuckler"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6127
+      }
+    ]
   },
   {
     "slug": "gunslinger",
@@ -218,7 +1720,80 @@
     ],
     "source_ru": "Пушки и шестерни",
     "is_not_translated": false,
-    "pf2ru_id": 20
+    "pf2ru_id": 20,
+    "class_feats_l1": [
+      {
+        "slug": "crossbow-crack-shot",
+        "name_en": "Crossbow Crack Shot",
+        "name_ru": "Арбалетный стрелок",
+        "traits": [
+          "gunslinger"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3156
+      },
+      {
+        "slug": "hit-the-dirt!",
+        "name_en": "Hit the Dirt!",
+        "name_ru": "Лицом в землю!",
+        "traits": [
+          "gunslinger"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3157
+      },
+      {
+        "slug": "sword-and-pistol",
+        "name_en": "Sword and Pistol",
+        "name_ru": "Меч и пистоль",
+        "traits": [
+          "gunslinger"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3159
+      },
+      {
+        "slug": "dual-weapon-reload-(gunslinger)",
+        "name_en": "Dual-Weapon Reload (Gunslinger)",
+        "name_ru": "Парная перезарядка (стрелок)",
+        "traits": [
+          "gunslinger"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3294
+      },
+      {
+        "slug": "cover-fire",
+        "name_en": "Cover Fire",
+        "name_ru": "Прикрывающий огонь",
+        "traits": [
+          "gunslinger"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3155
+      },
+      {
+        "slug": "blast-lock",
+        "name_en": "Blast Lock",
+        "name_ru": "Прострел замка",
+        "traits": [
+          "attack",
+          "gunslinger"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3154
+      },
+      {
+        "slug": "munitions-crafter",
+        "name_en": "Munitions Crafter",
+        "name_ru": "Создатель боеприпасов",
+        "traits": [
+          "gunslinger"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 3158
+      }
+    ]
   },
   {
     "slug": "sorcerer",
@@ -230,7 +1805,75 @@
     ],
     "source_ru": "Основная книга игрока 2",
     "is_not_translated": false,
-    "pf2ru_id": 62
+    "pf2ru_id": 62,
+    "class_feats_l1": [
+      {
+        "slug": "reach-spell",
+        "name_en": "Reach Spell",
+        "name_ru": "Дальнее заклинание",
+        "traits": [
+          "bard",
+          "cleric",
+          "concentrate",
+          "druid",
+          "oracle",
+          "sorcerer",
+          "spellshape",
+          "witch",
+          "wizard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4577
+      },
+      {
+        "slug": "widen-spell",
+        "name_en": "Widen Spell",
+        "name_ru": "Обширное заклинание",
+        "traits": [
+          "druid",
+          "manipulate",
+          "oracle",
+          "sorcerer",
+          "spellshape",
+          "witch",
+          "wizard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4715
+      },
+      {
+        "slug": "tap-into-blood",
+        "name_en": "Tap Into Blood",
+        "name_ru": "Почувствовать кровь",
+        "traits": [
+          "concentrate",
+          "sorcerer"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6090
+      },
+      {
+        "slug": "blood-rising",
+        "name_en": "Blood Rising",
+        "name_ru": "Прилив крови",
+        "traits": [
+          "sorcerer"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 6089
+      },
+      {
+        "slug": "familiar",
+        "name_en": "Familiar",
+        "name_ru": "Фамильяр",
+        "traits": [
+          "sorcerer",
+          "wizard"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 5024
+      }
+    ]
   },
   {
     "slug": "exemplar",
@@ -243,7 +1886,54 @@
     ],
     "source_ru": "Война Бессмертных",
     "is_not_translated": false,
-    "pf2ru_id": 65
+    "pf2ru_id": 65,
+    "class_feats_l1": [
+      {
+        "slug": "energized-spark",
+        "name_en": "Energized Spark",
+        "name_ru": "Заряженная искра",
+        "traits": [
+          "exemplar"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 7154
+      },
+      {
+        "slug": "twin-stars",
+        "name_en": "Twin Stars",
+        "name_ru": "Звёзды-близнецы",
+        "traits": [
+          "exemplar",
+          "ikon"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 7156
+      },
+      {
+        "slug": "vow-of-mortal-defiance",
+        "name_en": "Vow Of Mortal Defiance",
+        "name_ru": "Обет смертной непокорности",
+        "traits": [
+          "auditory",
+          "concentrate",
+          "exemplar",
+          "linguistic",
+          "mental"
+        ],
+        "prerequisites": "У вас нет священного или нечестивого освящения",
+        "pf2ru_id": 7157
+      },
+      {
+        "slug": "sanctified-soul",
+        "name_en": "Sanctified Soul",
+        "name_ru": "Освящённая душа",
+        "traits": [
+          "exemplar"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 7155
+      }
+    ]
   },
   {
     "slug": "kineticist",
@@ -255,6 +1945,381 @@
     ],
     "source_ru": "Ярость стихий",
     "is_not_translated": false,
-    "pf2ru_id": 23
+    "pf2ru_id": 23,
+    "class_feats_l1": [
+      {
+        "slug": "ocean's-balm",
+        "name_en": "Ocean's Balm",
+        "name_ru": "Бальзам океана",
+        "traits": [
+          "healing",
+          "impulse",
+          "kineticist",
+          "manipulate",
+          "primal",
+          "vitality",
+          "water"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4267
+      },
+      {
+        "slug": "eternal-torch",
+        "name_en": "Eternal Torch",
+        "name_ru": "Вечный факел",
+        "traits": [
+          "fire",
+          "impulse",
+          "kineticist",
+          "light",
+          "manipulate",
+          "primal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4237
+      },
+      {
+        "slug": "tremor",
+        "name_en": "Tremor",
+        "name_ru": "Вибрация",
+        "traits": [
+          "earth",
+          "impulse",
+          "kineticist",
+          "overflow",
+          "primal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4224
+      },
+      {
+        "slug": "air-cushion",
+        "name_en": "Air Cushion",
+        "name_ru": "Воздушная подушка",
+        "traits": [
+          "air",
+          "impulse",
+          "kineticist",
+          "primal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4207
+      },
+      {
+        "slug": "aerial-boomerang",
+        "name_en": "Aerial Boomerang",
+        "name_ru": "Воздушный бумеранг",
+        "traits": [
+          "air",
+          "impulse",
+          "kineticist",
+          "primal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4206
+      },
+      {
+        "slug": "geologic-attunement",
+        "name_en": "Geologic Attunement",
+        "name_ru": "Геологическая настройка",
+        "traits": [
+          "earth",
+          "impulse",
+          "kineticist",
+          "primal",
+          "stance"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4222
+      },
+      {
+        "slug": "burning-jet",
+        "name_en": "Burning Jet",
+        "name_ru": "Горящая струя",
+        "traits": [
+          "fire",
+          "impulse",
+          "kineticist",
+          "primal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4236
+      },
+      {
+        "slug": "hail-of-splinters",
+        "name_en": "Hail of Splinters",
+        "name_ru": "Град щепок",
+        "traits": [
+          "impulse",
+          "kineticist",
+          "overflow",
+          "primal",
+          "wood"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4282
+      },
+      {
+        "slug": "timber-sentinel",
+        "name_en": "Timber Sentinel",
+        "name_ru": "Древесный страж",
+        "traits": [
+          "impulse",
+          "kineticist",
+          "plant",
+          "primal",
+          "wood"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4284
+      },
+      {
+        "slug": "hardwood-armor",
+        "name_en": "Hardwood Armor",
+        "name_ru": "Дубовая броня",
+        "traits": [
+          "impulse",
+          "kineticist",
+          "primal",
+          "wood"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4283
+      },
+      {
+        "slug": "armor-in-earth",
+        "name_en": "Armor in Earth",
+        "name_ru": "Каменная броня",
+        "traits": [
+          "earth",
+          "impulse",
+          "kineticist",
+          "primal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4221
+      },
+      {
+        "slug": "flying-flame",
+        "name_en": "Flying Flame",
+        "name_ru": "Летающее пламя",
+        "traits": [
+          "fire",
+          "impulse",
+          "kineticist",
+          "primal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4238
+      },
+      {
+        "slug": "flash-forge",
+        "name_en": "Flash Forge",
+        "name_ru": "Мгновенная ковка",
+        "traits": [
+          "impulse",
+          "kineticist",
+          "metal",
+          "primal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4251
+      },
+      {
+        "slug": "magnetic-pinions",
+        "name_en": "Magnetic Pinions",
+        "name_ru": "Металлические обломки",
+        "traits": [
+          "impulse",
+          "kineticist",
+          "metal",
+          "overflow",
+          "primal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4252
+      },
+      {
+        "slug": "metal-carapace",
+        "name_en": "Metal Carapace",
+        "name_ru": "Металлический панцирь",
+        "traits": [
+          "impulse",
+          "kineticist",
+          "metal",
+          "primal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4253
+      },
+      {
+        "slug": "weapon-infusion",
+        "name_en": "Weapon Infusion",
+        "name_ru": "Оружейное смешение",
+        "traits": [
+          "infusion",
+          "kineticist"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4186
+      },
+      {
+        "slug": "shard-strike",
+        "name_en": "Shard Strike",
+        "name_ru": "Осколочный удар",
+        "traits": [
+          "impulse",
+          "kineticist",
+          "metal",
+          "primal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4254
+      },
+      {
+        "slug": "deflecting-wave",
+        "name_en": "Deflecting Wave",
+        "name_ru": "Отклоняющая волна",
+        "traits": [
+          "impulse",
+          "kineticist",
+          "primal",
+          "water"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4266
+      },
+      {
+        "slug": "tidal-hands",
+        "name_en": "Tidal Hands",
+        "name_ru": "Приливные руки",
+        "traits": [
+          "impulse",
+          "kineticist",
+          "overflow",
+          "primal",
+          "water"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4268
+      },
+      {
+        "slug": "stepping-stones",
+        "name_en": "Stepping Stones",
+        "name_ru": "Путь из камней",
+        "traits": [
+          "earth",
+          "impulse",
+          "kineticist",
+          "manipulate",
+          "primal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4223
+      },
+      {
+        "slug": "scorching-column",
+        "name_en": "Scorching Column",
+        "name_ru": "Пылающая колонна",
+        "traits": [
+          "fire",
+          "impulse",
+          "kineticist",
+          "overflow",
+          "primal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4239
+      },
+      {
+        "slug": "extended-kinesis",
+        "name_en": "Extended Kinesis",
+        "name_ru": "Расширенный кинез",
+        "traits": [
+          "kineticist"
+        ],
+        "prerequisites": "<span class=\"rhombus-wrap\"><span class=\"rhombus\" itemID=2126 itemType=actions onclick=\"getItem(this)\"></span>\n                            <a class=\"item-link quicklink link--popup item-link--action\" data-key=\"action/2126\" href=\"/actions/base kinesis\">Базовый кинез</a></span>",
+        "pf2ru_id": 4184
+      },
+      {
+        "slug": "fresh-produce",
+        "name_en": "Fresh Produce",
+        "name_ru": "Свежий урожай",
+        "traits": [
+          "healing",
+          "impulse",
+          "kineticist",
+          "plant",
+          "primal",
+          "vitality",
+          "wood"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4281
+      },
+      {
+        "slug": "elemental-familiar-(kineticist)",
+        "name_en": "Elemental Familiar (Kineticist)",
+        "name_ru": "Стихийный фамильяр (кинетик)",
+        "traits": [
+          "kineticist"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4183
+      },
+      {
+        "slug": "versatile-blasts",
+        "name_en": "Versatile Blasts",
+        "name_ru": "Универсальные взрывы",
+        "traits": [
+          "kineticist"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4185
+      },
+      {
+        "slug": "winter's-clutch",
+        "name_en": "Winter's Clutch",
+        "name_ru": "Хватка зимы",
+        "traits": [
+          "cold",
+          "impulse",
+          "kineticist",
+          "primal",
+          "water"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4269
+      },
+      {
+        "slug": "four-winds",
+        "name_en": "Four Winds",
+        "name_ru": "Четыре ветра",
+        "traits": [
+          "air",
+          "impulse",
+          "kineticist",
+          "primal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4208
+      },
+      {
+        "slug": "whisper-on-the-wind",
+        "name_en": "Whisper on the Wind",
+        "name_ru": "Шёпот на ветру",
+        "traits": [
+          "air",
+          "auditory",
+          "illusion",
+          "impulse",
+          "kineticist",
+          "linguistic",
+          "primal"
+        ],
+        "prerequisites": null,
+        "pf2ru_id": 4209
+      }
+    ]
   }
 ]

@@ -5,5 +5,6 @@
     "ancestries": 33,
     "classes": 21,
     "backgrounds": 140
-  }
+  },
+  "enriched": ["heritages", "ancestry_feats_l1", "class_feats_l1"]
 }
