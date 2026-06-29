@@ -1,0 +1,260 @@
+[
+  {
+    "slug": "alchemist",
+    "name_en": "Alchemist",
+    "name_ru": "Алхимик",
+    "hp_per_level": 8,
+    "key_ability": [
+      "Intelligence"
+    ],
+    "source_ru": "Основная книга игрока 2",
+    "is_not_translated": false,
+    "pf2ru_id": 56
+  },
+  {
+    "slug": "animist",
+    "name_en": "Animist",
+    "name_ru": "Анимист",
+    "hp_per_level": 8,
+    "key_ability": [
+      "Wisdom"
+    ],
+    "source_ru": "Война Бессмертных",
+    "is_not_translated": false,
+    "pf2ru_id": 64
+  },
+  {
+    "slug": "bard",
+    "name_en": "Bard",
+    "name_ru": "Бард",
+    "hp_per_level": 8,
+    "key_ability": [
+      "Charisma"
+    ],
+    "source_ru": "Основная книга игрока",
+    "is_not_translated": false,
+    "pf2ru_id": 32
+  },
+  {
+    "slug": "barbarian",
+    "name_en": "Barbarian",
+    "name_ru": "Варвар",
+    "hp_per_level": 12,
+    "key_ability": [
+      "Strength"
+    ],
+    "source_ru": "Основная книга игрока 2",
+    "is_not_translated": false,
+    "pf2ru_id": 57
+  },
+  {
+    "slug": "witch",
+    "name_en": "Witch",
+    "name_ru": "Ведьма",
+    "hp_per_level": 6,
+    "key_ability": [
+      "Intelligence"
+    ],
+    "source_ru": "Основная книга игрока",
+    "is_not_translated": false,
+    "pf2ru_id": 38
+  },
+  {
+    "slug": "fighter",
+    "name_en": "Fighter",
+    "name_ru": "Воин",
+    "hp_per_level": 10,
+    "key_ability": [
+      "Strength",
+      "Dexterity"
+    ],
+    "source_ru": "Основная книга игрока",
+    "is_not_translated": false,
+    "pf2ru_id": 35
+  },
+  {
+    "slug": "wizard",
+    "name_en": "Wizard",
+    "name_ru": "Волшебник",
+    "hp_per_level": 6,
+    "key_ability": [
+      "Intelligence"
+    ],
+    "source_ru": "Основная книга игрока",
+    "is_not_translated": false,
+    "pf2ru_id": 39
+  },
+  {
+    "slug": "druid",
+    "name_en": "Druid",
+    "name_ru": "Друид",
+    "hp_per_level": 8,
+    "key_ability": [
+      "Wisdom"
+    ],
+    "source_ru": "Основная книга игрока",
+    "is_not_translated": false,
+    "pf2ru_id": 34
+  },
+  {
+    "slug": "cleric",
+    "name_en": "Cleric",
+    "name_ru": "Жрец",
+    "hp_per_level": 8,
+    "key_ability": [
+      "Wisdom"
+    ],
+    "source_ru": "Основная книга игрока",
+    "is_not_translated": false,
+    "pf2ru_id": 33
+  },
+  {
+    "slug": "inventor",
+    "name_en": "Inventor",
+    "name_ru": "Изобретатель",
+    "hp_per_level": 8,
+    "key_ability": [
+      "Intelligence"
+    ],
+    "source_ru": "Пушки и шестерни",
+    "is_not_translated": false,
+    "pf2ru_id": 19
+  },
+  {
+    "slug": "monk",
+    "name_en": "Monk",
+    "name_ru": "Монах",
+    "hp_per_level": 10,
+    "key_ability": [
+      "Strength",
+      "Dexterity"
+    ],
+    "source_ru": "Основная книга игрока 2",
+    "is_not_translated": false,
+    "pf2ru_id": 60
+  },
+  {
+    "slug": "oracle",
+    "name_en": "Oracle",
+    "name_ru": "Оракул",
+    "hp_per_level": 8,
+    "key_ability": [
+      "Charisma"
+    ],
+    "source_ru": "Основная книга игрока 2",
+    "is_not_translated": false,
+    "pf2ru_id": 61
+  },
+  {
+    "slug": "rogue",
+    "name_en": "Rogue",
+    "name_ru": "Плут",
+    "hp_per_level": 8,
+    "key_ability": [
+      "Dexterity",
+      "Free"
+    ],
+    "source_ru": "Основная книга игрока",
+    "is_not_translated": false,
+    "pf2ru_id": 37
+  },
+  {
+    "slug": "champion",
+    "name_en": "Champion",
+    "name_ru": "Поборник",
+    "hp_per_level": 10,
+    "key_ability": [
+      "Strength",
+      "Dexterity"
+    ],
+    "source_ru": "Основная книга игрока 2",
+    "is_not_translated": false,
+    "pf2ru_id": 58
+  },
+  {
+    "slug": "investigator",
+    "name_en": "Investigator",
+    "name_ru": "Следователь",
+    "hp_per_level": 8,
+    "key_ability": [
+      "Intelligence"
+    ],
+    "source_ru": "Основная книга игрока 2",
+    "is_not_translated": false,
+    "pf2ru_id": 59
+  },
+  {
+    "slug": "ranger",
+    "name_en": "Ranger",
+    "name_ru": "Следопыт",
+    "hp_per_level": 10,
+    "key_ability": [
+      "Strength",
+      "Dexterity"
+    ],
+    "source_ru": "Основная книга игрока",
+    "is_not_translated": false,
+    "pf2ru_id": 36
+  },
+  {
+    "slug": "swashbuckler",
+    "name_en": "Swashbuckler",
+    "name_ru": "Сорвиголова",
+    "hp_per_level": 10,
+    "key_ability": [
+      "Dexterity"
+    ],
+    "source_ru": "Основная книга игрока 2",
+    "is_not_translated": false,
+    "pf2ru_id": 63
+  },
+  {
+    "slug": "gunslinger",
+    "name_en": "Gunslinger",
+    "name_ru": "Стрелок",
+    "hp_per_level": 8,
+    "key_ability": [
+      "Dexterity"
+    ],
+    "source_ru": "Пушки и шестерни",
+    "is_not_translated": false,
+    "pf2ru_id": 20
+  },
+  {
+    "slug": "sorcerer",
+    "name_en": "Sorcerer",
+    "name_ru": "Чародей",
+    "hp_per_level": 6,
+    "key_ability": [
+      "Charisma"
+    ],
+    "source_ru": "Основная книга игрока 2",
+    "is_not_translated": false,
+    "pf2ru_id": 62
+  },
+  {
+    "slug": "exemplar",
+    "name_en": "Exemplar",
+    "name_ru": "Экземплар",
+    "hp_per_level": 10,
+    "key_ability": [
+      "Strength",
+      "Dexterity"
+    ],
+    "source_ru": "Война Бессмертных",
+    "is_not_translated": false,
+    "pf2ru_id": 65
+  },
+  {
+    "slug": "kineticist",
+    "name_en": "Kineticist",
+    "name_ru": "Кинетик",
+    "hp_per_level": 8,
+    "key_ability": [
+      "Constitution"
+    ],
+    "source_ru": "Ярость стихий",
+    "is_not_translated": false,
+    "pf2ru_id": 23
+  }
+]

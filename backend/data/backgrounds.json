@@ -1,0 +1,2682 @@
+[
+  {
+    "slug": "barrister",
+    "name_en": "Barrister",
+    "name_ru": "Адвокат",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": "Diplomacy",
+    "lore": "Legal Lore",
+    "skill_feat": {
+      "slug": "group-impression",
+      "name_en": "Group Impression",
+      "pf2ru_feat_id": 789
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 413
+  },
+  {
+    "slug": "martial-disciple",
+    "name_en": "Martial Disciple",
+    "name_ru": "Адепт боевых искусств",
+    "ability_boosts": [
+      "Strength",
+      "Dexterity"
+    ],
+    "trained_skill": "Acrobatics",
+    "lore": "Warfare Lore",
+    "skill_feat": {
+      "slug": "cat-fall",
+      "name_en": "Cat Fall",
+      "pf2ru_feat_id": 765
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 432
+  },
+  {
+    "slug": "gambler",
+    "name_en": "Gambler",
+    "name_ru": "Азартный игрок",
+    "ability_boosts": [
+      "Dexterity",
+      "Charisma"
+    ],
+    "trained_skill": "Deception",
+    "lore": "Games Lore",
+    "skill_feat": {
+      "slug": "lie-to-me",
+      "name_en": "Lie to Me",
+      "pf2ru_feat_id": 811
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 425
+  },
+  {
+    "slug": "acrobat",
+    "name_en": "Acrobat",
+    "name_ru": "Акробат",
+    "ability_boosts": [
+      "Strength",
+      "Dexterity"
+    ],
+    "trained_skill": "Acrobatics",
+    "lore": "Circus Lore",
+    "skill_feat": {
+      "slug": "steady-balance",
+      "name_en": "Steady Balance",
+      "pf2ru_feat_id": 845
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 407
+  },
+  {
+    "slug": "acupuncturist",
+    "name_en": "Acupuncturist",
+    "name_ru": "Акупунктурист",
+    "ability_boosts": [
+      "Wisdom",
+      "Dexterity"
+    ],
+    "trained_skill": "Medicine",
+    "lore": "Acupuncture Lore",
+    "skill_feat": {
+      "slug": "battle-medicine",
+      "name_en": "Battle Medicine",
+      "pf2ru_feat_id": 5125
+    },
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 471
+  },
+  {
+    "slug": "alkenstar-outlaw",
+    "name_en": "Alkenstar Outlaw",
+    "name_ru": "Алькенстарский преступник",
+    "ability_boosts": [
+      "Dexterity",
+      "Constitution"
+    ],
+    "trained_skill": "Thievery",
+    "lore": "Underworld Lore",
+    "skill_feat": {
+      "slug": "subtle-theft",
+      "name_en": "Subtle Theft",
+      "pf2ru_feat_id": 848
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 280
+  },
+  {
+    "slug": "anti-tech-activist",
+    "name_en": "Anti-Tech Activist",
+    "name_ru": "Антитехнический активист",
+    "ability_boosts": [
+      "Constitution",
+      "Charisma"
+    ],
+    "trained_skill": "Intimidation",
+    "lore": "Guild Lore",
+    "skill_feat": {
+      "slug": "group-coercion",
+      "name_en": "Group Coercion",
+      "pf2ru_feat_id": 788
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 249
+  },
+  {
+    "slug": "disciple-of-the-gear",
+    "name_en": "Disciple of the Gear",
+    "name_ru": "Апостол шестерни",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": "Crafting",
+    "lore": null,
+    "skill_feat": {
+      "slug": "quick-repair",
+      "name_en": "Quick Repair",
+      "pf2ru_feat_id": 827
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 253
+  },
+  {
+    "slug": "entertainer",
+    "name_en": "Entertainer",
+    "name_ru": "Артист",
+    "ability_boosts": [
+      "Dexterity",
+      "Charisma"
+    ],
+    "trained_skill": "Performance",
+    "lore": "Theater Lore",
+    "skill_feat": {
+      "slug": "fascinating-performance",
+      "name_en": "Fascinating Performance",
+      "pf2ru_feat_id": 781
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 421
+  },
+  {
+    "slug": "fireworks-performer",
+    "name_en": "Fireworks Performer",
+    "name_ru": "Артист-пиротехник",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": "Performance",
+    "lore": "Fireworks Lore",
+    "skill_feat": {
+      "slug": "fascinating-performance",
+      "name_en": "Fascinating Performance",
+      "pf2ru_feat_id": 781
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 270
+  },
+  {
+    "slug": "saloon-entertainer",
+    "name_en": "Saloon Entertainer",
+    "name_ru": "Артист салуна",
+    "ability_boosts": [
+      "Dexterity",
+      "Charisma"
+    ],
+    "trained_skill": "Performance",
+    "lore": null,
+    "skill_feat": {
+      "slug": "virtuosic-performer",
+      "name_en": "Virtuosic Performer",
+      "pf2ru_feat_id": 862
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 275
+  },
+  {
+    "slug": "astrologer",
+    "name_en": "Astrologer",
+    "name_ru": "Астролог",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": "Occultism",
+    "lore": "Astrology Lore",
+    "skill_feat": {
+      "slug": "oddity-identification",
+      "name_en": "Oddity Identification",
+      "pf2ru_feat_id": 5185
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 447
+  },
+  {
+    "slug": "bachuan-revolutionary",
+    "name_en": "Bachuan Revolutionary",
+    "name_ru": "Бачуаньский революционер",
+    "ability_boosts": [
+      "Wisdom",
+      "Strength"
+    ],
+    "trained_skill": "Society",
+    "lore": "Law Lore",
+    "skill_feat": {
+      "slug": "sign-language",
+      "name_en": "Sign Language",
+      "pf2ru_feat_id": 5213
+    },
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 472
+  },
+  {
+    "slug": "runaway-noble",
+    "name_en": "Runaway Noble",
+    "name_ru": "Беглый дворянин",
+    "ability_boosts": [
+      "Charisma",
+      "Intelligence"
+    ],
+    "trained_skill": "Diplomacy",
+    "lore": "Genealogy Lore",
+    "skill_feat": {
+      "slug": "bon-mot",
+      "name_en": "Bon Mot",
+      "pf2ru_feat_id": 6466
+    },
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 476
+  },
+  {
+    "slug": "refugee",
+    "name_en": "Refugee",
+    "name_ru": "Беженец",
+    "ability_boosts": [
+      "Constitution",
+      "Wisdom"
+    ],
+    "trained_skill": "Society",
+    "lore": null,
+    "skill_feat": {
+      "slug": "streetwise",
+      "name_en": "Streetwise",
+      "pf2ru_feat_id": 5218
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 455
+  },
+  {
+    "slug": "noble",
+    "name_en": "Noble",
+    "name_ru": "Благородный",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": "Society",
+    "lore": "Genealogy Lore",
+    "skill_feat": {
+      "slug": "courtly-graces",
+      "name_en": "Courtly Graces",
+      "pf2ru_feat_id": 772
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 435
+  },
+  {
+    "slug": "blessed",
+    "name_en": "Blessed",
+    "name_ru": "Благословлённый",
+    "ability_boosts": [
+      "Wisdom",
+      "Charisma"
+    ],
+    "trained_skill": null,
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 464
+  },
+  {
+    "slug": "warrior",
+    "name_en": "Warrior",
+    "name_ru": "Боец",
+    "ability_boosts": [
+      "Strength",
+      "Constitution"
+    ],
+    "trained_skill": "Intimidation",
+    "lore": "Warfare Lore",
+    "skill_feat": {
+      "slug": "intimidating-glare",
+      "name_en": "Intimidating Glare",
+      "pf2ru_feat_id": 796
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 445
+  },
+  {
+    "slug": "street-urchin",
+    "name_en": "Street Urchin",
+    "name_ru": "Бродяга",
+    "ability_boosts": [
+      "Dexterity",
+      "Constitution"
+    ],
+    "trained_skill": "Thievery",
+    "lore": null,
+    "skill_feat": {
+      "slug": "pickpocket",
+      "name_en": "Pickpocket",
+      "pf2ru_feat_id": 818
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 442
+  },
+  {
+    "slug": "waste-walker",
+    "name_en": "Waste Walker",
+    "name_ru": "Бродящий по пустоши",
+    "ability_boosts": [
+      "Strength",
+      "Wisdom"
+    ],
+    "trained_skill": "Survival",
+    "lore": "Mana Wastes Lore",
+    "skill_feat": {
+      "slug": "forager",
+      "name_en": "Forager",
+      "pf2ru_feat_id": 786
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 279
+  },
+  {
+    "slug": "discarded-duplicate",
+    "name_en": "Discarded Duplicate",
+    "name_ru": "Брошенный дубликат",
+    "ability_boosts": [],
+    "trained_skill": null,
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 262
+  },
+  {
+    "slug": "driver",
+    "name_en": "Driver",
+    "name_ru": "Водитель",
+    "ability_boosts": [
+      "Strength",
+      "Dexterity"
+    ],
+    "trained_skill": "Acrobatics",
+    "lore": "Driving Lore or Piloting Lore",
+    "skill_feat": {
+      "slug": "assurance",
+      "name_en": "Assurance",
+      "pf2ru_feat_id": 5121
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 451
+  },
+  {
+    "slug": "returned",
+    "name_en": "Returned",
+    "name_ru": "Возвращённый",
+    "ability_boosts": [
+      "Constitution",
+      "Wisdom"
+    ],
+    "trained_skill": null,
+    "lore": null,
+    "skill_feat": {
+      "slug": "diehard",
+      "name_en": "Diehard",
+      "pf2ru_feat_id": 5140
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 469
+  },
+  {
+    "slug": "raised-by-belief",
+    "name_en": "Raised by Belief",
+    "name_ru": "Воспитанный в вере",
+    "ability_boosts": [
+      "Strength",
+      "Dexterity"
+    ],
+    "trained_skill": null,
+    "lore": null,
+    "skill_feat": {
+      "slug": "assurance",
+      "name_en": "Assurance",
+      "pf2ru_feat_id": 756
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 438
+  },
+  {
+    "slug": "fortune-teller",
+    "name_en": "Fortune Teller",
+    "name_ru": "Гадатель",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": "Occultism",
+    "lore": "Telling Lore",
+    "skill_feat": {
+      "slug": "oddity-identification",
+      "name_en": "Oddity Identification",
+      "pf2ru_feat_id": 817
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 424
+  },
+  {
+    "slug": "gladiator",
+    "name_en": "Gladiator",
+    "name_ru": "Гладиатор",
+    "ability_boosts": [
+      "Strength",
+      "Charisma"
+    ],
+    "trained_skill": "Performance",
+    "lore": "Gladiatorial Lore",
+    "skill_feat": {
+      "slug": "impressive-performance",
+      "name_en": "Impressive Performance",
+      "pf2ru_feat_id": 793
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 426
+  },
+  {
+    "slug": "undertaker",
+    "name_en": "Undertaker",
+    "name_ru": "Гробовщик",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": "Medicine",
+    "lore": null,
+    "skill_feat": {
+      "slug": "forensic-acumen",
+      "name_en": "Forensic Acumen",
+      "pf2ru_feat_id": 2128
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 277
+  },
+  {
+    "slug": "saboteur",
+    "name_en": "Saboteur",
+    "name_ru": "Диверсант",
+    "ability_boosts": [
+      "Strength",
+      "Dexterity"
+    ],
+    "trained_skill": "Thievery",
+    "lore": "Engineering Lore",
+    "skill_feat": {
+      "slug": "concealing-legerdemain",
+      "name_en": "Concealing Legerdemain",
+      "pf2ru_feat_id": 2116
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 457
+  },
+  {
+    "slug": "feral-child",
+    "name_en": "Feral Child",
+    "name_ru": "Дикое дитя",
+    "ability_boosts": [
+      "Strength",
+      "Dexterity"
+    ],
+    "trained_skill": "Nature",
+    "lore": null,
+    "skill_feat": {
+      "slug": "forager",
+      "name_en": "Forager",
+      "pf2ru_feat_id": 5152
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 466
+  },
+  {
+    "slug": "goldhand-arms-dealer",
+    "name_en": "Goldhand Arms Dealer",
+    "name_ru": "Дилер Золотой Руки",
+    "ability_boosts": [
+      "Dexterity",
+      "Charisma"
+    ],
+    "trained_skill": "Diplomacy",
+    "lore": "Mercantile Lore",
+    "skill_feat": {
+      "slug": "group-impression",
+      "name_en": "Group Impression",
+      "pf2ru_feat_id": 789
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 283
+  },
+  {
+    "slug": "remittance-agent",
+    "name_en": "Remittance Agent",
+    "name_ru": "Доверенный перевозчик",
+    "ability_boosts": [
+      "Constitution",
+      "Intelligence"
+    ],
+    "trained_skill": "Society",
+    "lore": "Labor Lore",
+    "skill_feat": {
+      "slug": "experienced-professional",
+      "name_en": "Experienced Professional",
+      "pf2ru_feat_id": 5144
+    },
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 477
+  },
+  {
+    "slug": "back-alley-doctor",
+    "name_en": "Back-Alley Doctor",
+    "name_ru": "Доктор из подворотни",
+    "ability_boosts": [
+      "Constitution",
+      "Wisdom"
+    ],
+    "trained_skill": "Medicine",
+    "lore": "Underworld Lore",
+    "skill_feat": {
+      "slug": "risky-surgery",
+      "name_en": "Risky Surgery",
+      "pf2ru_feat_id": 2146
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 267
+  },
+  {
+    "slug": "feybound",
+    "name_en": "Feybound",
+    "name_ru": "Должник фей",
+    "ability_boosts": [
+      "Dexterity",
+      "Charisma"
+    ],
+    "trained_skill": null,
+    "lore": "Fey Lore",
+    "skill_feat": null,
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 467
+  },
+  {
+    "slug": "tiffin-box-deliverer",
+    "name_en": "Tiffin Box Deliverer",
+    "name_ru": "Доставщик еды",
+    "ability_boosts": [
+      "Dexterity",
+      "Intelligence"
+    ],
+    "trained_skill": "Society",
+    "lore": "Labor Lore",
+    "skill_feat": {
+      "slug": "streetwise",
+      "name_en": "Streetwise",
+      "pf2ru_feat_id": 5218
+    },
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 480
+  },
+  {
+    "slug": "animal-whisperer",
+    "name_en": "Animal Whisperer",
+    "name_ru": "Друг животных",
+    "ability_boosts": [
+      "Wisdom",
+      "Charisma"
+    ],
+    "trained_skill": "Nature",
+    "lore": null,
+    "skill_feat": {
+      "slug": "train-animal",
+      "name_en": "Train Animal",
+      "pf2ru_feat_id": 856
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 408
+  },
+  {
+    "slug": "press-ganged-(g&g)",
+    "name_en": "Press-Ganged (G&G)",
+    "name_ru": "Завербованный",
+    "ability_boosts": [
+      "Strength",
+      "Constitution"
+    ],
+    "trained_skill": "Athletics",
+    "lore": "Labor Lore",
+    "skill_feat": {
+      "slug": "armor-assist",
+      "name_en": "Armor Assist",
+      "pf2ru_feat_id": 2109
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 284
+  },
+  {
+    "slug": "clockfighter",
+    "name_en": "Clockfighter",
+    "name_ru": "Заводной гладиатор",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": "Crafting",
+    "lore": "Gladiatorial Lore",
+    "skill_feat": {
+      "slug": "experienced-professional",
+      "name_en": "Experienced Professional",
+      "pf2ru_feat_id": 778
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 250
+  },
+  {
+    "slug": "prisoner",
+    "name_en": "Prisoner",
+    "name_ru": "Заключённый",
+    "ability_boosts": [
+      "Strength",
+      "Constitution"
+    ],
+    "trained_skill": "Stealth",
+    "lore": "Underworld Lore",
+    "skill_feat": {
+      "slug": "experienced-smuggler",
+      "name_en": "Experienced Smuggler",
+      "pf2ru_feat_id": 779
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 437
+  },
+  {
+    "slug": "farmhand",
+    "name_en": "Farmhand",
+    "name_ru": "Землепашец",
+    "ability_boosts": [
+      "Constitution",
+      "Wisdom"
+    ],
+    "trained_skill": "Athletics",
+    "lore": "Farming Lore",
+    "skill_feat": {
+      "slug": "assurance",
+      "name_en": "Assurance",
+      "pf2ru_feat_id": 756
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 422
+  },
+  {
+    "slug": "banished-celestial",
+    "name_en": "Banished Celestial",
+    "name_ru": "Изгнанный небожитель",
+    "ability_boosts": [
+      "Free",
+      "Free"
+    ],
+    "trained_skill": null,
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 483
+  },
+  {
+    "slug": "clockwork-researcher",
+    "name_en": "Clockwork Researcher",
+    "name_ru": "Исследователь заводных механизмов",
+    "ability_boosts": [
+      "Dexterity",
+      "Intelligence"
+    ],
+    "trained_skill": "Society",
+    "lore": "Engineering Lore",
+    "skill_feat": {
+      "slug": "eye-for-numbers",
+      "name_en": "Eye for Numbers",
+      "pf2ru_feat_id": 2127
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 251
+  },
+  {
+    "slug": "cannoneer",
+    "name_en": "Cannoneer",
+    "name_ru": "Канонир",
+    "ability_boosts": [
+      "Strength",
+      "Dexterity"
+    ],
+    "trained_skill": "Athletics",
+    "lore": "Warfare Lore",
+    "skill_feat": {
+      "slug": "hefty-hauler",
+      "name_en": "Hefty Hauler",
+      "pf2ru_feat_id": 790
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 268
+  },
+  {
+    "slug": "outrider",
+    "name_en": "Outrider",
+    "name_ru": "Конный разведчик",
+    "ability_boosts": [
+      "Constitution",
+      "Wisdom"
+    ],
+    "trained_skill": "Nature",
+    "lore": "Plains Lore",
+    "skill_feat": {
+      "slug": "express-rider",
+      "name_en": "Express Rider",
+      "pf2ru_feat_id": 2126
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 453
+  },
+  {
+    "slug": "royalty",
+    "name_en": "Royalty",
+    "name_ru": "Королевская кровь",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": "Society",
+    "lore": null,
+    "skill_feat": {
+      "slug": "courtly-graces",
+      "name_en": "Courtly Graces",
+      "pf2ru_feat_id": 5138
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 470
+  },
+  {
+    "slug": "nomad",
+    "name_en": "Nomad",
+    "name_ru": "Кочевник",
+    "ability_boosts": [
+      "Constitution",
+      "Wisdom"
+    ],
+    "trained_skill": "Survival",
+    "lore": null,
+    "skill_feat": {
+      "slug": "assurance",
+      "name_en": "Assurance",
+      "pf2ru_feat_id": 756
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 436
+  },
+  {
+    "slug": "codebreaker",
+    "name_en": "Codebreaker",
+    "name_ru": "Криптограф",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": "Society",
+    "lore": "Cryptography Lore",
+    "skill_feat": {
+      "slug": "glean-contents",
+      "name_en": "Glean Contents",
+      "pf2ru_feat_id": 2129
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 252
+  },
+  {
+    "slug": "cultist",
+    "name_en": "Cultist",
+    "name_ru": "Культист",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": "Occultism",
+    "lore": null,
+    "skill_feat": {
+      "slug": "schooled-in-secrets",
+      "name_en": "Schooled in Secrets",
+      "pf2ru_feat_id": 2148
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 418
+  },
+  {
+    "slug": "merchant",
+    "name_en": "Merchant",
+    "name_ru": "Купец",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": "Diplomacy",
+    "lore": "Mercantile Lore",
+    "skill_feat": {
+      "slug": "bargain-hunter",
+      "name_en": "Bargain Hunter",
+      "pf2ru_feat_id": 758
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 433
+  },
+  {
+    "slug": "toymaker",
+    "name_en": "Toymaker",
+    "name_ru": "Мастер игрушек",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": "Crafting",
+    "lore": "Mercantile Lore",
+    "skill_feat": {
+      "slug": "specialty-crafting",
+      "name_en": "Specialty Crafting",
+      "pf2ru_feat_id": 844
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 261
+  },
+  {
+    "slug": "medicinal-clocksmith",
+    "name_en": "Medicinal Clocksmith",
+    "name_ru": "Медик-часовщик",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": "Medicine",
+    "lore": "Engineering Lore",
+    "skill_feat": {
+      "slug": "risky-surgery",
+      "name_en": "Risky Surgery",
+      "pf2ru_feat_id": 2146
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 258
+  },
+  {
+    "slug": "tinker",
+    "name_en": "Tinker",
+    "name_ru": "Механик",
+    "ability_boosts": [
+      "Dexterity",
+      "Intelligence"
+    ],
+    "trained_skill": "Crafting",
+    "lore": "Engineering Lore",
+    "skill_feat": {
+      "slug": "specialty-crafting",
+      "name_en": "Specialty Crafting",
+      "pf2ru_feat_id": 844
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 444
+  },
+  {
+    "slug": "mechanic",
+    "name_en": "Mechanic",
+    "name_ru": "Механик",
+    "ability_boosts": [
+      "Strength",
+      "Intelligence"
+    ],
+    "trained_skill": "Crafting",
+    "lore": "Engineering Lore",
+    "skill_feat": {
+      "slug": "quick-repair",
+      "name_en": "Quick Repair",
+      "pf2ru_feat_id": 827
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 257
+  },
+  {
+    "slug": "mechanical-symbiosis",
+    "name_en": "Mechanical Symbiosis",
+    "name_ru": "Механический симбиоз",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": "Arcana",
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 263
+  },
+  {
+    "slug": "otherworldly-mission",
+    "name_en": "Otherworldly Mission",
+    "name_ru": "Миссия из Иного Мира",
+    "ability_boosts": [
+      "Wisdom",
+      "Charisma"
+    ],
+    "trained_skill": "Religion",
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 286
+  },
+  {
+    "slug": "sailor",
+    "name_en": "Sailor",
+    "name_ru": "Моряк",
+    "ability_boosts": [
+      "Strength",
+      "Dexterity"
+    ],
+    "trained_skill": "Athletics",
+    "lore": "Sailing Lore",
+    "skill_feat": {
+      "slug": "underwater-marauder",
+      "name_en": "Underwater Marauder",
+      "pf2ru_feat_id": 858
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 439
+  },
+  {
+    "slug": "junker",
+    "name_en": "Junker",
+    "name_ru": "Мусорщик",
+    "ability_boosts": [
+      "Strength",
+      "Wisdom"
+    ],
+    "trained_skill": "Athletics",
+    "lore": null,
+    "skill_feat": {
+      "slug": "hefty-hauler",
+      "name_en": "Hefty Hauler",
+      "pf2ru_feat_id": 790
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 256
+  },
+  {
+    "slug": "scavenger",
+    "name_en": "Scavenger",
+    "name_ru": "Мусорщик",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": "Survival",
+    "lore": null,
+    "skill_feat": {
+      "slug": "forager",
+      "name_en": "Forager",
+      "pf2ru_feat_id": 5152
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 458
+  },
+  {
+    "slug": "spotter",
+    "name_en": "Spotter",
+    "name_ru": "Наводчик",
+    "ability_boosts": [
+      "Dexterity",
+      "Wisdom"
+    ],
+    "trained_skill": "Stealth",
+    "lore": "Scouting Lore",
+    "skill_feat": {
+      "slug": "terrain-stalker",
+      "name_en": "Terrain Stalker",
+      "pf2ru_feat_id": 852
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 276
+  },
+  {
+    "slug": "hired-killer",
+    "name_en": "Hired Killer",
+    "name_ru": "Наёмный убийца",
+    "ability_boosts": [
+      "Strength",
+      "Dexterity"
+    ],
+    "trained_skill": "Stealth",
+    "lore": "Underworld Lore",
+    "skill_feat": {
+      "slug": "terrain-stalker",
+      "name_en": "Terrain Stalker",
+      "pf2ru_feat_id": 852
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 272
+  },
+  {
+    "slug": "tall-tale",
+    "name_en": "Tall-Tale",
+    "name_ru": "Небылица",
+    "ability_boosts": [
+      "Constitution",
+      "Charisma"
+    ],
+    "trained_skill": "Performance",
+    "lore": null,
+    "skill_feat": {
+      "slug": "impressive-performance",
+      "name_en": "Impressive Performance",
+      "pf2ru_feat_id": 793
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 288
+  },
+  {
+    "slug": "ocean-diver",
+    "name_en": "Ocean Diver",
+    "name_ru": "Ныряльщик в океан",
+    "ability_boosts": [
+      "Constitution",
+      "Wisdom"
+    ],
+    "trained_skill": "Athletics",
+    "lore": "Ocean Lore",
+    "skill_feat": {
+      "slug": "underwater-marauder",
+      "name_en": "Underwater Marauder",
+      "pf2ru_feat_id": 5230
+    },
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 475
+  },
+  {
+    "slug": "warded-by-kami",
+    "name_en": "Warded by Kami",
+    "name_ru": "Оберегаемый ками",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": "Occultism",
+    "lore": "Spirit Lore",
+    "skill_feat": null,
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 487
+  },
+  {
+    "slug": "wished-alive",
+    "name_en": "Wished Alive",
+    "name_ru": "Оживленный желанием",
+    "ability_boosts": [
+      "Constitution",
+      "Charisma"
+    ],
+    "trained_skill": "Diplomacy",
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 266
+  },
+  {
+    "slug": "circuit-judge",
+    "name_en": "Circuit Judge",
+    "name_ru": "Окружной судья",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": "Deception",
+    "lore": "Legal Lore",
+    "skill_feat": {
+      "slug": "lie-to-me",
+      "name_en": "Lie to Me",
+      "pf2ru_feat_id": 811
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 282
+  },
+  {
+    "slug": "gunsmith",
+    "name_en": "Gunsmith",
+    "name_ru": "Оружейник",
+    "ability_boosts": [
+      "Dexterity",
+      "Intelligence"
+    ],
+    "trained_skill": "Crafting",
+    "lore": "Engineering Lore",
+    "skill_feat": {
+      "slug": "quick-repair",
+      "name_en": "Quick Repair",
+      "pf2ru_feat_id": 827
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 271
+  },
+  {
+    "slug": "squire",
+    "name_en": "Squire",
+    "name_ru": "Оруженосец",
+    "ability_boosts": [
+      "Strength",
+      "Constitution"
+    ],
+    "trained_skill": "Athletics",
+    "lore": "Heraldry Lore",
+    "skill_feat": {
+      "slug": "armor-assist",
+      "name_en": "Armor Assist",
+      "pf2ru_feat_id": 2109
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 460
+  },
+  {
+    "slug": "hermit",
+    "name_en": "Hermit",
+    "name_ru": "Отшельник",
+    "ability_boosts": [
+      "Constitution",
+      "Intelligence"
+    ],
+    "trained_skill": "Nature",
+    "lore": null,
+    "skill_feat": {
+      "slug": "dubious-knowledge",
+      "name_en": "Dubious Knowledge",
+      "pf2ru_feat_id": 776
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 429
+  },
+  {
+    "slug": "hunter",
+    "name_en": "Hunter",
+    "name_ru": "Охотник",
+    "ability_boosts": [
+      "Dexterity",
+      "Wisdom"
+    ],
+    "trained_skill": "Survival",
+    "lore": "Tanning Lore",
+    "skill_feat": {
+      "slug": "survey-wildlife",
+      "name_en": "Survey Wildlife",
+      "pf2ru_feat_id": 849
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 430
+  },
+  {
+    "slug": "bounty-hunter",
+    "name_en": "Bounty Hunter",
+    "name_ru": "Охотник за головами",
+    "ability_boosts": [
+      "Strength",
+      "Wisdom"
+    ],
+    "trained_skill": "Survival",
+    "lore": "Legal Lore",
+    "skill_feat": {
+      "slug": "experienced-tracker",
+      "name_en": "Experienced Tracker",
+      "pf2ru_feat_id": 780
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 414
+  },
+  {
+    "slug": "eagle-hunter",
+    "name_en": "Eagle Hunter",
+    "name_ru": "Охотник с орлом",
+    "ability_boosts": [
+      "Strength",
+      "Wisdom"
+    ],
+    "trained_skill": "Nature",
+    "lore": "Hunting Lore",
+    "skill_feat": {
+      "slug": "pet",
+      "name_en": "Pet",
+      "pf2ru_feat_id": 5186
+    },
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 484
+  },
+  {
+    "slug": "pilgrim",
+    "name_en": "Pilgrim",
+    "name_ru": "Паломник",
+    "ability_boosts": [
+      "Wisdom",
+      "Charisma"
+    ],
+    "trained_skill": "Religion",
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 454
+  },
+  {
+    "slug": "alkenstar-sojourner",
+    "name_en": "Alkenstar Sojourner",
+    "name_ru": "Переехавший в Алькенстар",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": "Society",
+    "lore": "Engineering Lore",
+    "skill_feat": {
+      "slug": "streetwise",
+      "name_en": "Streetwise",
+      "pf2ru_feat_id": 846
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 281
+  },
+  {
+    "slug": "printer",
+    "name_en": "Printer",
+    "name_ru": "Печатник",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": "Society",
+    "lore": "Scribing Lore",
+    "skill_feat": {
+      "slug": "multilingual",
+      "name_en": "Multilingual",
+      "pf2ru_feat_id": 814
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 259
+  },
+  {
+    "slug": "cook",
+    "name_en": "Cook",
+    "name_ru": "Повар",
+    "ability_boosts": [
+      "Constitution",
+      "Intelligence"
+    ],
+    "trained_skill": "Survival",
+    "lore": "Cooking Lore",
+    "skill_feat": {
+      "slug": "seasoned",
+      "name_en": "Seasoned",
+      "pf2ru_feat_id": 5210
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 416
+  },
+  {
+    "slug": "insurgent",
+    "name_en": "Insurgent",
+    "name_ru": "Повстанец",
+    "ability_boosts": [
+      "Strength",
+      "Wisdom"
+    ],
+    "trained_skill": "Deception",
+    "lore": "Warfare Lore",
+    "skill_feat": {
+      "slug": "lengthy-diversion",
+      "name_en": "Lengthy Diversion",
+      "pf2ru_feat_id": 5176
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 452
+  },
+  {
+    "slug": "ward",
+    "name_en": "Ward",
+    "name_ru": "Подопечный",
+    "ability_boosts": [
+      "Constitution",
+      "Charisma"
+    ],
+    "trained_skill": "Performance",
+    "lore": "Genealogy Lore",
+    "skill_feat": {
+      "slug": "fascinating-performance",
+      "name_en": "Fascinating Performance",
+      "pf2ru_feat_id": 5147
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 462
+  },
+  {
+    "slug": "field-medic",
+    "name_en": "Field Medic",
+    "name_ru": "Полевой медик",
+    "ability_boosts": [
+      "Constitution",
+      "Wisdom"
+    ],
+    "trained_skill": "Medicine",
+    "lore": "Warfare Lore",
+    "skill_feat": {
+      "slug": "battle-medicine",
+      "name_en": "Battle Medicine",
+      "pf2ru_feat_id": 760
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 423
+  },
+  {
+    "slug": "deputy",
+    "name_en": "Deputy",
+    "name_ru": "Помощник шерифа",
+    "ability_boosts": [
+      "Dexterity",
+      "Wisdom"
+    ],
+    "trained_skill": "Survival",
+    "lore": "Hunting Lore",
+    "skill_feat": {
+      "slug": "experienced-tracker",
+      "name_en": "Experienced Tracker",
+      "pf2ru_feat_id": 780
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 269
+  },
+  {
+    "slug": "emissary",
+    "name_en": "Emissary",
+    "name_ru": "Посланник",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": "Society",
+    "lore": null,
+    "skill_feat": {
+      "slug": "multilingual",
+      "name_en": "Multilingual",
+      "pf2ru_feat_id": 814
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 420
+  },
+  {
+    "slug": "acolyte",
+    "name_en": "Acolyte",
+    "name_ru": "Послушник",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": "Religion",
+    "lore": "Scribing Lore",
+    "skill_feat": {
+      "slug": "student-of-the-canon",
+      "name_en": "Student of the Canon",
+      "pf2ru_feat_id": 847
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 406
+  },
+  {
+    "slug": "courier",
+    "name_en": "Courier",
+    "name_ru": "Посыльный",
+    "ability_boosts": [
+      "Dexterity",
+      "Intelligence"
+    ],
+    "trained_skill": "Society",
+    "lore": null,
+    "skill_feat": {
+      "slug": "glean-contents",
+      "name_en": "Glean Contents",
+      "pf2ru_feat_id": 2129
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 450
+  },
+  {
+    "slug": "amnesiac",
+    "name_en": "Amnesiac",
+    "name_ru": "Потерявший память",
+    "ability_boosts": [],
+    "trained_skill": null,
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 463
+  },
+  {
+    "slug": "kaiju-stalker",
+    "name_en": "Kaiju Stalker",
+    "name_ru": "Преследователь кайдзю",
+    "ability_boosts": [
+      "Strength",
+      "Dexterity"
+    ],
+    "trained_skill": null,
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 488
+  },
+  {
+    "slug": "hounded-thief",
+    "name_en": "Hounded Thief",
+    "name_ru": "Преследуемый вор",
+    "ability_boosts": [
+      "Dexterity",
+      "Wisdom"
+    ],
+    "trained_skill": "Thievery",
+    "lore": "Underworld Lore",
+    "skill_feat": {
+      "slug": "pickpocket",
+      "name_en": "Pickpocket",
+      "pf2ru_feat_id": 818
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 255
+  },
+  {
+    "slug": "criminal",
+    "name_en": "Criminal",
+    "name_ru": "Преступник",
+    "ability_boosts": [
+      "Dexterity",
+      "Intelligence"
+    ],
+    "trained_skill": "Stealth",
+    "lore": "Underworld Lore",
+    "skill_feat": {
+      "slug": "experienced-smuggler",
+      "name_en": "Experienced Smuggler",
+      "pf2ru_feat_id": 779
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 417
+  },
+  {
+    "slug": "streetfood-vendor",
+    "name_en": "Streetfood Vendor",
+    "name_ru": "Продавец уличной еды",
+    "ability_boosts": [
+      "Strength",
+      "Dexterity"
+    ],
+    "trained_skill": "Crafting",
+    "lore": "Cooking Lore",
+    "skill_feat": {
+      "slug": "seasoned",
+      "name_en": "Seasoned",
+      "pf2ru_feat_id": 5210
+    },
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 479
+  },
+  {
+    "slug": "cursed",
+    "name_en": "Cursed",
+    "name_ru": "Проклятый",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": "Occultism",
+    "lore": "Curse Lore",
+    "skill_feat": null,
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 465
+  },
+  {
+    "slug": "professional-letter-writer",
+    "name_en": "Professional Letter Writer",
+    "name_ru": "Профессиональный писатель писем",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": null,
+    "lore": "Scribing Lore",
+    "skill_feat": {
+      "slug": "specialty-crafting",
+      "name_en": "Specialty Crafting",
+      "pf2ru_feat_id": 5216
+    },
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 489
+  },
+  {
+    "slug": "bandit",
+    "name_en": "Bandit",
+    "name_ru": "Разбойник",
+    "ability_boosts": [
+      "Dexterity",
+      "Charisma"
+    ],
+    "trained_skill": "Intimidation",
+    "lore": null,
+    "skill_feat": {
+      "slug": "group-coercion",
+      "name_en": "Group Coercion",
+      "pf2ru_feat_id": 788
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 411
+  },
+  {
+    "slug": "scout",
+    "name_en": "Scout",
+    "name_ru": "Разведчик",
+    "ability_boosts": [
+      "Dexterity",
+      "Wisdom"
+    ],
+    "trained_skill": "Survival",
+    "lore": null,
+    "skill_feat": {
+      "slug": "forager",
+      "name_en": "Forager",
+      "pf2ru_feat_id": 786
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 441
+  },
+  {
+    "slug": "laborer",
+    "name_en": "Laborer",
+    "name_ru": "Разнорабочий",
+    "ability_boosts": [
+      "Strength",
+      "Constitution"
+    ],
+    "trained_skill": "Athletics",
+    "lore": "Labor Lore",
+    "skill_feat": {
+      "slug": "hefty-hauler",
+      "name_en": "Hefty Hauler",
+      "pf2ru_feat_id": 790
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 431
+  },
+  {
+    "slug": "revenant",
+    "name_en": "Revenant",
+    "name_ru": "Ревенант",
+    "ability_boosts": [
+      "Constitution",
+      "Charisma"
+    ],
+    "trained_skill": "Religion",
+    "lore": "Boneyard Lore",
+    "skill_feat": null,
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 287
+  },
+  {
+    "slug": "artisan",
+    "name_en": "Artisan",
+    "name_ru": "Ремесленник",
+    "ability_boosts": [
+      "Strength",
+      "Intelligence"
+    ],
+    "trained_skill": "Crafting",
+    "lore": "Guild Lore",
+    "skill_feat": {
+      "slug": "specialty-crafting",
+      "name_en": "Specialty Crafting",
+      "pf2ru_feat_id": 844
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 409
+  },
+  {
+    "slug": "miner",
+    "name_en": "Miner",
+    "name_ru": "Рудокоп",
+    "ability_boosts": [
+      "Strength",
+      "Wisdom"
+    ],
+    "trained_skill": "Survival",
+    "lore": "Mining Lore",
+    "skill_feat": {
+      "slug": "terrain-expertise",
+      "name_en": "Terrain Expertise",
+      "pf2ru_feat_id": 851
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 434
+  },
+  {
+    "slug": "tax-collector",
+    "name_en": "Tax Collector",
+    "name_ru": "Сборщик податей",
+    "ability_boosts": [
+      "Strength",
+      "Charisma"
+    ],
+    "trained_skill": "Intimidation",
+    "lore": null,
+    "skill_feat": {
+      "slug": "quick-coercion",
+      "name_en": "Quick Coercion",
+      "pf2ru_feat_id": 5193
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 461
+  },
+  {
+    "slug": "zodiac-bound",
+    "name_en": "Zodiac Bound",
+    "name_ru": "Связанный с зодиаком",
+    "ability_boosts": [],
+    "trained_skill": null,
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 490
+  },
+  {
+    "slug": "servant",
+    "name_en": "Servant",
+    "name_ru": "Слуга",
+    "ability_boosts": [
+      "Dexterity",
+      "Charisma"
+    ],
+    "trained_skill": "Society",
+    "lore": "Labor Lore",
+    "skill_feat": {
+      "slug": "read-lips",
+      "name_en": "Read Lips",
+      "pf2ru_feat_id": 5204
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 459
+  },
+  {
+    "slug": "root-worker",
+    "name_en": "Root Worker",
+    "name_ru": "Собиратель кореньев",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": "Occultism",
+    "lore": "Herbalism Lore",
+    "skill_feat": {
+      "slug": "root-magic",
+      "name_en": "Root Magic",
+      "pf2ru_feat_id": 2147
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 456
+  },
+  {
+    "slug": "junk-collector",
+    "name_en": "Junk Collector",
+    "name_ru": "Собиратель хлама",
+    "ability_boosts": [
+      "Dexterity",
+      "Intelligence"
+    ],
+    "trained_skill": "Crafting",
+    "lore": "Engineering Lore",
+    "skill_feat": {
+      "slug": "crafter's-appraisal",
+      "name_en": "Crafter's Appraisal",
+      "pf2ru_feat_id": 2118
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 274
+  },
+  {
+    "slug": "saved-by-clockwork",
+    "name_en": "Saved by Clockwork",
+    "name_ru": "Спасенный механизмом",
+    "ability_boosts": [
+      "Strength",
+      "Intelligence"
+    ],
+    "trained_skill": "Crafting",
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 264
+  },
+  {
+    "slug": "gossip",
+    "name_en": "Gossip",
+    "name_ru": "Сплетник",
+    "ability_boosts": [
+      "Charisma",
+      "Intelligence"
+    ],
+    "trained_skill": "Diplomacy",
+    "lore": null,
+    "skill_feat": {
+      "slug": "hobnobber",
+      "name_en": "Hobnobber",
+      "pf2ru_feat_id": 5157
+    },
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 473
+  },
+  {
+    "slug": "guard",
+    "name_en": "Guard",
+    "name_ru": "Стражник",
+    "ability_boosts": [
+      "Strength",
+      "Charisma"
+    ],
+    "trained_skill": "Intimidation",
+    "lore": "Legal Lore",
+    "skill_feat": {
+      "slug": "quick-coercion",
+      "name_en": "Quick Coercion",
+      "pf2ru_feat_id": 822
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 427
+  },
+  {
+    "slug": "traveling-gourmand",
+    "name_en": "Traveling Gourmand",
+    "name_ru": "Странствующий гурман",
+    "ability_boosts": [
+      "Dexterity",
+      "Intelligence"
+    ],
+    "trained_skill": "Survival",
+    "lore": "Cooking Lore",
+    "skill_feat": {
+      "slug": "forager",
+      "name_en": "Forager",
+      "pf2ru_feat_id": 5152
+    },
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 482
+  },
+  {
+    "slug": "wandering-preacher",
+    "name_en": "Wandering Preacher",
+    "name_ru": "Странствующий проповедник",
+    "ability_boosts": [
+      "Constitution",
+      "Wisdom"
+    ],
+    "trained_skill": "Religion",
+    "lore": null,
+    "skill_feat": {
+      "slug": "pilgrim's-token",
+      "name_en": "Pilgrim's Token",
+      "pf2ru_feat_id": 2141
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 278
+  },
+  {
+    "slug": "fated-rival",
+    "name_en": "Fated Rival",
+    "name_ru": "Судьбоносный соперник",
+    "ability_boosts": [
+      "Free",
+      "Free"
+    ],
+    "trained_skill": null,
+    "lore": null,
+    "skill_feat": {
+      "slug": "diehard",
+      "name_en": "Diehard",
+      "pf2ru_feat_id": 5140
+    },
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 485
+  },
+  {
+    "slug": "bookkeeper",
+    "name_en": "Bookkeeper",
+    "name_ru": "Счетовод",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": "Society",
+    "lore": "Accounting Lore",
+    "skill_feat": {
+      "slug": "eye-for-numbers",
+      "name_en": "Eye for Numbers",
+      "pf2ru_feat_id": 2127
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 449
+  },
+  {
+    "slug": "detective",
+    "name_en": "Detective",
+    "name_ru": "Сыщик",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": "Society",
+    "lore": "Underworld Lore",
+    "skill_feat": {
+      "slug": "streetwise",
+      "name_en": "Streetwise",
+      "pf2ru_feat_id": 846
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 419
+  },
+  {
+    "slug": "haunted",
+    "name_en": "Haunted",
+    "name_ru": "Терзаемый призраками",
+    "ability_boosts": [
+      "Wisdom",
+      "Charisma"
+    ],
+    "trained_skill": "Occultism",
+    "lore": null,
+    "skill_feat": {
+      "slug": "diehard",
+      "name_en": "Diehard",
+      "pf2ru_feat_id": 5140
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 468
+  },
+  {
+    "slug": "tech-reliant",
+    "name_en": "Tech-Reliant",
+    "name_ru": "Технозависимый",
+    "ability_boosts": [
+      "Constitution",
+      "Intelligence"
+    ],
+    "trained_skill": "Crafting",
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 265
+  },
+  {
+    "slug": "weaver",
+    "name_en": "Weaver",
+    "name_ru": "Ткач",
+    "ability_boosts": [
+      "Dexterity",
+      "Wisdom"
+    ],
+    "trained_skill": "Crafting",
+    "lore": "Basket Weaving Lore",
+    "skill_feat": {
+      "slug": "specialty-crafting",
+      "name_en": "Specialty Crafting",
+      "pf2ru_feat_id": 5216
+    },
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 481
+  },
+  {
+    "slug": "herbalist",
+    "name_en": "Herbalist",
+    "name_ru": "Травник",
+    "ability_boosts": [
+      "Constitution",
+      "Wisdom"
+    ],
+    "trained_skill": "Nature",
+    "lore": "Herbalism Lore",
+    "skill_feat": {
+      "slug": "natural-medicine",
+      "name_en": "Natural Medicine",
+      "pf2ru_feat_id": 815
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 428
+  },
+  {
+    "slug": "barkeep",
+    "name_en": "Barkeep",
+    "name_ru": "Трактирщик",
+    "ability_boosts": [
+      "Constitution",
+      "Charisma"
+    ],
+    "trained_skill": "Diplomacy",
+    "lore": "Alcohol Lore",
+    "skill_feat": {
+      "slug": "hobnobber",
+      "name_en": "Hobnobber",
+      "pf2ru_feat_id": 791
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 412
+  },
+  {
+    "slug": "scholar",
+    "name_en": "Scholar",
+    "name_ru": "Учёный",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": null,
+    "lore": "Academia Lore",
+    "skill_feat": {
+      "slug": "assurance",
+      "name_en": "Assurance",
+      "pf2ru_feat_id": 756
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 440
+  },
+  {
+    "slug": "teacher",
+    "name_en": "Teacher",
+    "name_ru": "Учитель",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": "Performance",
+    "lore": "Academia Lore",
+    "skill_feat": {
+      "slug": "experienced-professional",
+      "name_en": "Experienced Professional",
+      "pf2ru_feat_id": 778
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 443
+  },
+  {
+    "slug": "favored",
+    "name_en": "Favored",
+    "name_ru": "Фаворит",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": null,
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 486
+  },
+  {
+    "slug": "farmsteader",
+    "name_en": "Farmsteader",
+    "name_ru": "Фермер",
+    "ability_boosts": [
+      "Constitution",
+      "Wisdom"
+    ],
+    "trained_skill": "Survival",
+    "lore": "Farming Lore",
+    "skill_feat": {
+      "slug": "forager",
+      "name_en": "Forager",
+      "pf2ru_feat_id": 786
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 273
+  },
+  {
+    "slug": "artist",
+    "name_en": "Artist",
+    "name_ru": "Художник",
+    "ability_boosts": [
+      "Dexterity",
+      "Charisma"
+    ],
+    "trained_skill": "Crafting",
+    "lore": "Art Lore",
+    "skill_feat": {
+      "slug": "specialty-crafting",
+      "name_en": "Specialty Crafting",
+      "pf2ru_feat_id": 844
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 410
+  },
+  {
+    "slug": "barber",
+    "name_en": "Barber",
+    "name_ru": "Цирюльник",
+    "ability_boosts": [
+      "Dexterity",
+      "Wisdom"
+    ],
+    "trained_skill": "Medicine",
+    "lore": "Surgery Lore",
+    "skill_feat": {
+      "slug": "risky-surgery",
+      "name_en": "Risky Surgery",
+      "pf2ru_feat_id": 2146
+    },
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 448
+  },
+  {
+    "slug": "charlatan",
+    "name_en": "Charlatan",
+    "name_ru": "Шарлатан",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": "Deception",
+    "lore": "Underworld Lore",
+    "skill_feat": {
+      "slug": "charming-liar",
+      "name_en": "Charming Liar",
+      "pf2ru_feat_id": 766
+    },
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 415
+  },
+  {
+    "slug": "silk-farmer",
+    "name_en": "Silk Farmer",
+    "name_ru": "Шелковод",
+    "ability_boosts": [
+      "Wisdom",
+      "Intelligence"
+    ],
+    "trained_skill": "Crafting",
+    "lore": "Sericulture Lore",
+    "skill_feat": {
+      "slug": "specialty-crafting",
+      "name_en": "Specialty Crafting",
+      "pf2ru_feat_id": 5216
+    },
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 478
+  },
+  {
+    "slug": "sheriff",
+    "name_en": "Sheriff",
+    "name_ru": "Шериф",
+    "ability_boosts": [
+      "Dexterity",
+      "Charisma"
+    ],
+    "trained_skill": "Intimidation",
+    "lore": "Hunting Lore",
+    "skill_feat": {
+      "slug": "group-coercion",
+      "name_en": "Group Coercion",
+      "pf2ru_feat_id": 788
+    },
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 285
+  },
+  {
+    "slug": "jeweler",
+    "name_en": "Jeweler",
+    "name_ru": "Ювелир",
+    "ability_boosts": [
+      "Wisdom",
+      "Intelligence"
+    ],
+    "trained_skill": "Crafting",
+    "lore": "Gem Lore",
+    "skill_feat": {
+      "slug": "crafter's-appraisal",
+      "name_en": "Crafter's Appraisal",
+      "pf2ru_feat_id": 6470
+    },
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 474
+  },
+  {
+    "slug": "starless-one",
+    "name_en": "Starless One",
+    "name_ru": "Беззвездный",
+    "ability_boosts": [
+      "Wisdom",
+      "Charisma"
+    ],
+    "trained_skill": "Occultism",
+    "lore": "Astrology Lore",
+    "skill_feat": null,
+    "source_ru": "Путеводитель",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 333
+  },
+  {
+    "slug": "doomcaller",
+    "name_en": "Doomcaller",
+    "name_ru": "Глашатай рока",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": "Occultism",
+    "lore": "Star Lore",
+    "skill_feat": null,
+    "source_ru": "Путеводитель",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 329
+  },
+  {
+    "slug": "dendrologist",
+    "name_en": "Dendrologist",
+    "name_ru": "Дендролог",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": "Survival",
+    "lore": "Plane of Wood Lore",
+    "skill_feat": {
+      "slug": "terrain-expertise",
+      "name_en": "Terrain Expertise",
+      "pf2ru_feat_id": 851
+    },
+    "source_ru": "Ярость стихий",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 379
+  },
+  {
+    "slug": "astrological-augur",
+    "name_en": "Astrological Augur",
+    "name_ru": "Звездный предсказатель",
+    "ability_boosts": [
+      "Wisdom",
+      "Charisma"
+    ],
+    "trained_skill": null,
+    "lore": "Astrology Lore",
+    "skill_feat": null,
+    "source_ru": "Путеводитель",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 328
+  },
+  {
+    "slug": "concordance-researcher",
+    "name_en": "Concordance Researcher",
+    "name_ru": "Исследователь конкорданса",
+    "ability_boosts": [
+      "Intelligence",
+      "Wisdom"
+    ],
+    "trained_skill": null,
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Ярость стихий",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 382
+  },
+  {
+    "slug": "crystal-healer",
+    "name_en": "Crystal Healer",
+    "name_ru": "Кристальный целитель",
+    "ability_boosts": [
+      "Wisdom",
+      "Charisma"
+    ],
+    "trained_skill": "Nature",
+    "lore": "Plane of Earth Lore",
+    "skill_feat": {
+      "slug": "natural-medicine",
+      "name_en": "Natural Medicine",
+      "pf2ru_feat_id": 815
+    },
+    "source_ru": "Ярость стихий",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 377
+  },
+  {
+    "slug": "alloysmith",
+    "name_en": "Alloysmith",
+    "name_ru": "Металлург",
+    "ability_boosts": [
+      "Strength",
+      "Intelligence"
+    ],
+    "trained_skill": "Crafting",
+    "lore": "Plane of Metal Lore",
+    "skill_feat": {
+      "slug": "specialty-crafting",
+      "name_en": "Specialty Crafting",
+      "pf2ru_feat_id": 844
+    },
+    "source_ru": "Ярость стихий",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 376
+  },
+  {
+    "slug": "deep-sea-diver",
+    "name_en": "Deep-Sea Diver",
+    "name_ru": "Морской ныряльщик",
+    "ability_boosts": [
+      "Strength",
+      "Wisdom"
+    ],
+    "trained_skill": "Athletics",
+    "lore": "Plane of Water Lore",
+    "skill_feat": {
+      "slug": "underwater-marauder",
+      "name_en": "Underwater Marauder",
+      "pf2ru_feat_id": 858
+    },
+    "source_ru": "Ярость стихий",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 378
+  },
+  {
+    "slug": "tide-watcher",
+    "name_en": "Tide Watcher",
+    "name_ru": "Наблюдатель приливов",
+    "ability_boosts": [
+      "Intelligence",
+      "Charisma"
+    ],
+    "trained_skill": "Nature",
+    "lore": "Ocean Lore",
+    "skill_feat": null,
+    "source_ru": "Путеводитель",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 335
+  },
+  {
+    "slug": "elementally-infused",
+    "name_en": "Elementally Infused",
+    "name_ru": "Наполненный стихиями",
+    "ability_boosts": [
+      "Constitution",
+      "Charisma"
+    ],
+    "trained_skill": null,
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Ярость стихий",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 384
+  },
+  {
+    "slug": "sky-rider",
+    "name_en": "Sky Rider",
+    "name_ru": "Небесный наездник",
+    "ability_boosts": [
+      "Dexterity",
+      "Wisdom"
+    ],
+    "trained_skill": "Acrobatics",
+    "lore": "Plane of Air Lore",
+    "skill_feat": {
+      "slug": "cat-fall",
+      "name_en": "Cat Fall",
+      "pf2ru_feat_id": 765
+    },
+    "source_ru": "Ярость стихий",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 381
+  },
+  {
+    "slug": "sign-bound",
+    "name_en": "Sign Bound",
+    "name_ru": "Отмеченный Созведием",
+    "ability_boosts": [],
+    "trained_skill": null,
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Путеводитель",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 332
+  },
+  {
+    "slug": "planar-migrant",
+    "name_en": "Planar Migrant",
+    "name_ru": "Планарный скиталец",
+    "ability_boosts": [
+      "Dexterity",
+      "Constitution"
+    ],
+    "trained_skill": "Athletics",
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Ярость стихий",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 385
+  },
+  {
+    "slug": "nocturnal-navigator",
+    "name_en": "Nocturnal Navigator",
+    "name_ru": "Проводник во тьме",
+    "ability_boosts": [
+      "Dexterity",
+      "Wisdom"
+    ],
+    "trained_skill": "Survival",
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Путеводитель",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 331
+  },
+  {
+    "slug": "concordance-scout",
+    "name_en": "Concordance Scout",
+    "name_ru": "Разведчик конкорданса",
+    "ability_boosts": [
+      "Constitution",
+      "Charisma"
+    ],
+    "trained_skill": "Diplomacy",
+    "lore": null,
+    "skill_feat": {
+      "slug": "hobnobber",
+      "name_en": "Hobnobber",
+      "pf2ru_feat_id": 791
+    },
+    "source_ru": "Ярость стихий",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 383
+  },
+  {
+    "slug": "eclipseborn",
+    "name_en": "Eclipseborn",
+    "name_ru": "Рожденный в затмении",
+    "ability_boosts": [
+      "Constitution",
+      "Charisma"
+    ],
+    "trained_skill": null,
+    "lore": null,
+    "skill_feat": null,
+    "source_ru": "Путеводитель",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 330
+  },
+  {
+    "slug": "fire-warden",
+    "name_en": "Fire Warden",
+    "name_ru": "Страж огня",
+    "ability_boosts": [
+      "Strength",
+      "Constitution"
+    ],
+    "trained_skill": "Athletics",
+    "lore": "Plane of Fire Lore",
+    "skill_feat": {
+      "slug": "breath-control",
+      "name_en": "Breath Control",
+      "pf2ru_feat_id": 763
+    },
+    "source_ru": "Ярость стихий",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 380
+  },
+  {
+    "slug": "sun-dancer",
+    "name_en": "Sun Dancer",
+    "name_ru": "Танцующий с солнцем",
+    "ability_boosts": [
+      "Dexterity",
+      "Charisma"
+    ],
+    "trained_skill": "Performance",
+    "lore": null,
+    "skill_feat": {
+      "slug": "fascinating-performance",
+      "name_en": "Fascinating Performance",
+      "pf2ru_feat_id": 781
+    },
+    "source_ru": "Путеводитель",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 334
+  }
+]

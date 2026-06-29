@@ -1,0 +1,906 @@
+[
+  {
+    "slug": "automaton",
+    "name_en": "Automaton",
+    "name_ru": "Автоматон",
+    "hp": 8,
+    "size": [
+      "Medium",
+      "Small"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Strength",
+      "Free"
+    ],
+    "ability_flaws": [],
+    "vision_ru": "Low-Light Vision",
+    "traits": [
+      "rare",
+      "automaton",
+      "construct"
+    ],
+    "source_ru": "Пушки и шестерни",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 48
+  },
+  {
+    "slug": "athamaru",
+    "name_en": "Athamaru",
+    "name_ru": "Атамару",
+    "hp": 8,
+    "size": [
+      "Medium"
+    ],
+    "speed": 20,
+    "ability_boosts": [
+      "Strength",
+      "Wisdom",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Intelligence"
+    ],
+    "vision_ru": "Low-Light Vision",
+    "traits": [
+      "uncommon",
+      "amphibious",
+      "athamaru",
+      "humanoid"
+    ],
+    "source_ru": "Рёв дикой природы",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 71
+  },
+  {
+    "slug": "wayang",
+    "name_en": "Wayang",
+    "name_ru": "Ваянг",
+    "hp": 8,
+    "size": [
+      "Small"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Dexterity",
+      "Charisma",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Constitution"
+    ],
+    "vision_ru": "Ночное зрение",
+    "traits": [
+      "uncommon",
+      "humanoid",
+      "shadow",
+      "wayang"
+    ],
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 91
+  },
+  {
+    "slug": "gnome",
+    "name_en": "Gnome",
+    "name_ru": "Гном",
+    "hp": 8,
+    "size": [
+      "Small"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Constitution",
+      "Charisma",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Strength"
+    ],
+    "vision_ru": "Low-Light Vision",
+    "traits": [
+      "gnome",
+      "humanoid"
+    ],
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 61
+  },
+  {
+    "slug": "goblin",
+    "name_en": "Goblin",
+    "name_ru": "Гоблин",
+    "hp": 6,
+    "size": [
+      "Small"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Dexterity",
+      "Charisma",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Wisdom"
+    ],
+    "vision_ru": "Ночное зрение",
+    "traits": [
+      "goblin",
+      "humanoid"
+    ],
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 62
+  },
+  {
+    "slug": "dwarf",
+    "name_en": "Dwarf",
+    "name_ru": "Дварф",
+    "hp": 10,
+    "size": [
+      "Medium"
+    ],
+    "speed": 20,
+    "ability_boosts": [
+      "Constitution",
+      "Wisdom",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Charisma"
+    ],
+    "vision_ru": "Ночное зрение",
+    "traits": [
+      "dwarf",
+      "humanoid"
+    ],
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 59
+  },
+  {
+    "slug": "centaur",
+    "name_en": "Centaur",
+    "name_ru": "Кентавр",
+    "hp": 8,
+    "size": [
+      "Large"
+    ],
+    "speed": 30,
+    "ability_boosts": [
+      "Strength",
+      "Wisdom",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Charisma"
+    ],
+    "vision_ru": "Ночное зрение",
+    "traits": [
+      "uncommon",
+      "beast",
+      "centaur",
+      "humanoid"
+    ],
+    "source_ru": "Рёв дикой природы",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 73
+  },
+  {
+    "slug": "kobold",
+    "name_en": "Kobold",
+    "name_ru": "Кобольд",
+    "hp": 6,
+    "size": [
+      "Small"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Dexterity",
+      "Charisma",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Constitution"
+    ],
+    "vision_ru": "Ночное зрение",
+    "traits": [
+      "uncommon",
+      "humanoid",
+      "kobold"
+    ],
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 80
+  },
+  {
+    "slug": "catfolk",
+    "name_en": "Catfolk",
+    "name_ru": "Котолюд",
+    "hp": 8,
+    "size": [
+      "Medium"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Dexterity",
+      "Charisma",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Wisdom"
+    ],
+    "vision_ru": "Low-Light Vision",
+    "traits": [
+      "uncommon",
+      "catfolk",
+      "humanoid"
+    ],
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 77
+  },
+  {
+    "slug": "ratfolk",
+    "name_en": "Ratfolk",
+    "name_ru": "Крысолюд",
+    "hp": 6,
+    "size": [
+      "Small"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Dexterity",
+      "Intelligence",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Strength"
+    ],
+    "vision_ru": "Low-Light Vision",
+    "traits": [
+      "uncommon",
+      "humanoid",
+      "ratfolk"
+    ],
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 82
+  },
+  {
+    "slug": "leshy",
+    "name_en": "Leshy",
+    "name_ru": "Леший",
+    "hp": 8,
+    "size": [
+      "Small"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Constitution",
+      "Wisdom",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Intelligence"
+    ],
+    "vision_ru": "Low-Light Vision",
+    "traits": [
+      "leshy",
+      "plant"
+    ],
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 65
+  },
+  {
+    "slug": "lizardfolk",
+    "name_en": "Lizardfolk",
+    "name_ru": "Людоящер",
+    "hp": 8,
+    "size": [
+      "Medium"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Strength",
+      "Wisdom",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Intelligence"
+    ],
+    "vision_ru": null,
+    "traits": [
+      "uncommon",
+      "humanoid",
+      "lizardfolk"
+    ],
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 81
+  },
+  {
+    "slug": "merfolk",
+    "name_en": "Merfolk",
+    "name_ru": "Мерфолк",
+    "hp": 8,
+    "size": [
+      "Medium"
+    ],
+    "speed": 5,
+    "ability_boosts": [
+      "Dexterity",
+      "Charisma",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Constitution"
+    ],
+    "vision_ru": "Low-Light Vision",
+    "traits": [
+      "uncommon",
+      "amphibious",
+      "humanoid",
+      "merfolk"
+    ],
+    "source_ru": "Рёв дикой природы",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 74
+  },
+  {
+    "slug": "minotaur",
+    "name_en": "Minotaur",
+    "name_ru": "Минотавр",
+    "hp": 10,
+    "size": [
+      "Large"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Strength",
+      "Constitution",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Charisma"
+    ],
+    "vision_ru": "Ночное зрение",
+    "traits": [
+      "uncommon",
+      "beast",
+      "humanoid",
+      "minotaur"
+    ],
+    "source_ru": "Рёв дикой природы",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 75
+  },
+  {
+    "slug": "orc",
+    "name_en": "Orc",
+    "name_ru": "Орк",
+    "hp": 10,
+    "size": [
+      "Medium"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Free",
+      "Free"
+    ],
+    "ability_flaws": [],
+    "vision_ru": "Ночное зрение",
+    "traits": [
+      "humanoid",
+      "orc"
+    ],
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 66
+  },
+  {
+    "slug": "halfling",
+    "name_en": "Halfling",
+    "name_ru": "Полурослик",
+    "hp": 6,
+    "size": [
+      "Small"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Dexterity",
+      "Wisdom",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Strength"
+    ],
+    "vision_ru": null,
+    "traits": [
+      "halfling",
+      "humanoid"
+    ],
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 63
+  },
+  {
+    "slug": "awakened-animal",
+    "name_en": "Awakened Animal",
+    "name_ru": "Пробуждённое животное",
+    "hp": "-",
+    "size": [
+      "Tiny",
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "speed": 0,
+    "ability_boosts": [
+      "Constitution",
+      "Wisdom",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Intelligence"
+    ],
+    "vision_ru": null,
+    "traits": [
+      "rare",
+      "awakened animal",
+      "beast"
+    ],
+    "source_ru": "Рёв дикой природы",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 72
+  },
+  {
+    "slug": "samsaran",
+    "name_en": "Samsaran",
+    "name_ru": "Самсаран",
+    "hp": 8,
+    "size": [
+      "Medium"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Constitution",
+      "Wisdom",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Charisma"
+    ],
+    "vision_ru": "Low-Light Vision",
+    "traits": [
+      "uncommon",
+      "humanoid",
+      "samsaran"
+    ],
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 88
+  },
+  {
+    "slug": "sarangay",
+    "name_en": "Sarangay",
+    "name_ru": "Сарангай",
+    "hp": 8,
+    "size": [
+      "Medium"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Strength",
+      "Charisma",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Wisdom"
+    ],
+    "vision_ru": null,
+    "traits": [
+      "rare",
+      "humanoid",
+      "sarangay"
+    ],
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 89
+  },
+  {
+    "slug": "surki",
+    "name_en": "Surki",
+    "name_ru": "Сурки",
+    "hp": 8,
+    "size": [
+      "Medium"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Constitution",
+      "Free"
+    ],
+    "ability_flaws": [],
+    "vision_ru": "Ночное зрение",
+    "traits": [
+      "rare",
+      "humanoid",
+      "surki"
+    ],
+    "source_ru": "Рёв дикой природы",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 76
+  },
+  {
+    "slug": "tanuki",
+    "name_en": "Tanuki",
+    "name_ru": "Тануки",
+    "hp": 10,
+    "size": [
+      "Small"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Constitution",
+      "Charisma",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Wisdom"
+    ],
+    "vision_ru": null,
+    "traits": [
+      "uncommon",
+      "humanoid",
+      "tanuki"
+    ],
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 90
+  },
+  {
+    "slug": "tripkee",
+    "name_en": "Tripkee",
+    "name_ru": "Трипки",
+    "hp": 6,
+    "size": [
+      "Small"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Dexterity",
+      "Wisdom",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Strength"
+    ],
+    "vision_ru": "Low-Light Vision",
+    "traits": [
+      "uncommon",
+      "humanoid",
+      "tripkee"
+    ],
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 84
+  },
+  {
+    "slug": "tengu",
+    "name_en": "Tengu",
+    "name_ru": "Тэнгу",
+    "hp": 6,
+    "size": [
+      "Medium"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Dexterity",
+      "Free"
+    ],
+    "ability_flaws": [],
+    "vision_ru": "Low-Light Vision",
+    "traits": [
+      "uncommon",
+      "humanoid",
+      "tengu"
+    ],
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 83
+  },
+  {
+    "slug": "hobgoblin",
+    "name_en": "Hobgoblin",
+    "name_ru": "Хобгоблин",
+    "hp": 8,
+    "size": [
+      "Medium"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Constitution",
+      "Intelligence",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Wisdom"
+    ],
+    "vision_ru": "Ночное зрение",
+    "traits": [
+      "uncommon",
+      "hobgoblin",
+      "humanoid"
+    ],
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 78
+  },
+  {
+    "slug": "kholo",
+    "name_en": "Kholo",
+    "name_ru": "Холо",
+    "hp": 8,
+    "size": [
+      "Medium"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Strength",
+      "Intelligence",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Wisdom"
+    ],
+    "vision_ru": "Low-Light Vision",
+    "traits": [
+      "uncommon",
+      "humanoid",
+      "kholo"
+    ],
+    "source_ru": "Основная книга игрока 2",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 79
+  },
+  {
+    "slug": "human",
+    "name_en": "Human",
+    "name_ru": "Человек",
+    "hp": 8,
+    "size": [
+      "Medium"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Free",
+      "Free"
+    ],
+    "ability_flaws": [],
+    "vision_ru": null,
+    "traits": [
+      "human",
+      "humanoid"
+    ],
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 64
+  },
+  {
+    "slug": "elf",
+    "name_en": "Elf",
+    "name_ru": "Эльф",
+    "hp": 6,
+    "size": [
+      "Medium"
+    ],
+    "speed": 30,
+    "ability_boosts": [
+      "Dexterity",
+      "Intelligence",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Constitution"
+    ],
+    "vision_ru": "Low-Light Vision",
+    "traits": [
+      "elf",
+      "humanoid"
+    ],
+    "source_ru": "Основная книга игрока",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 60
+  },
+  {
+    "slug": "yaksha",
+    "name_en": "Yaksha",
+    "name_ru": "Якша",
+    "hp": 8,
+    "size": [
+      "Medium"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Constitution",
+      "Charisma",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Intelligence"
+    ],
+    "vision_ru": "Low-Light Vision",
+    "traits": [
+      "rare",
+      "spirit",
+      "yaksha"
+    ],
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 92
+  },
+  {
+    "slug": "yaoguai",
+    "name_en": "Yaoguai",
+    "name_ru": "Яогуай",
+    "hp": 8,
+    "size": [
+      "Medium"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Charisma",
+      "Constitution",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Intelligence"
+    ],
+    "vision_ru": null,
+    "traits": [
+      "rare",
+      "humanoid",
+      "yaoguai"
+    ],
+    "source_ru": "Тянь-Ша. Руководство по персонажам",
+    "is_legacy": false,
+    "is_not_translated": false,
+    "pf2ru_id": 93
+  },
+  {
+    "slug": "kitsune",
+    "name_en": "Kitsune",
+    "name_ru": "Кицунэ",
+    "hp": 8,
+    "size": [
+      "Medium"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Charisma",
+      "Free"
+    ],
+    "ability_flaws": [],
+    "vision_ru": "Low-Light Vision",
+    "traits": [
+      "uncommon",
+      "humanoid",
+      "kitsune"
+    ],
+    "source_ru": "Ancestry Guide",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 38
+  },
+  {
+    "slug": "poppet",
+    "name_en": "Poppet",
+    "name_ru": "Кукла",
+    "hp": 6,
+    "size": [
+      "Small"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Constitution",
+      "Charisma",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Dexterity"
+    ],
+    "vision_ru": "Ночное зрение",
+    "traits": [
+      "rare",
+      "construct",
+      "humanoid"
+    ],
+    "source_ru": "Grand Bazaar",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 49
+  },
+  {
+    "slug": "nagaji",
+    "name_en": "Nagaji",
+    "name_ru": "Нагаджи",
+    "hp": 10,
+    "size": [
+      "Medium"
+    ],
+    "speed": 25,
+    "ability_boosts": [
+      "Strength",
+      "Free"
+    ],
+    "ability_flaws": [],
+    "vision_ru": "Low-Light Vision",
+    "traits": [
+      "uncommon",
+      "humanoid",
+      "nagaji"
+    ],
+    "source_ru": "Impossible Lands",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 54
+  },
+  {
+    "slug": "sprite",
+    "name_en": "Sprite",
+    "name_ru": "Спрайт",
+    "hp": 6,
+    "size": [
+      "Tiny"
+    ],
+    "speed": 20,
+    "ability_boosts": [
+      "Dexterity",
+      "Intelligence",
+      "Free"
+    ],
+    "ability_flaws": [
+      "Strength"
+    ],
+    "vision_ru": "Low-Light Vision",
+    "traits": [
+      "rare",
+      "fey",
+      "sprite"
+    ],
+    "source_ru": "Ancestry Guide",
+    "is_legacy": true,
+    "is_not_translated": false,
+    "pf2ru_id": 39
+  }
+]
