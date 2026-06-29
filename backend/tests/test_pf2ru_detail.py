@@ -35,6 +35,7 @@ def test_level1_feats_dwarf_ancestry():
     assert lore["slug"] == "dwarven-lore"
     assert isinstance(lore["traits"], list)
     assert lore["pf2ru_id"] is not None
+    assert "prerequisites" in lore
 
 
 def test_level1_feats_fighter_class():

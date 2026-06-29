@@ -33,6 +33,7 @@ def test_enrich_dwarf_and_fighter(tmp_path):
     elf = next(a for a in ancestries if a["slug"] == "elf")
     assert "heritages" not in elf
     assert "elf" in summary["skipped"]
+    assert elf["name_en"] == "Elf"
 
     classes = json.loads((tmp_path / "classes.json").read_text(encoding="utf-8"))
     fighter = next(c for c in classes if c["slug"] == "fighter")

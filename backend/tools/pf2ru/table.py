@@ -10,7 +10,8 @@ import re
 
 _PF2_TABLE_ITEMS = re.compile(r'<pf2-table\b[^>]*\s+items="(.*?)"', re.DOTALL)
 _PF2_TABLE_TAG = re.compile(r"<pf2-table\b([^>]*)>", re.DOTALL)
-_TABLE_ITEMS = re.compile(r'\bitems="(.*?)"')
+# items: HTML-escaped JSON; DOTALL for potential future multiline formatting
+_TABLE_ITEMS = re.compile(r'\bitems="(.*?)"', re.DOTALL)
 _TABLE_ITEMTYPE = re.compile(r'\bitemtype="([^"]*)"')
 
 
