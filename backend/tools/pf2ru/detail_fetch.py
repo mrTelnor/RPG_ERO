@@ -16,13 +16,19 @@ _DEFAULT_RAW = Path("tools/_recon_raw")
 
 
 def detail_targets(data_dir: Path) -> list[tuple[str, str]]:
-    """Список (url, filename) детальных страниц по датасету."""
+    """Список (url, filename) детальных страниц по датасету.
+
+    URL pf2.ru использует английское имя в нижнем регистре с сохранением пробелов
+    (напр. «Awakened Animal» → /ancestries/awakened%20animal), поэтому токен URL
+    берём из name_en, а не из дефисного slug. Имя файла — по slug.
+    """
     targets: list[tuple[str, str]] = []
     for kind, plural in (("ancestry", "ancestries"), ("class", "classes")):
         records = json.loads((data_dir / f"{plural}.json").read_text(encoding="utf-8"))
         for record in records:
             slug = record["slug"]
-            url = f"{BASE}/{plural}/{urllib.parse.quote(slug)}"
+            url_token = record["name_en"].lower()
+            url = f"{BASE}/{plural}/{urllib.parse.quote(url_token)}"
             targets.append((url, f"{kind}_{slug}.html"))
     return targets
 
