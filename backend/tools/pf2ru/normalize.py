@@ -6,6 +6,7 @@ from tools.pf2ru.links import extract_trait_slugs, parse_wikilinks, slugify
 from tools.pf2ru.mappings import normalize_abilities, normalize_sizes
 
 # Английское слово (тип знания) перед ссылкой на навык Lore: "Scribing [[skill/8|Lore]]".
+# Внимание: выбор «X Lore or Y Lore» склеивается в одну строку — разнесёт движок chargen.
 _LORE_WORD = re.compile(r"((?:[A-Za-z]+\s+)+)\[\[skill/\d+\|Lore\]\]")
 
 

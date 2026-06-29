@@ -28,11 +28,12 @@ SIZE_RU_EN = {
 
 # Разделители в строке характеристик: запятая, слэш или слово «или».
 _ABILITY_SPLIT = re.compile(r"\s*(?:,|/|\bили\b)\s*")
+_SIZE_SPLIT = re.compile(r"\s*,\s*")
 
 
 def normalize_abilities(value: str | None) -> list[str]:
     """Русская строка характеристик → канонические английские имена."""
-    if not value or value.strip() in {"", "-"}:
+    if not value or value.strip() == "-":
         return []
     result = []
     for token in _ABILITY_SPLIT.split(value):
@@ -48,7 +49,7 @@ def normalize_sizes(value: str | None) -> list[str]:
     if not value or not value.strip():
         return []
     result = []
-    for token in re.split(r"\s*,\s*", value.strip()):
+    for token in _SIZE_SPLIT.split(value.strip()):
         token = token.strip()
         if not token:
             continue

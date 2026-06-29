@@ -17,6 +17,7 @@ from tools.pf2ru.normalize import (
 from tools.pf2ru.table import extract_items
 
 SOURCE = "https://pf2.ru"
+# Дата снимка фикстур; передавайте --snapshot при живом рефреше с другой датой.
 SNAPSHOT = "2026-06-28"
 
 _SPECS = (
@@ -30,7 +31,7 @@ _DEFAULT_RAW = Path("tests/fixtures/pf2ru")
 _DEFAULT_OUT = Path("data")
 
 
-def build(raw_dir: Path, out_dir: Path) -> dict[str, int]:
+def build(raw_dir: Path, out_dir: Path, snapshot: str = SNAPSHOT) -> dict[str, int]:
     out_dir.mkdir(parents=True, exist_ok=True)
     counts: dict[str, int] = {}
     for name, fixture, normalizer in _SPECS:
@@ -40,7 +41,7 @@ def build(raw_dir: Path, out_dir: Path) -> dict[str, int]:
             json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8"
         )
         counts[name] = len(records)
-    manifest = {"source": SOURCE, "snapshot": SNAPSHOT, "counts": counts}
+    manifest = {"source": SOURCE, "snapshot": snapshot, "counts": counts}
     (out_dir / "manifest.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8"
     )
@@ -51,8 +52,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Сборка датасета pf2.ru в backend/data.")
     parser.add_argument("--raw", type=Path, default=_DEFAULT_RAW, help="каталог с индекс-HTML")
     parser.add_argument("--out", type=Path, default=_DEFAULT_OUT, help="выходной каталог JSON")
+    parser.add_argument("--snapshot", default=SNAPSHOT, help="дата снимка фикстур для manifest")
     args = parser.parse_args()
-    counts = build(args.raw, args.out)
+    counts = build(args.raw, args.out, args.snapshot)
     print(f"built: {counts} -> {args.out}")
 
 
