@@ -10,7 +10,7 @@ import re
 
 _PF2_TABLE_ITEMS = re.compile(r'<pf2-table\b[^>]*\s+items="(.*?)"', re.DOTALL)
 _PF2_TABLE_TAG = re.compile(r"<pf2-table\b([^>]*)>", re.DOTALL)
-_TABLE_ITEMS = re.compile(r'\bitems="(.*?)"', re.DOTALL)
+_TABLE_ITEMS = re.compile(r'\bitems="(.*?)"')
 _TABLE_ITEMTYPE = re.compile(r'\bitemtype="([^"]*)"')
 
 
@@ -31,6 +31,5 @@ def extract_items_by_itemtype(html_text: str, itemtype: str) -> list[dict]:
         if not type_match or type_match.group(1) != itemtype:
             continue
         items_match = _TABLE_ITEMS.search(attrs)
-        if items_match:
-            return json.loads(html.unescape(items_match.group(1)))
-    raise ValueError(f'no <pf2-table itemtype="{itemtype}"> with items found')
+        return json.loads(html.unescape(items_match.group(1))) if items_match else []
+    raise ValueError(f'no <pf2-table> with itemtype="{itemtype}" found')

@@ -43,3 +43,8 @@ def test_extract_by_itemtype_empty_spells_table():
 def test_extract_by_itemtype_absent_raises():
     with pytest.raises(ValueError):
         extract_items_by_itemtype("<html></html>", "feats")
+
+
+def test_extract_by_itemtype_matching_tag_without_items_returns_empty():
+    html = '<pf2-table itemtype="feats" columns="[]"></pf2-table>'
+    assert extract_items_by_itemtype(html, "feats") == []
