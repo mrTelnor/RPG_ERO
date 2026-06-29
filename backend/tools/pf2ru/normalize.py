@@ -6,7 +6,7 @@ from tools.pf2ru.links import extract_trait_slugs, parse_wikilinks, slugify
 from tools.pf2ru.mappings import normalize_abilities, normalize_sizes
 
 # Английское слово (тип знания) перед ссылкой на навык Lore: "Scribing [[skill/8|Lore]]".
-_LORE_WORD = re.compile(r"([A-Za-z]+)\s+\[\[skill/\d+\|Lore\]\]")
+_LORE_WORD = re.compile(r"((?:[A-Za-z]+\s+)+)\[\[skill/\d+\|Lore\]\]")
 
 
 def normalize_ancestry(raw: dict) -> dict:
@@ -54,7 +54,7 @@ def normalize_background(raw: dict) -> dict:
     lore = None
     lore_match = _LORE_WORD.search(skills_search)
     if lore_match:
-        lore = f"{lore_match.group(1)} Lore"
+        lore = f"{lore_match.group(1).strip()} Lore"
 
     skill_feat = None
     feat_links = _english_wikilinks(raw.get("feat_search", ""))

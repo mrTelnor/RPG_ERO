@@ -41,6 +41,9 @@ def test_normalize_class_fighter():
     assert result["pf2ru_id"] == 35
     # начальные владения/классовые фиты сюда НЕ входят
     assert "initial_proficiencies" not in result
+    assert "class_feats" not in result
+    assert result["source_ru"] is not None
+    assert result["is_not_translated"] is False
 
 
 def test_normalize_background_acolyte():
@@ -56,3 +59,18 @@ def test_normalize_background_acolyte():
         "pf2ru_feat_id": 847,
     }
     assert result["pf2ru_id"] == 406
+
+
+def test_normalize_background_multiword_lore():
+    raw = {
+        "name": "Example",
+        "rus_name": "Пример",
+        "ability_boost": "Интеллект",
+        "skills_search": "[[skill/1|Foo]], Ancient Scribing [[skill/8|Lore]] [[skill/1|Фу]]",
+        "feat_search": "",
+        "id": 1,
+    }
+    result = normalize_background(raw)
+    assert result["lore"] == "Ancient Scribing Lore"
+    assert result["trained_skill"] == "Foo"
+    assert result["skill_feat"] is None
