@@ -28,8 +28,8 @@ RAW_DIR = Path(__file__).parent / "_recon_raw"
 
 def fetch(page, url: str) -> str:
     page.goto(url, wait_until="networkidle", timeout=60_000)
-    # Дать JS-проверке отработать и отрисовать контент.
-    page.wait_for_load_state("networkidle", timeout=60_000)
+    # Дать пост-гейтовому JS (редирект Cloudflare → отрисовка SSR-контента) осесть.
+    page.wait_for_timeout(1000)
     return page.content()
 
 
