@@ -17,13 +17,15 @@ from tools.pf2ru.normalize import (
 from tools.pf2ru.table import extract_items
 
 SOURCE = "https://pf2.ru"
+EDITION = "remaster"
 # Дата снимка фикстур; передавайте --snapshot при живом рефреше с другой датой.
 SNAPSHOT = "2026-06-28"
 
+# (name, fixture, normalizer, drop_legacy)
 _SPECS = (
-    ("ancestries", "index_ancestries.html", normalize_ancestry),
-    ("classes", "index_classes.html", normalize_class),
-    ("backgrounds", "index_backgrounds.html", normalize_background),
+    ("ancestries", "index_ancestries.html", normalize_ancestry, True),
+    ("classes", "index_classes.html", normalize_class, False),
+    ("backgrounds", "index_backgrounds.html", normalize_background, True),
 )
 
 # Каталоги по умолчанию относительно backend/ (запуск из каталога backend).
@@ -34,14 +36,16 @@ _DEFAULT_OUT = Path("data")
 def build(raw_dir: Path, out_dir: Path, snapshot: str = SNAPSHOT) -> dict[str, int]:
     out_dir.mkdir(parents=True, exist_ok=True)
     counts: dict[str, int] = {}
-    for name, fixture, normalizer in _SPECS:
+    for name, fixture, normalizer, drop_legacy in _SPECS:
         items = extract_items((raw_dir / fixture).read_text(encoding="utf-8"))
+        if drop_legacy:
+            items = [item for item in items if not item.get("is_legacy")]
         records = [normalizer(item) for item in items]
         (out_dir / f"{name}.json").write_text(
             json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8"
         )
         counts[name] = len(records)
-    manifest = {"source": SOURCE, "snapshot": snapshot, "counts": counts}
+    manifest = {"source": SOURCE, "edition": EDITION, "snapshot": snapshot, "counts": counts}
     (out_dir / "manifest.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8"
     )
