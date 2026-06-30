@@ -23,6 +23,8 @@ def test_build_writes_dataset(tmp_path):
 
     backgrounds = json.loads((tmp_path / "backgrounds.json").read_text(encoding="utf-8"))
     assert not any(b.get("is_legacy") for b in backgrounds)  # ни одной legacy-предыстории
+    bg_slugs = {b["slug"] for b in backgrounds}
+    assert "starless-one" not in bg_slugs  # known legacy background, must be filtered
 
     manifest = json.loads((tmp_path / "manifest.json").read_text(encoding="utf-8"))
     assert manifest["source"] == "https://pf2.ru"
