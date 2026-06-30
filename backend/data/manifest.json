@@ -1,10 +1,10 @@
 {
   "source": "https://pf2.ru",
+  "edition": "remaster",
   "snapshot": "2026-06-28",
   "counts": {
-    "ancestries": 33,
+    "ancestries": 29,
     "classes": 21,
-    "backgrounds": 140
-  },
-  "enriched": ["heritages", "ancestry_feats_l1", "class_feats_l1"]
+    "backgrounds": 122
+  }
 }
