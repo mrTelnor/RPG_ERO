@@ -27,7 +27,7 @@ def test_enrich_dwarf_and_fighter(tmp_path):
         "strong-blooded-dwarf",
         "rock-dwarf",
     ]
-    assert len(dwarf["ancestry_feats_l1"]) == 8
+    assert len(dwarf["ancestry_feats_l1"]) == 7  # Remaster-only (legacy отсеян)
 
     # Нет детального файла для elf → не обогащается.
     elf = next(a for a in ancestries if a["slug"] == "elf")

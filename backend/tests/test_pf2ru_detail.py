@@ -28,14 +28,15 @@ def test_parse_heritages_dwarf():
 def test_level1_feats_dwarf_ancestry():
     feats = extract_items_by_itemtype(_read("ancestry_dwarf.html"), "feats")
     l1 = level1_feats(feats)
-    assert len(l1) == 8
+    assert len(l1) == 7  # 8 на 1 ур. минус 1 legacy («Eye for Treasure»)
     names = {f["name_en"] for f in l1}
     assert "Dwarven Lore" in names and "Rock Runner" in names
+    assert "Eye for Treasure" not in names  # legacy отсеян
     lore = next(f for f in l1 if f["name_en"] == "Dwarven Lore")
     assert lore["slug"] == "dwarven-lore"
     assert isinstance(lore["traits"], list)
-    assert lore["pf2ru_id"] is not None
     assert "prerequisites" in lore
+    assert lore["pf2ru_id"] is not None
 
 
 def test_level1_feats_fighter_class():

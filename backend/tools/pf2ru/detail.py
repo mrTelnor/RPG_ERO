@@ -28,10 +28,13 @@ def parse_heritages(html_text: str, ancestry_slug: str) -> list[dict]:
 
 
 def level1_feats(feat_records: list[dict]) -> list[dict]:
-    """Из записей <pf2-table itemtype='feats'> — фиты 1 уровня (level_sort==1)."""
+    """Из записей <pf2-table itemtype='feats'> — фиты 1 уровня (level_sort==1),
+    только редакции Remaster (is_legacy ложно/отсутствует)."""
     result = []
     for raw in feat_records:
         if raw.get("level_sort") != 1:
+            continue
+        if raw.get("is_legacy"):
             continue
         prereq = raw.get("prerequisites")
         prereq = None if (not prereq or prereq.strip() == "-") else prereq.strip()
